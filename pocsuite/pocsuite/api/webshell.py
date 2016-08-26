@@ -17,4 +17,5 @@ from pocsuite.lib.utils.webshell import PhpShell
 from pocsuite.lib.utils.webshell import JspVerify
 from pocsuite.lib.utils.webshell import JspShell
 
+from pocsuite.lib.utils.webshell import JspxVerify
 from pocsuite.lib.utils.webshell import JspxShell

