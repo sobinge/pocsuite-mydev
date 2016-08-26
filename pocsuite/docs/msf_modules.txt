@@ -1,0 +1,4273 @@
+.:
+total 24
+drwxr-xr-x 20 root root 4096 May 15  2014 auxiliary
+drwxr-xr-x 11 root root 4096 Nov  3  2013 encoders
+drwxr-xr-x 19 root root 4096 Jun 13  2015 exploits
+drwxr-xr-x  9 root root 4096 Nov  3  2013 nops
+drwxr-xr-x  5 root root 4096 Nov  3  2013 payloads
+drwxr-xr-x 10 root root 4096 May 15  2014 post
+
+./auxiliary:
+total 72
+drwxr-xr-x 33 root root 4096 Nov  3  2013 admin
+drwxr-xr-x  2 root root 4096 May 15  2014 analyze
+drwxr-xr-x  2 root root 4096 May 15  2014 bnat
+drwxr-xr-x  3 root root 4096 Nov  3  2013 client
+drwxr-xr-x  2 root root 4096 May 15  2014 crawler
+drwxr-xr-x  2 root root 4096 May 15  2014 docx
+drwxr-xr-x 22 root root 4096 May 15  2014 dos
+drwxr-xr-x  9 root root 4096 May 15  2014 fuzzers
+drwxr-xr-x  2 root root 4096 May 15  2014 gather
+drwxr-xr-x  2 root root 4096 May 15  2014 parser
+drwxr-xr-x  3 root root 4096 Nov  3  2013 pdf
+drwxr-xr-x 60 root root 4096 May 15  2014 scanner
+drwxr-xr-x  4 root root 4096 May 15  2014 server
+drwxr-xr-x  2 root root 4096 May 15  2014 sniffer
+drwxr-xr-x  8 root root 4096 May 15  2014 spoof
+drwxr-xr-x  3 root root 4096 Nov  3  2013 sqli
+drwxr-xr-x  2 root root 4096 May 15  2014 voip
+drwxr-xr-x  5 root root 4096 Nov  3  2013 vsploit
+
+./auxiliary/admin:
+total 124
+drwxr-xr-x 2 root root 4096 May 15  2014 2wire
+drwxr-xr-x 2 root root 4096 May 15  2014 backupexec
+drwxr-xr-x 2 root root 4096 May 15  2014 cisco
+drwxr-xr-x 2 root root 4096 May 15  2014 db2
+drwxr-xr-x 2 root root 4096 May 15  2014 edirectory
+drwxr-xr-x 2 root root 4096 May 15  2014 emc
+drwxr-xr-x 2 root root 4096 May 15  2014 hp
+drwxr-xr-x 2 root root 4096 May 15  2014 http
+drwxr-xr-x 2 root root 4096 May 15  2014 maxdb
+drwxr-xr-x 2 root root 4096 May 15  2014 misc
+drwxr-xr-x 2 root root 4096 May 15  2014 motorola
+drwxr-xr-x 2 root root 4096 May 15  2014 ms
+drwxr-xr-x 2 root root 4096 May 15  2014 mssql
+drwxr-xr-x 2 root root 4096 May 15  2014 mysql
+drwxr-xr-x 2 root root 4096 May 15  2014 natpmp
+drwxr-xr-x 2 root root 4096 May 15  2014 officescan
+drwxr-xr-x 3 root root 4096 May 15  2014 oracle
+drwxr-xr-x 2 root root 4096 May 15  2014 pop2
+drwxr-xr-x 2 root root 4096 May 15  2014 postgres
+drwxr-xr-x 2 root root 4096 May 15  2014 sap
+drwxr-xr-x 2 root root 4096 May 15  2014 scada
+drwxr-xr-x 2 root root 4096 May 15  2014 serverprotect
+drwxr-xr-x 2 root root 4096 May 15  2014 smb
+drwxr-xr-x 2 root root 4096 May 15  2014 sunrpc
+drwxr-xr-x 2 root root 4096 May 15  2014 tftp
+drwxr-xr-x 2 root root 4096 May 15  2014 tikiwiki
+drwxr-xr-x 2 root root 4096 May 15  2014 vmware
+drwxr-xr-x 2 root root 4096 May 15  2014 vnc
+drwxr-xr-x 2 root root 4096 May 15  2014 vxworks
+drwxr-xr-x 2 root root 4096 May 15  2014 webmin
+drwxr-xr-x 2 root root 4096 May 15  2014 zend
+
+./auxiliary/admin/2wire:
+total 8
+-rw-r--r-- 1 root root 4213 May 12  2014 xslt_password_reset.rb
+
+./auxiliary/admin/backupexec:
+total 16
+-rw-r--r-- 1 root root 5900 May 12  2014 dump.rb
+-rw-r--r-- 1 root root 7647 May 12  2014 registry.rb
+
+./auxiliary/admin/cisco:
+total 8
+-rw-r--r-- 1 root root 4016 May 12  2014 cisco_secure_acs_bypass.rb
+-rw-r--r-- 1 root root 2708 May 12  2014 vpn_3000_ftp_bypass.rb
+
+./auxiliary/admin/db2:
+total 4
+-rw-r--r-- 1 root root 2610 May 12  2014 db2rcmd.rb
+
+./auxiliary/admin/edirectory:
+total 12
+-rw-r--r-- 1 root root 2143 May 12  2014 edirectory_dhost_cookie.rb
+-rw-r--r-- 1 root root 5123 May 12  2014 edirectory_edirutil.rb
+
+./auxiliary/admin/emc:
+total 8
+-rw-r--r-- 1 root root 1515 May 12  2014 alphastor_devicemanager_exec.rb
+-rw-r--r-- 1 root root 1491 May 12  2014 alphastor_librarymanager_exec.rb
+
+./auxiliary/admin/hp:
+total 16
+-rw-r--r-- 1 root root  2973 May 12  2014 hp_data_protector_cmd.rb
+-rw-r--r-- 1 root root 11581 May 12  2014 hp_imc_som_create_account.rb
+
+./auxiliary/admin/http:
+total 172
+-rw-r--r-- 1 root root 5174 May 12  2014 axigen_file_access.rb
+-rw-r--r-- 1 root root 5350 May 12  2014 cfme_manageiq_evm_pass_reset.rb
+-rw-r--r-- 1 root root 2415 May 12  2014 contentkeeper_fileaccess.rb
+-rw-r--r-- 1 root root 2518 May 12  2014 dlink_dir_300_600_exec_noauth.rb
+-rw-r--r-- 1 root root 2681 May 12  2014 dlink_dir_645_password_extractor.rb
+-rw-r--r-- 1 root root 2827 May 12  2014 dlink_dsl320b_password_extractor.rb
+-rw-r--r-- 1 root root 4678 May 12  2014 foreman_openstack_satellite_priv_esc.rb
+-rw-r--r-- 1 root root 1601 May 12  2014 hp_web_jetadmin_exec.rb
+-rw-r--r-- 1 root root 2477 May 12  2014 iis_auth_bypass.rb
+-rw-r--r-- 1 root root 3667 May 12  2014 intersil_pass_reset.rb
+-rw-r--r-- 1 root root 1674 May 12  2014 iomega_storcenterpro_sessionid.rb
+-rw-r--r-- 1 root root 3339 May 12  2014 jboss_seam_exec.rb
+-rw-r--r-- 1 root root 4143 May 12  2014 katello_satellite_priv_esc.rb
+-rw-r--r-- 1 root root 3551 May 12  2014 linksys_e1500_e2500_exec.rb
+-rw-r--r-- 1 root root 4094 May 12  2014 linksys_tmunblock_admin_reset_bof.rb
+-rw-r--r-- 1 root root 7313 May 12  2014 linksys_wrt54gl_exec.rb
+-rw-r--r-- 1 root root 5361 May 12  2014 mutiny_frontend_read_delete.rb
+-rw-r--r-- 1 root root 3997 May 12  2014 nexpose_xxe_file_read.rb
+-rw-r--r-- 1 root root 2153 May 12  2014 novell_file_reporter_filedelete.rb
+-rw-r--r-- 1 root root 4485 May 12  2014 openbravo_xxe.rb
+-rw-r--r-- 1 root root 5979 May 12  2014 rails_devise_pass_reset.rb
+-rw-r--r-- 1 root root 2359 May 12  2014 scrutinizer_add_user.rb
+-rw-r--r-- 1 root root 3337 May 12  2014 sophos_wpa_traversal.rb
+-rw-r--r-- 1 root root 3887 May 12  2014 tomcat_administration.rb
+-rw-r--r-- 1 root root 3523 May 12  2014 tomcat_utf8_traversal.rb
+-rw-r--r-- 1 root root 3246 May 12  2014 trendmicro_dlp_traversal.rb
+-rw-r--r-- 1 root root 5351 May 12  2014 typo3_sa_2009_001.rb
+-rw-r--r-- 1 root root 3204 May 12  2014 typo3_sa_2009_002.rb
+-rw-r--r-- 1 root root 4679 May 12  2014 typo3_sa_2010_020.rb
+-rw-r--r-- 1 root root 8101 May 12  2014 typo3_winstaller_default_enc_keys.rb
+-rw-r--r-- 1 root root 3215 May 12  2014 vbulletin_upgrade_admin.rb
+-rw-r--r-- 1 root root 2296 May 12  2014 zyxel_admin_password_extractor.rb
+
+./auxiliary/admin/maxdb:
+total 4
+-rw-r--r-- 1 root root 2304 May 12  2014 maxdb_cons_exec.rb
+
+./auxiliary/admin/misc:
+total 12
+-rw-r--r-- 1 root root 6332 May 12  2014 sercomm_dump_config.rb
+-rw-r--r-- 1 root root 2963 May 12  2014 wol.rb
+
+./auxiliary/admin/motorola:
+total 4
+-rw-r--r-- 1 root root 1635 May 12  2014 wr850g_cred.rb
+
+./auxiliary/admin/ms:
+total 4
+-rw-r--r-- 1 root root 4079 May 12  2014 ms08_059_his2006.rb
+
+./auxiliary/admin/mssql:
+total 72
+-rw-r--r-- 1 root root 28435 May 12  2014 mssql_enum.rb
+-rw-r--r-- 1 root root  1076 May 12  2014 mssql_exec.rb
+-rw-r--r-- 1 root root 16222 May 12  2014 mssql_findandsampledata.rb
+-rw-r--r-- 1 root root  6819 May 12  2014 mssql_idf.rb
+-rw-r--r-- 1 root root  3142 May 12  2014 mssql_ntlm_stealer.rb
+-rw-r--r-- 1 root root  2552 May 12  2014 mssql_ntlm_stealer_sqli.rb
+-rw-r--r-- 1 root root  1555 May 12  2014 mssql_sql_file.rb
+-rw-r--r-- 1 root root  1305 May 12  2014 mssql_sql.rb
+
+./auxiliary/admin/mysql:
+total 12
+-rw-r--r-- 1 root root 7800 May 12  2014 mysql_enum.rb
+-rw-r--r-- 1 root root 1227 May 12  2014 mysql_sql.rb
+
+./auxiliary/admin/natpmp:
+total 4
+-rw-r--r-- 1 root root 3694 May 12  2014 natpmp_map.rb
+
+./auxiliary/admin/officescan:
+total 4
+-rw-r--r-- 1 root root 1815 May 12  2014 tmlisten_traversal.rb
+
+./auxiliary/admin/oracle:
+total 60
+-rw-r--r-- 1 root root  2064 May 12  2014 oracle_login.rb
+-rw-r--r-- 1 root root  1302 May 12  2014 oracle_sql.rb
+-rw-r--r-- 1 root root 21024 May 12  2014 oraenum.rb
+-rw-r--r-- 1 root root  2888 May 12  2014 ora_ntlm_stealer.rb
+-rw-r--r-- 1 root root  2202 May 12  2014 osb_execqr2.rb
+-rw-r--r-- 1 root root  2402 May 12  2014 osb_execqr3.rb
+-rw-r--r-- 1 root root  1547 May 12  2014 osb_execqr.rb
+drwxr-xr-x 2 root root  4096 May 15  2014 post_exploitation
+-rw-r--r-- 1 root root  2142 May 12  2014 sid_brute.rb
+-rw-r--r-- 1 root root  1641 May 12  2014 tnscmd.rb
+
+./auxiliary/admin/oracle/post_exploitation:
+total 8
+-rw-r--r-- 1 root root 2170 May 12  2014 win32exec.rb
+-rw-r--r-- 1 root root 2761 May 12  2014 win32upload.rb
+
+./auxiliary/admin/pop2:
+total 4
+-rw-r--r-- 1 root root 1661 May 12  2014 uw_fileretrieval.rb
+
+./auxiliary/admin/postgres:
+total 8
+-rw-r--r-- 1 root root 2379 May 12  2014 postgres_readfile.rb
+-rw-r--r-- 1 root root 1518 May 12  2014 postgres_sql.rb
+
+./auxiliary/admin/sap:
+total 12
+-rw-r--r-- 1 root root 2343 May 12  2014 sap_configservlet_exec_noauth.rb
+-rw-r--r-- 1 root root 6650 May 12  2014 sap_mgmt_con_osexec.rb
+
+./auxiliary/admin/scada:
+total 40
+-rw-r--r-- 1 root root  3883 May 12  2014 ge_proficy_substitute_traversal.rb
+-rw-r--r-- 1 root root  6158 May 12  2014 modicon_command.rb
+-rw-r--r-- 1 root root  7066 May 12  2014 modicon_password_recovery.rb
+-rw-r--r-- 1 root root 10839 May 12  2014 modicon_stux_transfer.rb
+-rw-r--r-- 1 root root  4979 May 12  2014 multi_cip_command.rb
+
+./auxiliary/admin/serverprotect:
+total 12
+-rw-r--r-- 1 root root 8994 May 12  2014 file.rb
+
+./auxiliary/admin/smb:
+total 44
+-rw-r--r-- 1 root root 3181 May 12  2014 check_dir_file.rb
+-rw-r--r-- 1 root root 1983 May 12  2014 delete_file.rb
+-rw-r--r-- 1 root root 2182 May 12  2014 download_file.rb
+-rw-r--r-- 1 root root 2944 May 12  2014 list_directory.rb
+-rw-r--r-- 1 root root 4625 May 12  2014 psexec_command.rb
+-rw-r--r-- 1 root root 9374 May 12  2014 psexec_ntdsgrab.rb
+-rw-r--r-- 1 root root 2024 May 12  2014 samba_symlink_traversal.rb
+-rw-r--r-- 1 root root 1958 May 12  2014 upload_file.rb
+
+./auxiliary/admin/sunrpc:
+total 8
+-rw-r--r-- 1 root root 4663 May 12  2014 solaris_kcms_readfile.rb
+
+./auxiliary/admin/tftp:
+total 8
+-rw-r--r-- 1 root root 7411 May 12  2014 tftp_transfer_util.rb
+
+./auxiliary/admin/tikiwiki:
+total 4
+-rw-r--r-- 1 root root 3406 May 12  2014 tikidblib.rb
+
+./auxiliary/admin/vmware:
+total 16
+-rw-r--r-- 1 root root 1931 May 12  2014 poweroff_vm.rb
+-rw-r--r-- 1 root root 1933 May 12  2014 poweron_vm.rb
+-rw-r--r-- 1 root root 2094 May 12  2014 tag_vm.rb
+-rw-r--r-- 1 root root 1753 May 12  2014 terminate_esx_sessions.rb
+
+./auxiliary/admin/vnc:
+total 8
+-rw-r--r-- 1 root root 4303 May 12  2014 realvnc_41_bypass.rb
+
+./auxiliary/admin/vxworks:
+total 16
+-rw-r--r-- 1 root root 2826 May 12  2014 apple_airport_extreme_password.rb
+-rw-r--r-- 1 root root 2836 May 12  2014 dlink_i2eye_autoanswer.rb
+-rw-r--r-- 1 root root 3047 May 12  2014 wdbrpc_memory_dump.rb
+-rw-r--r-- 1 root root 1477 May 12  2014 wdbrpc_reboot.rb
+
+./auxiliary/admin/webmin:
+total 8
+-rw-r--r-- 1 root root 3472 May 12  2014 edit_html_fileaccess.rb
+-rw-r--r-- 1 root root 2271 May 12  2014 file_disclosure.rb
+
+./auxiliary/admin/zend:
+total 4
+-rw-r--r-- 1 root root 2631 May 12  2014 java_bridge.rb
+
+./auxiliary/analyze:
+total 36
+-rw-r--r-- 1 root root 2422 May 12  2014 jtr_aix.rb
+-rw-r--r-- 1 root root 5735 May 12  2014 jtr_crack_fast.rb
+-rw-r--r-- 1 root root 2947 May 12  2014 jtr_linux.rb
+-rw-r--r-- 1 root root 2539 May 12  2014 jtr_mssql_fast.rb
+-rw-r--r-- 1 root root 3461 May 12  2014 jtr_mysql_fast.rb
+-rw-r--r-- 1 root root 2456 May 12  2014 jtr_oracle_fast.rb
+-rw-r--r-- 1 root root 1254 May 12  2014 jtr_unshadow.rb
+-rw-r--r-- 1 root root 2056 May 12  2014 postgres_md5_crack.rb
+
+./auxiliary/bnat:
+total 12
+-rw-r--r-- 1 root root 5710 May 12  2014 bnat_router.rb
+-rw-r--r-- 1 root root 2888 May 12  2014 bnat_scan.rb
+
+./auxiliary/client:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 smtp
+
+./auxiliary/client/smtp:
+total 8
+-rw-r--r-- 1 root root 6937 May 12  2014 emailer.rb
+
+./auxiliary/crawler:
+total 12
+-rw-r--r-- 1 root root 11741 May 12  2014 msfcrawler.rb
+
+./auxiliary/docx:
+total 8
+-rw-r--r-- 1 root root 7586 May 12  2014 word_unc_injector.rb
+
+./auxiliary/dos:
+total 80
+drwxr-xr-x  2 root root 4096 May 15  2014 cisco
+drwxr-xr-x  2 root root 4096 May 15  2014 dhcp
+drwxr-xr-x  3 root root 4096 Nov  3  2013 freebsd
+drwxr-xr-x  2 root root 4096 May 15  2014 hp
+drwxr-xr-x  2 root root 4096 May 15  2014 http
+drwxr-xr-x  2 root root 4096 May 15  2014 mdns
+drwxr-xr-x  2 root root 4096 May 15  2014 misc
+drwxr-xr-x  2 root root 4096 May 15  2014 ntp
+drwxr-xr-x  2 root root 4096 May 15  2014 pptp
+drwxr-xr-x  2 root root 4096 May 15  2014 samba
+drwxr-xr-x  2 root root 4096 May 15  2014 sap
+drwxr-xr-x  2 root root 4096 May 15  2014 scada
+drwxr-xr-x  2 root root 4096 May 15  2014 smtp
+drwxr-xr-x  3 root root 4096 Nov  3  2013 solaris
+drwxr-xr-x  2 root root 4096 May 15  2014 ssl
+drwxr-xr-x  2 root root 4096 May 15  2014 syslog
+drwxr-xr-x  2 root root 4096 May 15  2014 tcp
+drwxr-xr-x  2 root root 4096 May 15  2014 upnp
+drwxr-xr-x 14 root root 4096 Nov  3  2013 windows
+drwxr-xr-x  2 root root 4096 May 15  2014 wireshark
+
+./auxiliary/dos/cisco:
+total 4
+-rw-r--r-- 1 root root 2038 May 12  2014 ios_http_percentpercent.rb
+
+./auxiliary/dos/dhcp:
+total 4
+-rw-r--r-- 1 root root 2040 May 12  2014 isc_dhcpd_clientid.rb
+
+./auxiliary/dos/freebsd:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 nfsd
+
+./auxiliary/dos/freebsd/nfsd:
+total 4
+-rw-r--r-- 1 root root 1287 May 12  2014 nfsd_mount.rb
+
+./auxiliary/dos/hp:
+total 4
+-rw-r--r-- 1 root root 1323 May 12  2014 data_protector_rds.rb
+
+./auxiliary/dos/http:
+total 76
+-rw-r--r-- 1 root root 1783 May 12  2014 3com_superstack_switch.rb
+-rw-r--r-- 1 root root 2605 May 12  2014 apache_commons_fileupload_dos.rb
+-rw-r--r-- 1 root root 3402 May 12  2014 apache_mod_isapi.rb
+-rw-r--r-- 1 root root 3514 May 12  2014 apache_range_dos.rb
+-rw-r--r-- 1 root root 2318 May 12  2014 apache_tomcat_transfer_encoding.rb
+-rw-r--r-- 1 root root 2646 May 12  2014 canon_wireless_printer.rb
+-rw-r--r-- 1 root root 1655 May 12  2014 dell_openmanage_post.rb
+-rw-r--r-- 1 root root 3815 May 12  2014 gzip_bomb_dos.rb
+-rw-r--r-- 1 root root 7476 May 12  2014 hashcollision_dos.rb
+-rw-r--r-- 1 root root 1725 May 12  2014 monkey_headers.rb
+-rw-r--r-- 1 root root 2958 May 12  2014 nodejs_pipelining.rb
+-rw-r--r-- 1 root root 9141 May 12  2014 novell_file_reporter_heap_bof.rb
+-rw-r--r-- 1 root root 3609 May 12  2014 rails_action_view.rb
+-rw-r--r-- 1 root root 4047 May 12  2014 rails_json_float_dos.rb
+-rw-r--r-- 1 root root 2334 May 12  2014 sonicwall_ssl_format.rb
+-rw-r--r-- 1 root root 1623 May 12  2014 webrick_regex.rb
+
+./auxiliary/dos/mdns:
+total 4
+-rw-r--r-- 1 root root 1371 May 12  2014 avahi_portzero.rb
+
+./auxiliary/dos/misc:
+total 16
+-rw-r--r-- 1 root root 1651 May 12  2014 dopewars.rb
+-rw-r--r-- 1 root root 7738 May 12  2014 ibm_sametime_webplayer_dos.rb
+-rw-r--r-- 1 root root 1795 May 12  2014 memcached.rb
+
+./auxiliary/dos/ntp:
+total 4
+-rw-r--r-- 1 root root 1850 May 12  2014 ntpd_reserved_dos.rb
+
+./auxiliary/dos/pptp:
+total 4
+-rw-r--r-- 1 root root 1923 May 12  2014 ms02_063_pptp_dos.rb
+
+./auxiliary/dos/samba:
+total 12
+-rw-r--r-- 1 root root 2064 May 12  2014 lsa_addprivs_heap.rb
+-rw-r--r-- 1 root root 2005 May 12  2014 lsa_transnames_heap.rb
+-rw-r--r-- 1 root root 3939 May 12  2014 read_nttrans_ea_list.rb
+
+./auxiliary/dos/sap:
+total 8
+-rw-r--r-- 1 root root 4566 May 12  2014 sap_soap_rfc_eps_delete_file.rb
+
+./auxiliary/dos/scada:
+total 20
+-rw-r--r-- 1 root root 2282 May 12  2014 beckhoff_twincat.rb
+-rw-r--r-- 1 root root 7214 May 12  2014 d20_tftp_overflow.rb
+-rw-r--r-- 1 root root 3097 May 12  2014 igss9_dataserver.rb
+-rw-r--r-- 1 root root 2684 May 12  2014 yokogawa_logsvr.rb
+
+./auxiliary/dos/smtp:
+total 4
+-rw-r--r-- 1 root root 2073 May 12  2014 sendmail_prescan.rb
+
+./auxiliary/dos/solaris:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 lpd
+
+./auxiliary/dos/solaris/lpd:
+total 4
+-rw-r--r-- 1 root root 3244 May 12  2014 cascade_delete.rb
+
+./auxiliary/dos/ssl:
+total 12
+-rw-r--r-- 1 root root 1586 May 12  2014 dtls_changecipherspec.rb
+-rw-r--r-- 1 root root 6724 May 12  2014 openssl_aesni.rb
+
+./auxiliary/dos/syslog:
+total 4
+-rw-r--r-- 1 root root 1394 May 12  2014 rsyslog_long_tag.rb
+
+./auxiliary/dos/tcp:
+total 8
+-rw-r--r-- 1 root root 2060 May 12  2014 junos_tcp_opt.rb
+-rw-r--r-- 1 root root 1552 May 12  2014 synflood.rb
+
+./auxiliary/dos/upnp:
+total 4
+-rw-r--r-- 1 root root 3285 May 12  2014 miniupnpd_dos.rb
+
+./auxiliary/dos/windows:
+total 48
+drwxr-xr-x 2 root root 4096 May 15  2014 appian
+drwxr-xr-x 2 root root 4096 May 15  2014 browser
+drwxr-xr-x 2 root root 4096 May 15  2014 ftp
+drwxr-xr-x 2 root root 4096 May 15  2014 games
+drwxr-xr-x 2 root root 4096 May 15  2014 http
+drwxr-xr-x 2 root root 4096 May 15  2014 llmnr
+drwxr-xr-x 2 root root 4096 May 15  2014 nat
+drwxr-xr-x 2 root root 4096 May 15  2014 rdp
+drwxr-xr-x 2 root root 4096 May 15  2014 smb
+drwxr-xr-x 2 root root 4096 May 15  2014 smtp
+drwxr-xr-x 2 root root 4096 May 15  2014 ssh
+drwxr-xr-x 2 root root 4096 May 15  2014 tftp
+
+./auxiliary/dos/windows/appian:
+total 8
+-rw-r--r-- 1 root root 4126 May 12  2014 appian_bpm.rb
+
+./auxiliary/dos/windows/browser:
+total 8
+-rw-r--r-- 1 root root 5649 May 12  2014 ms09_065_eot_integer.rb
+
+./auxiliary/dos/windows/ftp:
+total 48
+-rw-r--r-- 1 root root 1373 May 12  2014 filezilla_admin_user.rb
+-rw-r--r-- 1 root root 1482 May 12  2014 filezilla_server_port.rb
+-rw-r--r-- 1 root root 1323 May 12  2014 guildftp_cwdlist.rb
+-rw-r--r-- 1 root root 4320 May 12  2014 iis75_ftpd_iac_bof.rb
+-rw-r--r-- 1 root root 4008 May 12  2014 iis_list_exhaustion.rb
+-rw-r--r-- 1 root root 1520 May 12  2014 solarftp_user.rb
+-rw-r--r-- 1 root root 1226 May 12  2014 titan626_site.rb
+-rw-r--r-- 1 root root 1243 May 12  2014 vicftps50_list.rb
+-rw-r--r-- 1 root root 1046 May 12  2014 winftp230_nlst.rb
+-rw-r--r-- 1 root root 1269 May 12  2014 xmeasy560_nlst.rb
+-rw-r--r-- 1 root root 1234 May 12  2014 xmeasy570_nlst.rb
+
+./auxiliary/dos/windows/games:
+total 4
+-rw-r--r-- 1 root root 1700 May 12  2014 kaillera.rb
+
+./auxiliary/dos/windows/http:
+total 8
+-rw-r--r-- 1 root root 2262 May 12  2014 ms10_065_ii6_asp_dos.rb
+-rw-r--r-- 1 root root 1440 May 12  2014 pi3web_isapi.rb
+
+./auxiliary/dos/windows/llmnr:
+total 4
+-rw-r--r-- 1 root root 2934 May 12  2014 ms11_030_dnsapi.rb
+
+./auxiliary/dos/windows/nat:
+total 4
+-rw-r--r-- 1 root root 1269 May 12  2014 nat_helper.rb
+
+./auxiliary/dos/windows/rdp:
+total 8
+-rw-r--r-- 1 root root 5795 May 12  2014 ms12_020_maxchannelids.rb
+
+./auxiliary/dos/windows/smb:
+total 52
+-rw-r--r-- 1 root root 2945 May 12  2014 ms05_047_pnp.rb
+-rw-r--r-- 1 root root 2502 May 12  2014 ms06_035_mailslot.rb
+-rw-r--r-- 1 root root 1479 May 12  2014 ms06_063_trans.rb
+-rw-r--r-- 1 root root 3886 May 12  2014 ms09_001_write.rb
+-rw-r--r-- 1 root root 5361 May 12  2014 ms09_050_smb2_negotiate_pidhigh.rb
+-rw-r--r-- 1 root root 3216 May 12  2014 ms09_050_smb2_session_logoff.rb
+-rw-r--r-- 1 root root 2581 May 12  2014 ms10_006_negotiate_response_loop.rb
+-rw-r--r-- 1 root root 3551 May 12  2014 ms10_054_queryfs_pool_overflow.rb
+-rw-r--r-- 1 root root 5696 May 12  2014 ms11_019_electbowser.rb
+-rw-r--r-- 1 root root 1835 May 12  2014 rras_vls_null_deref.rb
+-rw-r--r-- 1 root root 1855 May 12  2014 vista_negotiate_stop.rb
+
+./auxiliary/dos/windows/smtp:
+total 4
+-rw-r--r-- 1 root root 3470 May 12  2014 ms06_019_exchange.rb
+
+./auxiliary/dos/windows/ssh:
+total 4
+-rw-r--r-- 1 root root 2467 May 12  2014 sysax_sshd_kexchange.rb
+
+./auxiliary/dos/windows/tftp:
+total 8
+-rw-r--r-- 1 root root  997 May 12  2014 pt360_write.rb
+-rw-r--r-- 1 root root 1067 May 12  2014 solarwinds.rb
+
+./auxiliary/dos/wireshark:
+total 16
+-rw-r--r-- 1 root root 5857 May 12  2014 chunked.rb
+-rw-r--r-- 1 root root 2615 May 12  2014 cldap.rb
+-rw-r--r-- 1 root root 1635 May 12  2014 ldap.rb
+
+./auxiliary/fuzzers:
+total 28
+drwxr-xr-x 2 root root 4096 May 15  2014 dns
+drwxr-xr-x 2 root root 4096 May 15  2014 ftp
+drwxr-xr-x 2 root root 4096 May 15  2014 http
+drwxr-xr-x 2 root root 4096 May 15  2014 smb
+drwxr-xr-x 2 root root 4096 May 15  2014 smtp
+drwxr-xr-x 2 root root 4096 May 15  2014 ssh
+drwxr-xr-x 2 root root 4096 May 15  2014 tds
+
+./auxiliary/fuzzers/dns:
+total 20
+-rw-r--r-- 1 root root 17301 May 12  2014 dns_fuzzer.rb
+
+./auxiliary/fuzzers/ftp:
+total 28
+-rw-r--r-- 1 root root 12744 May 12  2014 client_ftp.rb
+-rw-r--r-- 1 root root  9379 May 12  2014 ftp_pre_post.rb
+
+./auxiliary/fuzzers/http:
+total 28
+-rw-r--r-- 1 root root 18116 May 12  2014 http_form_field.rb
+-rw-r--r-- 1 root root  2335 May 12  2014 http_get_uri_long.rb
+-rw-r--r-- 1 root root  2187 May 12  2014 http_get_uri_strings.rb
+
+./auxiliary/fuzzers/smb:
+total 28
+-rw-r--r-- 1 root root 2693 May 12  2014 smb2_negotiate_corrupt.rb
+-rw-r--r-- 1 root root 3154 May 12  2014 smb_create_pipe_corrupt.rb
+-rw-r--r-- 1 root root 1644 May 12  2014 smb_create_pipe.rb
+-rw-r--r-- 1 root root 2638 May 12  2014 smb_negotiate_corrupt.rb
+-rw-r--r-- 1 root root 3144 May 12  2014 smb_ntlm1_login_corrupt.rb
+-rw-r--r-- 1 root root 3045 May 12  2014 smb_tree_connect_corrupt.rb
+-rw-r--r-- 1 root root 1801 May 12  2014 smb_tree_connect.rb
+
+./auxiliary/fuzzers/smtp:
+total 4
+-rw-r--r-- 1 root root 4083 May 12  2014 smtp_fuzzer.rb
+
+./auxiliary/fuzzers/ssh:
+total 20
+-rw-r--r-- 1 root root 7629 May 12  2014 ssh_kexinit_corrupt.rb
+-rw-r--r-- 1 root root 2069 May 12  2014 ssh_version_15.rb
+-rw-r--r-- 1 root root 2069 May 12  2014 ssh_version_2.rb
+-rw-r--r-- 1 root root 2371 May 12  2014 ssh_version_corrupt.rb
+
+./auxiliary/fuzzers/tds:
+total 16
+-rw-r--r-- 1 root root 4252 May 12  2014 tds_login_corrupt.rb
+-rw-r--r-- 1 root root 4236 May 12  2014 tds_login_username.rb
+
+./auxiliary/gather:
+total 292
+-rw-r--r-- 1 root root  4387 May 12  2014 alienvault_iso27001_sqli.rb
+-rw-r--r-- 1 root root  4833 May 12  2014 android_htmlfileprovider.rb
+-rw-r--r-- 1 root root  6290 May 12  2014 apache_rave_creds.rb
+-rw-r--r-- 1 root root 28772 May 12  2014 apple_safari_webarchive_uxss.rb
+-rw-r--r-- 1 root root  3253 May 12  2014 checkpoint_hostname.rb
+-rw-r--r-- 1 root root  2281 May 12  2014 citrix_published_applications.rb
+-rw-r--r-- 1 root root  4329 May 12  2014 citrix_published_bruteforce.rb
+-rw-r--r-- 1 root root  7292 May 12  2014 coldfusion_pwd_props.rb
+-rw-r--r-- 1 root root 19123 May 12  2014 corpwatch_lookup_id.rb
+-rw-r--r-- 1 root root  3593 May 12  2014 corpwatch_lookup_name.rb
+-rw-r--r-- 1 root root  7526 May 12  2014 d20pass.rb
+-rw-r--r-- 1 root root  4066 May 12  2014 dns_bruteforce.rb
+-rw-r--r-- 1 root root  3246 May 12  2014 dns_cache_scraper.rb
+-rw-r--r-- 1 root root  6803 May 12  2014 dns_info.rb
+-rw-r--r-- 1 root root  4219 May 12  2014 dns_reverse_lookup.rb
+-rw-r--r-- 1 root root  7435 May 12  2014 dns_srv_enum.rb
+-rw-r--r-- 1 root root  6872 May 12  2014 doliwamp_traversal_creds.rb
+-rw-r--r-- 1 root root  6246 May 12  2014 drupal_openid_xxe.rb
+-rw-r--r-- 1 root root  3589 May 12  2014 eaton_nsm_creds.rb
+-rw-r--r-- 1 root root  2230 May 12  2014 emc_cta_xxe.rb
+-rw-r--r-- 1 root root 21195 May 12  2014 enum_dns.rb
+-rw-r--r-- 1 root root  1473 May 12  2014 external_ip.rb
+-rw-r--r-- 1 root root  3305 May 12  2014 f5_bigip_cookie_disclosure.rb
+-rw-r--r-- 1 root root  3844 May 12  2014 hp_snac_domain_creds.rb
+-rw-r--r-- 1 root root 10277 May 12  2014 ibm_sametime_enumerate_users.rb
+-rw-r--r-- 1 root root  5560 May 12  2014 ibm_sametime_room_brute.rb
+-rw-r--r-- 1 root root  9556 May 12  2014 ibm_sametime_version.rb
+-rw-r--r-- 1 root root  8123 May 12  2014 impersonate_ssl.rb
+-rw-r--r-- 1 root root  3911 May 12  2014 joomla_weblinks_sqli.rb
+-rw-r--r-- 1 root root  3189 May 12  2014 mantisbt_admin_sqli.rb
+-rw-r--r-- 1 root root  2369 May 12  2014 natpmp_external_address.rb
+-rw-r--r-- 1 root root  5166 May 12  2014 search_email_collector.rb
+-rw-r--r-- 1 root root  5940 May 12  2014 shodan_search.rb
+-rw-r--r-- 1 root root  5718 May 12  2014 vbulletin_vote_sqli.rb
+-rw-r--r-- 1 root root  4542 May 12  2014 wp_w3_total_cache_hash_extract.rb
+-rw-r--r-- 1 root root  2994 May 12  2014 xbmc_traversal.rb
+
+./auxiliary/parser:
+total 4
+-rw-r--r-- 1 root root 1856 May 12  2014 unattend.rb
+
+./auxiliary/pdf:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 foxit
+
+./auxiliary/pdf/foxit:
+total 4
+-rw-r--r-- 1 root root 3406 May 12  2014 authbypass.rb
+
+./auxiliary/scanner:
+total 260
+drwxr-xr-x 2 root root  4096 May 15  2014 afp
+drwxr-xr-x 2 root root  4096 May 15  2014 backdoor
+drwxr-xr-x 2 root root  4096 May 15  2014 chargen
+drwxr-xr-x 2 root root  4096 May 15  2014 couchdb
+drwxr-xr-x 2 root root  4096 May 15  2014 db2
+drwxr-xr-x 2 root root  4096 May 15  2014 dcerpc
+drwxr-xr-x 2 root root  4096 May 15  2014 dect
+drwxr-xr-x 2 root root  4096 May 15  2014 discovery
+drwxr-xr-x 2 root root  4096 May 15  2014 dns
+drwxr-xr-x 2 root root  4096 May 15  2014 emc
+drwxr-xr-x 2 root root  4096 May 15  2014 finger
+drwxr-xr-x 2 root root  4096 May 15  2014 ftp
+drwxr-xr-x 2 root root  4096 May 15  2014 h323
+drwxr-xr-x 2 root root 24576 May 15  2014 http
+drwxr-xr-x 2 root root  4096 May 15  2014 imap
+drwxr-xr-x 2 root root  4096 May 15  2014 ip
+drwxr-xr-x 2 root root  4096 May 15  2014 ipmi
+drwxr-xr-x 2 root root  4096 May 15  2014 lotus
+drwxr-xr-x 2 root root  4096 May 15  2014 misc
+drwxr-xr-x 2 root root  4096 May 15  2014 mongodb
+drwxr-xr-x 2 root root  4096 May 15  2014 motorola
+drwxr-xr-x 2 root root  4096 May 15  2014 msf
+drwxr-xr-x 2 root root  4096 May 15  2014 mssql
+drwxr-xr-x 2 root root  4096 May 15  2014 mysql
+drwxr-xr-x 2 root root  4096 May 15  2014 natpmp
+drwxr-xr-x 2 root root  4096 May 15  2014 nessus
+drwxr-xr-x 2 root root  4096 May 15  2014 netbios
+drwxr-xr-x 2 root root  4096 May 15  2014 nexpose
+drwxr-xr-x 2 root root  4096 May 15  2014 nfs
+drwxr-xr-x 2 root root  4096 May 15  2014 ntp
+drwxr-xr-x 2 root root  4096 May 15  2014 openvas
+drwxr-xr-x 2 root root  4096 May 15  2014 oracle
+drwxr-xr-x 2 root root  4096 May 15  2014 pcanywhere
+drwxr-xr-x 2 root root  4096 May 15  2014 pop3
+drwxr-xr-x 2 root root  4096 May 15  2014 portscan
+drwxr-xr-x 2 root root  4096 May 15  2014 postgres
+drwxr-xr-x 2 root root  4096 May 15  2014 printer
+drwxr-xr-x 2 root root  4096 May 15  2014 rdp
+drwxr-xr-x 2 root root  4096 May 15  2014 rogue
+drwxr-xr-x 2 root root  4096 May 15  2014 rservices
+drwxr-xr-x 2 root root 12288 May 15  2014 sap
+drwxr-xr-x 2 root root  4096 May 15  2014 scada
+drwxr-xr-x 2 root root  4096 May 15  2014 sip
+drwxr-xr-x 2 root root  4096 May 15  2014 smb
+drwxr-xr-x 2 root root  4096 May 15  2014 smtp
+drwxr-xr-x 2 root root  4096 May 15  2014 snmp
+drwxr-xr-x 2 root root  4096 May 15  2014 ssh
+drwxr-xr-x 2 root root  4096 May 15  2014 ssl
+drwxr-xr-x 2 root root  4096 May 15  2014 telephony
+drwxr-xr-x 2 root root  4096 May 15  2014 telnet
+drwxr-xr-x 2 root root  4096 May 15  2014 tftp
+drwxr-xr-x 2 root root  4096 May 15  2014 upnp
+drwxr-xr-x 2 root root  4096 May 15  2014 vmware
+drwxr-xr-x 2 root root  4096 May 15  2014 vnc
+drwxr-xr-x 2 root root  4096 May 15  2014 voice
+drwxr-xr-x 2 root root  4096 May 15  2014 vxworks
+drwxr-xr-x 2 root root  4096 May 15  2014 winrm
+drwxr-xr-x 2 root root  4096 May 15  2014 x11
+
+./auxiliary/scanner/afp:
+total 8
+-rw-r--r-- 1 root root 3328 May 12  2014 afp_login.rb
+-rw-r--r-- 1 root root 3081 May 12  2014 afp_server_info.rb
+
+./auxiliary/scanner/backdoor:
+total 4
+-rw-r--r-- 1 root root 2899 May 12  2014 energizer_duo_detect.rb
+
+./auxiliary/scanner/chargen:
+total 4
+-rw-r--r-- 1 root root 2319 May 12  2014 chargen_probe.rb
+
+./auxiliary/scanner/couchdb:
+total 8
+-rw-r--r-- 1 root root 2675 May 12  2014 couchdb_enum.rb
+-rw-r--r-- 1 root root 3613 May 12  2014 couchdb_login.rb
+
+./auxiliary/scanner/db2:
+total 12
+-rw-r--r-- 1 root root 2646 May 12  2014 db2_auth.rb
+-rw-r--r-- 1 root root 1744 May 12  2014 db2_version.rb
+-rw-r--r-- 1 root root 1539 May 12  2014 discovery.rb
+
+./auxiliary/scanner/dcerpc:
+total 36
+-rw-r--r-- 1 root root  2137 May 12  2014 endpoint_mapper.rb
+-rw-r--r-- 1 root root  3427 May 12  2014 hidden.rb
+-rw-r--r-- 1 root root  2229 May 12  2014 management.rb
+-rw-r--r-- 1 root root 14037 May 12  2014 tcp_dcerpc_auditor.rb
+-rw-r--r-- 1 root root  7070 May 12  2014 windows_deployment_services.rb
+
+./auxiliary/scanner/dect:
+total 8
+-rw-r--r-- 1 root root 1720 May 12  2014 call_scanner.rb
+-rw-r--r-- 1 root root 1577 May 12  2014 station_scanner.rb
+
+./auxiliary/scanner/discovery:
+total 52
+-rw-r--r-- 1 root root  3406 May 12  2014 arp_sweep.rb
+-rw-r--r-- 1 root root  4095 May 12  2014 ipv6_multicast_ping.rb
+-rw-r--r-- 1 root root  5794 May 12  2014 ipv6_neighbor.rb
+-rw-r--r-- 1 root root  5825 May 12  2014 ipv6_neighbor_router_advertisement.rb
+-rw-r--r-- 1 root root 12632 May 12  2014 udp_probe.rb
+-rw-r--r-- 1 root root 11454 May 12  2014 udp_sweep.rb
+
+./auxiliary/scanner/dns:
+total 8
+-rw-r--r-- 1 root root 4555 May 12  2014 dns_amp.rb
+
+./auxiliary/scanner/emc:
+total 8
+-rw-r--r-- 1 root root 1153 May 12  2014 alphastor_devicemanager.rb
+-rw-r--r-- 1 root root 1120 May 12  2014 alphastor_librarymanager.rb
+
+./auxiliary/scanner/finger:
+total 8
+-rw-r--r-- 1 root root 5021 May 12  2014 finger_users.rb
+
+./auxiliary/scanner/ftp:
+total 20
+-rw-r--r-- 1 root root 1700 May 12  2014 anonymous.rb
+-rw-r--r-- 1 root root 5691 May 12  2014 ftp_login.rb
+-rw-r--r-- 1 root root 1021 May 12  2014 ftp_version.rb
+-rw-r--r-- 1 root root 3536 May 12  2014 titanftp_xcrc_traversal.rb
+
+./auxiliary/scanner/h323:
+total 20
+-rw-r--r-- 1 root root 16645 May 12  2014 h323_version.rb
+
+./auxiliary/scanner/http:
+total 816
+-rw-r--r-- 1 root root  3494 May 12  2014 a10networks_ax_directory_traversal.rb
+-rw-r--r-- 1 root root  4157 May 12  2014 adobe_xml_inject.rb
+-rw-r--r-- 1 root root  2000 May 12  2014 apache_activemq_source_disclosure.rb
+-rw-r--r-- 1 root root  2559 May 12  2014 apache_activemq_traversal.rb
+-rw-r--r-- 1 root root  2916 May 12  2014 apache_userdir_enum.rb
+-rw-r--r-- 1 root root  5275 May 12  2014 atlassian_crowd_fileaccess.rb
+-rw-r--r-- 1 root root  3421 May 12  2014 axis_local_file_include.rb
+-rw-r--r-- 1 root root  3033 May 12  2014 axis_login.rb
+-rw-r--r-- 1 root root  2308 May 12  2014 backup_file.rb
+-rw-r--r-- 1 root root  3097 May 12  2014 barracuda_directory_traversal.rb
+-rw-r--r-- 1 root root  3396 May 12  2014 bitweaver_overlay_type_traversal.rb
+-rw-r--r-- 1 root root 14139 May 12  2014 blind_sql_query.rb
+-rw-r--r-- 1 root root  5337 May 12  2014 brute_dirs.rb
+-rw-r--r-- 1 root root  4215 May 12  2014 canon_wireless.rb
+-rw-r--r-- 1 root root  3448 May 12  2014 cert.rb
+-rw-r--r-- 1 root root  3962 May 12  2014 cisco_asa_asdm.rb
+-rw-r--r-- 1 root root  2645 May 12  2014 cisco_device_manager.rb
+-rw-r--r-- 1 root root  3053 May 12  2014 cisco_ios_auth_bypass.rb
+-rw-r--r-- 1 root root  4997 May 12  2014 cisco_ironport_enum.rb
+-rw-r--r-- 1 root root  2432 May 12  2014 cisco_nac_manager_traversal.rb
+-rw-r--r-- 1 root root  2587 May 12  2014 clansphere_traversal.rb
+-rw-r--r-- 1 root root  7913 May 12  2014 coldfusion_locale_traversal.rb
+-rw-r--r-- 1 root root  4309 May 12  2014 cold_fusion_version.rb
+-rw-r--r-- 1 root root  3309 May 12  2014 concrete5_member_list.rb
+-rw-r--r-- 1 root root  4626 May 12  2014 copy_of_file.rb
+-rw-r--r-- 1 root root  8017 May 12  2014 crawler.rb
+-rw-r--r-- 1 root root  3565 May 12  2014 dell_idrac.rb
+-rw-r--r-- 1 root root  2807 May 12  2014 dir_listing.rb
+-rw-r--r-- 1 root root  5366 May 12  2014 dir_scanner.rb
+-rw-r--r-- 1 root root  6093 May 12  2014 dir_webdav_unicode_bypass.rb
+-rw-r--r-- 1 root root  3860 May 12  2014 dlink_dir_300_615_http_login.rb
+-rw-r--r-- 1 root root  4308 May 12  2014 dlink_dir_615h_http_login.rb
+-rw-r--r-- 1 root root  3945 May 12  2014 dlink_dir_session_cgi_http_login.rb
+-rw-r--r-- 1 root root  2625 May 12  2014 dlink_user_agent_backdoor.rb
+-rw-r--r-- 1 root root  4075 May 12  2014 dolibarr_login.rb
+-rw-r--r-- 1 root root  3566 May 12  2014 drupal_views_user_enum.rb
+-rw-r--r-- 1 root root  5487 May 12  2014 ektron_cms400net.rb
+-rw-r--r-- 1 root root  2779 May 12  2014 enum_wayback.rb
+-rw-r--r-- 1 root root  7943 May 12  2014 error_sql_injection.rb
+-rw-r--r-- 1 root root  2762 May 12  2014 file_same_name_dir.rb
+-rw-r--r-- 1 root root  5273 May 12  2014 files_dir.rb
+-rw-r--r-- 1 root root  4742 May 12  2014 frontpage_login.rb
+-rw-r--r-- 1 root root  6984 May 12  2014 glassfish_login.rb
+-rw-r--r-- 1 root root  2496 May 12  2014 groupwise_agents_http_traversal.rb
+-rw-r--r-- 1 root root  3122 May 12  2014 hp_imc_bims_downloadservlet_traversal.rb
+-rw-r--r-- 1 root root  3059 May 12  2014 hp_imc_faultdownloadservlet_traversal.rb
+-rw-r--r-- 1 root root  3053 May 12  2014 hp_imc_ictdownloadservlet_traversal.rb
+-rw-r--r-- 1 root root  3011 May 12  2014 hp_imc_reportimgservlt_traversal.rb
+-rw-r--r-- 1 root root  2971 May 12  2014 hp_imc_som_file_download.rb
+-rw-r--r-- 1 root root  6168 May 12  2014 hp_sitescope_getfileinternal_fileaccess.rb
+-rw-r--r-- 1 root root  4304 May 12  2014 hp_sitescope_getsitescopeconfiguration.rb
+-rw-r--r-- 1 root root  3805 May 12  2014 hp_sitescope_loadfilecontent_fileaccess.rb
+-rw-r--r-- 1 root root  2929 May 12  2014 hp_sys_mgmt_login.rb
+-rw-r--r-- 1 root root  2689 May 12  2014 httpbl_lookup.rb
+-rw-r--r-- 1 root root  2611 May 12  2014 http_header.rb
+-rw-r--r-- 1 root root  1455 May 12  2014 http_hsts.rb
+-rw-r--r-- 1 root root  5679 May 12  2014 http_login.rb
+-rw-r--r-- 1 root root  5204 May 12  2014 http_put.rb
+-rw-r--r-- 1 root root 11809 May 12  2014 http_traversal.rb
+-rw-r--r-- 1 root root  1055 May 12  2014 http_version.rb
+-rw-r--r-- 1 root root  1661 May 12  2014 iis_internal_ip.rb
+-rw-r--r-- 1 root root  3540 May 12  2014 infovista_enum.rb
+-rw-r--r-- 1 root root  3229 May 12  2014 jboss_status.rb
+-rw-r--r-- 1 root root  4325 May 12  2014 jboss_vulnscan.rb
+-rw-r--r-- 1 root root  7271 May 12  2014 jenkins_enum.rb
+-rw-r--r-- 1 root root  3239 May 12  2014 joomla_pages.rb
+-rw-r--r-- 1 root root  5829 May 12  2014 joomla_plugins.rb
+-rw-r--r-- 1 root root  5282 May 12  2014 joomla_version.rb
+-rw-r--r-- 1 root root  3987 May 12  2014 linksys_e1500_traversal.rb
+-rw-r--r-- 1 root root  2783 May 12  2014 litespeed_source_disclosure.rb
+-rw-r--r-- 1 root root  2981 May 12  2014 lucky_punch.rb
+-rw-r--r-- 1 root root  3389 May 12  2014 majordomo2_directory_traversal.rb
+-rw-r--r-- 1 root root  2237 May 12  2014 manageengine_deviceexpert_traversal.rb
+-rw-r--r-- 1 root root  2704 May 12  2014 manageengine_securitymanager_traversal.rb
+-rw-r--r-- 1 root root  9584 May 12  2014 mediawiki_svg_fileaccess.rb
+-rw-r--r-- 1 root root  2431 May 12  2014 mod_negotiation_brute.rb
+-rw-r--r-- 1 root root  1794 May 12  2014 mod_negotiation_scanner.rb
+-rw-r--r-- 1 root root  3945 May 12  2014 ms09_020_webdav_unicode_bypass.rb
+-rw-r--r-- 1 root root  2254 May 12  2014 netdecision_traversal.rb
+-rw-r--r-- 1 root root  3664 May 12  2014 netgear_sph200d_traversal.rb
+-rw-r--r-- 1 root root  3323 May 12  2014 nginx_source_disclosure.rb
+-rw-r--r-- 1 root root  2471 May 12  2014 novell_file_reporter_fsfui_fileaccess.rb
+-rw-r--r-- 1 root root  2370 May 12  2014 novell_file_reporter_srs_fileaccess.rb
+-rw-r--r-- 1 root root  3754 May 12  2014 novell_mdm_creds.rb
+-rw-r--r-- 1 root root  4994 May 12  2014 ntlm_info_enumeration.rb
+-rw-r--r-- 1 root root  3351 May 12  2014 openmind_messageos_login.rb
+-rw-r--r-- 1 root root  6973 May 12  2014 open_proxy.rb
+-rw-r--r-- 1 root root  2120 May 12  2014 options.rb
+-rw-r--r-- 1 root root  2273 May 12  2014 oracle_demantra_database_credentials_leak.rb
+-rw-r--r-- 1 root root  2506 May 12  2014 oracle_demantra_file_retrieval.rb
+-rw-r--r-- 1 root root  3284 May 12  2014 oracle_ilom_login.rb
+-rw-r--r-- 1 root root 10087 May 12  2014 owa_login.rb
+-rw-r--r-- 1 root root  2707 May 12  2014 prev_dir_same_name_file.rb
+-rw-r--r-- 1 root root  3341 May 12  2014 radware_appdirector_enum.rb
+-rw-r--r-- 1 root root  3078 May 12  2014 rails_json_yaml_scanner.rb
+-rw-r--r-- 1 root root  3684 May 12  2014 rails_mass_assignment.rb
+-rw-r--r-- 1 root root  2838 May 12  2014 rails_xml_yaml_scanner.rb
+-rw-r--r-- 1 root root  4757 May 12  2014 replace_ext.rb
+-rw-r--r-- 1 root root  3586 May 12  2014 rewrite_proxy_bypass.rb
+-rw-r--r-- 1 root root  7192 May 12  2014 rfcode_reader_enum.rb
+-rw-r--r-- 1 root root  2155 May 12  2014 robots_txt.rb
+-rw-r--r-- 1 root root  2411 May 12  2014 s40_traversal.rb
+-rw-r--r-- 1 root root  3508 May 12  2014 sap_businessobjects_user_brute.rb
+-rw-r--r-- 1 root root  2721 May 12  2014 sap_businessobjects_user_brute_web.rb
+-rw-r--r-- 1 root root  3398 May 12  2014 sap_businessobjects_user_enum.rb
+-rw-r--r-- 1 root root  2931 May 12  2014 sap_businessobjects_version_enum.rb
+-rw-r--r-- 1 root root  2070 May 12  2014 scraper.rb
+-rw-r--r-- 1 root root  3174 May 12  2014 sentry_cdu_enum.rb
+-rw-r--r-- 1 root root  3655 May 12  2014 sevone_enum.rb
+-rw-r--r-- 1 root root  3221 May 12  2014 simple_webserver_traversal.rb
+-rw-r--r-- 1 root root  4169 May 12  2014 smt_ipmi_cgi_scanner.rb
+-rw-r--r-- 1 root root  3344 May 12  2014 smt_ipmi_static_cert_scanner.rb
+-rw-r--r-- 1 root root  4335 May 12  2014 smt_ipmi_url_redirect_traversal.rb
+-rw-r--r-- 1 root root  6623 May 12  2014 soap_xml.rb
+-rw-r--r-- 1 root root  1924 May 12  2014 sockso_traversal.rb
+-rw-r--r-- 1 root root  5699 May 12  2014 splunk_web_login.rb
+-rw-r--r-- 1 root root  4972 May 12  2014 squid_pivot_scanning.rb
+-rw-r--r-- 1 root root  4642 May 12  2014 squiz_matrix_user_enum.rb
+-rw-r--r-- 1 root root  4235 May 12  2014 ssl.rb
+-rw-r--r-- 1 root root  5351 May 12  2014 support_center_plus_directory_traversal.rb
+-rw-r--r-- 1 root root  7084 May 12  2014 svn_scanner.rb
+-rw-r--r-- 1 root root  2247 May 12  2014 svn_wcdb_scanner.rb
+-rw-r--r-- 1 root root  3059 May 12  2014 sybase_easerver_traversal.rb
+-rw-r--r-- 1 root root  4533 May 12  2014 symantec_brightmail_logfile.rb
+-rw-r--r-- 1 root root  3505 May 12  2014 titan_ftp_admin_pwd.rb
+-rw-r--r-- 1 root root  4434 May 12  2014 tomcat_enum.rb
+-rw-r--r-- 1 root root  5047 May 12  2014 tomcat_mgr_login.rb
+-rw-r--r-- 1 root root  4130 May 12  2014 tplink_traversal_noauth.rb
+-rw-r--r-- 1 root root  3747 May 12  2014 trace_axd.rb
+-rw-r--r-- 1 root root  2099 May 12  2014 trace.rb
+-rw-r--r-- 1 root root  1514 May 12  2014 typo3_bruteforce.rb
+-rw-r--r-- 1 root root  3464 May 12  2014 vcms_login.rb
+-rw-r--r-- 1 root root  2746 May 12  2014 verb_auth_bypass.rb
+-rw-r--r-- 1 root root  3980 May 12  2014 vhost_scanner.rb
+-rw-r--r-- 1 root root  2808 May 12  2014 vmware_server_dir_trav.rb
+-rw-r--r-- 1 root root  2261 May 12  2014 vmware_update_manager_traversal.rb
+-rw-r--r-- 1 root root  2465 May 12  2014 wangkongbao_traversal.rb
+-rw-r--r-- 1 root root  1865 May 12  2014 webdav_internal_ip.rb
+-rw-r--r-- 1 root root  1878 May 12  2014 webdav_scanner.rb
+-rw-r--r-- 1 root root  1801 May 12  2014 webdav_website_content.rb
+-rw-r--r-- 1 root root  2180 May 12  2014 webpagetest_traversal.rb
+-rw-r--r-- 1 root root  5384 May 12  2014 web_vulndb.rb
+-rw-r--r-- 1 root root  5202 May 12  2014 wordpress_login_enum.rb
+-rw-r--r-- 1 root root  5292 May 12  2014 wordpress_pingback_access.rb
+-rw-r--r-- 1 root root  1124 May 12  2014 wordpress_scanner.rb
+-rw-r--r-- 1 root root  6940 May 12  2014 xpath.rb
+-rw-r--r-- 1 root root  2131 May 12  2014 yaws_traversal.rb
+-rw-r--r-- 1 root root  3583 May 12  2014 zenworks_assetmanagement_fileaccess.rb
+-rw-r--r-- 1 root root  2376 May 12  2014 zenworks_assetmanagement_getconfig.rb
+
+./auxiliary/scanner/imap:
+total 4
+-rw-r--r-- 1 root root 897 May 12  2014 imap_version.rb
+
+./auxiliary/scanner/ip:
+total 8
+-rw-r--r-- 1 root root 4216 May 12  2014 ipidseq.rb
+
+./auxiliary/scanner/ipmi:
+total 20
+-rw-r--r-- 1 root root 2309 May 12  2014 ipmi_cipher_zero.rb
+-rw-r--r-- 1 root root 8941 May 12  2014 ipmi_dumphashes.rb
+-rw-r--r-- 1 root root 1970 May 12  2014 ipmi_version.rb
+
+./auxiliary/scanner/lotus:
+total 20
+-rw-r--r-- 1 root root 6556 May 12  2014 lotus_domino_hashes.rb
+-rw-r--r-- 1 root root 2375 May 12  2014 lotus_domino_login.rb
+-rw-r--r-- 1 root root 5808 May 12  2014 lotus_domino_version.rb
+
+./auxiliary/scanner/misc:
+total 60
+-rw-r--r-- 1 root root 6208 May 12  2014 cctv_dvr_login.rb
+-rw-r--r-- 1 root root 4534 May 12  2014 dvr_config_disclosure.rb
+-rw-r--r-- 1 root root 5001 May 12  2014 ib_service_mgr_info.rb
+-rw-r--r-- 1 root root 4049 May 12  2014 java_rmi_server.rb
+-rw-r--r-- 1 root root 3407 May 12  2014 oki_scanner.rb
+-rw-r--r-- 1 root root 2884 May 12  2014 poisonivy_control_scanner.rb
+-rw-r--r-- 1 root root 2884 May 12  2014 raysharp_dvr_passwords.rb
+-rw-r--r-- 1 root root 2170 May 12  2014 redis_server.rb
+-rw-r--r-- 1 root root 2908 May 12  2014 rosewill_rxs3211_passwords.rb
+-rw-r--r-- 1 root root 2044 May 12  2014 sercomm_backdoor_scanner.rb
+-rw-r--r-- 1 root root 2021 May 12  2014 sunrpc_portmapper.rb
+-rw-r--r-- 1 root root 2779 May 12  2014 zenworks_preboot_fileaccess.rb
+
+./auxiliary/scanner/mongodb:
+total 8
+-rw-r--r-- 1 root root 5681 May 12  2014 mongodb_login.rb
+
+./auxiliary/scanner/motorola:
+total 4
+-rw-r--r-- 1 root root 1531 May 12  2014 timbuktu_udp.rb
+
+./auxiliary/scanner/msf:
+total 12
+-rw-r--r-- 1 root root 2468 May 12  2014 msf_rpc_login.rb
+-rw-r--r-- 1 root root 4372 May 12  2014 msf_web_login.rb
+
+./auxiliary/scanner/mssql:
+total 20
+-rw-r--r-- 1 root root 3099 May 12  2014 mssql_hashdump.rb
+-rw-r--r-- 1 root root 2006 May 12  2014 mssql_login.rb
+-rw-r--r-- 1 root root 2000 May 12  2014 mssql_ping.rb
+-rw-r--r-- 1 root root 4285 May 12  2014 mssql_schemadump.rb
+
+./auxiliary/scanner/mysql:
+total 32
+-rw-r--r-- 1 root root 6357 May 12  2014 mysql_authbypass_hashdump.rb
+-rw-r--r-- 1 root root 4114 May 12  2014 mysql_file_enum.rb
+-rw-r--r-- 1 root root 1927 May 12  2014 mysql_hashdump.rb
+-rw-r--r-- 1 root root 3906 May 12  2014 mysql_login.rb
+-rw-r--r-- 1 root root 3485 May 12  2014 mysql_schemadump.rb
+-rw-r--r-- 1 root root 1995 May 12  2014 mysql_version.rb
+
+./auxiliary/scanner/natpmp:
+total 8
+-rw-r--r-- 1 root root 4294 May 12  2014 natpmp_portscan.rb
+
+./auxiliary/scanner/nessus:
+total 12
+-rw-r--r-- 1 root root 3322 May 12  2014 nessus_ntp_login.rb
+-rw-r--r-- 1 root root 3042 May 12  2014 nessus_xmlrpc_login.rb
+-rw-r--r-- 1 root root 1963 May 12  2014 nessus_xmlrpc_ping.rb
+
+./auxiliary/scanner/netbios:
+total 16
+-rw-r--r-- 1 root root 7369 May 12  2014 nbname_probe.rb
+-rw-r--r-- 1 root root 5773 May 12  2014 nbname.rb
+
+./auxiliary/scanner/nexpose:
+total 4
+-rw-r--r-- 1 root root 3177 May 12  2014 nexpose_api_login.rb
+
+./auxiliary/scanner/nfs:
+total 4
+-rw-r--r-- 1 root root 2184 May 12  2014 nfsmount.rb
+
+./auxiliary/scanner/ntp:
+total 12
+-rw-r--r-- 1 root root 5919 May 12  2014 ntp_monlist.rb
+-rw-r--r-- 1 root root 1878 May 12  2014 ntp_readvar.rb
+
+./auxiliary/scanner/openvas:
+total 12
+-rw-r--r-- 1 root root 3477 May 12  2014 openvas_gsad_login.rb
+-rw-r--r-- 1 root root 2889 May 12  2014 openvas_omp_login.rb
+-rw-r--r-- 1 root root 3253 May 12  2014 openvas_otp_login.rb
+
+./auxiliary/scanner/oracle:
+total 68
+-rw-r--r-- 1 root root  1659 May 12  2014 emc_sid.rb
+-rw-r--r-- 1 root root  7870 May 12  2014 isqlplus_login.rb
+-rw-r--r-- 1 root root  7418 May 12  2014 isqlplus_sidbrute.rb
+-rw-r--r-- 1 root root  3283 May 12  2014 oracle_hashdump.rb
+-rw-r--r-- 1 root root  6175 May 12  2014 oracle_login.rb
+-rw-r--r-- 1 root root  4002 May 12  2014 sid_brute.rb
+-rw-r--r-- 1 root root  2327 May 12  2014 sid_enum.rb
+-rw-r--r-- 1 root root  1739 May 12  2014 spy_sid.rb
+-rw-r--r-- 1 root root  1529 May 12  2014 tnslsnr_version.rb
+-rw-r--r-- 1 root root 12621 May 12  2014 xdb_sid_brute.rb
+-rw-r--r-- 1 root root  2543 May 12  2014 xdb_sid.rb
+
+./auxiliary/scanner/pcanywhere:
+total 16
+-rw-r--r-- 1 root root 4924 May 12  2014 pcanywhere_login.rb
+-rw-r--r-- 1 root root 1489 May 12  2014 pcanywhere_tcp.rb
+-rw-r--r-- 1 root root 2379 May 12  2014 pcanywhere_udp.rb
+
+./auxiliary/scanner/pop3:
+total 8
+-rw-r--r-- 1 root root 3429 May 12  2014 pop3_login.rb
+-rw-r--r-- 1 root root  998 May 12  2014 pop3_version.rb
+
+./auxiliary/scanner/portscan:
+total 20
+-rw-r--r-- 1 root root 3197 May 12  2014 ack.rb
+-rw-r--r-- 1 root root 2082 May 12  2014 ftpbounce.rb
+-rw-r--r-- 1 root root 3039 May 12  2014 syn.rb
+-rw-r--r-- 1 root root 2431 May 12  2014 tcp.rb
+-rw-r--r-- 1 root root 3224 May 12  2014 xmas.rb
+
+./auxiliary/scanner/postgres:
+total 20
+-rw-r--r-- 1 root root 2125 May 12  2014 postgres_dbname_flag_injection.rb
+-rw-r--r-- 1 root root 2611 May 12  2014 postgres_hashdump.rb
+-rw-r--r-- 1 root root 3964 May 12  2014 postgres_login.rb
+-rw-r--r-- 1 root root 4083 May 12  2014 postgres_schemadump.rb
+-rw-r--r-- 1 root root 3066 May 12  2014 postgres_version.rb
+
+./auxiliary/scanner/printer:
+total 24
+-rw-r--r-- 1 root root 1643 May 12  2014 printer_download_file.rb
+-rw-r--r-- 1 root root 1470 May 12  2014 printer_env_vars.rb
+-rw-r--r-- 1 root root 1628 May 12  2014 printer_list_dir.rb
+-rw-r--r-- 1 root root 1532 May 12  2014 printer_list_volumes.rb
+-rw-r--r-- 1 root root 1908 May 12  2014 printer_ready_message.rb
+-rw-r--r-- 1 root root 1455 May 12  2014 printer_version_info.rb
+
+./auxiliary/scanner/rdp:
+total 8
+-rw-r--r-- 1 root root 4971 May 12  2014 ms12_020_check.rb
+
+./auxiliary/scanner/rogue:
+total 8
+-rw-r--r-- 1 root root 2367 May 12  2014 rogue_recv.rb
+-rw-r--r-- 1 root root 2178 May 12  2014 rogue_send.rb
+
+./auxiliary/scanner/rservices:
+total 28
+-rw-r--r-- 1 root root 4710 May 12  2014 rexec_login.rb
+-rw-r--r-- 1 root root 9634 May 12  2014 rlogin_login.rb
+-rw-r--r-- 1 root root 6479 May 12  2014 rsh_login.rb
+
+./auxiliary/scanner/sap:
+total 276
+-rw-r--r-- 1 root root  3881 May 12  2014 sap_ctc_verb_tampering_user_mgmt.rb
+-rw-r--r-- 1 root root 10298 May 12  2014 sap_hostctrl_getcomputersystem.rb
+-rw-r--r-- 1 root root  5770 May 12  2014 sap_icf_public_info.rb
+-rw-r--r-- 1 root root  4932 May 12  2014 sap_icm_urlscan.rb
+-rw-r--r-- 1 root root  3644 May 12  2014 sap_mgmt_con_abaplog.rb
+-rw-r--r-- 1 root root  5393 May 12  2014 sap_mgmt_con_brute_login.rb
+-rw-r--r-- 1 root root  4053 May 12  2014 sap_mgmt_con_extractusers.rb
+-rw-r--r-- 1 root root  4350 May 12  2014 sap_mgmt_con_getaccesspoints.rb
+-rw-r--r-- 1 root root  3875 May 12  2014 sap_mgmt_con_getenv.rb
+-rw-r--r-- 1 root root  7720 May 12  2014 sap_mgmt_con_getlogfiles.rb
+-rw-r--r-- 1 root root  4402 May 12  2014 sap_mgmt_con_getprocesslist.rb
+-rw-r--r-- 1 root root  5572 May 12  2014 sap_mgmt_con_getprocessparameter.rb
+-rw-r--r-- 1 root root  9452 May 12  2014 sap_mgmt_con_instanceproperties.rb
+-rw-r--r-- 1 root root  4648 May 12  2014 sap_mgmt_con_listlogfiles.rb
+-rw-r--r-- 1 root root  4023 May 12  2014 sap_mgmt_con_startprofile.rb
+-rw-r--r-- 1 root root  4022 May 12  2014 sap_mgmt_con_version.rb
+-rw-r--r-- 1 root root  5964 May 12  2014 sap_router_info_request.rb
+-rw-r--r-- 1 root root 12859 May 12  2014 sap_router_portscanner.rb
+-rw-r--r-- 1 root root  9286 May 12  2014 sap_service_discovery.rb
+-rw-r--r-- 1 root root  9495 May 12  2014 sap_smb_relay.rb
+-rw-r--r-- 1 root root  4861 May 12  2014 sap_soap_bapi_user_create1.rb
+-rw-r--r-- 1 root root  5335 May 12  2014 sap_soap_rfc_brute_login.rb
+-rw-r--r-- 1 root root  5975 May 12  2014 sap_soap_rfc_dbmcli_sxpg_call_system_command_exec.rb
+-rw-r--r-- 1 root root  6006 May 12  2014 sap_soap_rfc_dbmcli_sxpg_command_exec.rb
+-rw-r--r-- 1 root root  4144 May 12  2014 sap_soap_rfc_eps_get_directory_listing.rb
+-rw-r--r-- 1 root root  4518 May 12  2014 sap_soap_rfc_pfl_check_os_file_existence.rb
+-rw-r--r-- 1 root root  3785 May 12  2014 sap_soap_rfc_ping.rb
+-rw-r--r-- 1 root root  5747 May 12  2014 sap_soap_rfc_read_table.rb
+-rw-r--r-- 1 root root  4868 May 12  2014 sap_soap_rfc_rzl_read_dir.rb
+-rw-r--r-- 1 root root  4594 May 12  2014 sap_soap_rfc_susr_rfc_user_interface.rb
+-rw-r--r-- 1 root root  4850 May 12  2014 sap_soap_rfc_sxpg_call_system_exec.rb
+-rw-r--r-- 1 root root  4842 May 12  2014 sap_soap_rfc_sxpg_command_exec.rb
+-rw-r--r-- 1 root root  7268 May 12  2014 sap_soap_rfc_system_info.rb
+-rw-r--r-- 1 root root  5514 May 12  2014 sap_soap_th_saprel_disclosure.rb
+-rw-r--r-- 1 root root  5852 May 12  2014 sap_web_gui_brute_login.rb
+
+./auxiliary/scanner/scada:
+total 52
+-rw-r--r-- 1 root root 2153 May 12  2014 digi_addp_reboot.rb
+-rw-r--r-- 1 root root 1808 May 12  2014 digi_addp_version.rb
+-rw-r--r-- 1 root root 2693 May 12  2014 digi_realport_serialport_scan.rb
+-rw-r--r-- 1 root root 1078 May 12  2014 digi_realport_version.rb
+-rw-r--r-- 1 root root 2992 May 12  2014 indusoft_ntwebserver_fileaccess.rb
+-rw-r--r-- 1 root root 6798 May 12  2014 koyo_login.rb
+-rw-r--r-- 1 root root 6164 May 12  2014 modbusclient.rb
+-rw-r--r-- 1 root root 2060 May 12  2014 modbusdetect.rb
+-rw-r--r-- 1 root root 4092 May 12  2014 modbus_findunitid.rb
+-rw-r--r-- 1 root root 4655 May 12  2014 sielco_winlog_fileaccess.rb
+
+./auxiliary/scanner/sip:
+total 24
+-rw-r--r-- 1 root root 4832 May 12  2014 enumerator.rb
+-rw-r--r-- 1 root root 3567 May 12  2014 enumerator_tcp.rb
+-rw-r--r-- 1 root root 3842 May 12  2014 options.rb
+-rw-r--r-- 1 root root 2666 May 12  2014 options_tcp.rb
+-rw-r--r-- 1 root root 3478 May 12  2014 sipdroid_ext_enum.rb
+
+./auxiliary/scanner/smb:
+total 92
+-rw-r--r-- 1 root root  2242 May 12  2014 pipe_auditor.rb
+-rw-r--r-- 1 root root 13942 May 12  2014 pipe_dcerpc_auditor.rb
+-rw-r--r-- 1 root root  8137 May 12  2014 psexec_loggedin_users.rb
+-rw-r--r-- 1 root root  2937 May 12  2014 smb2.rb
+-rw-r--r-- 1 root root 13814 May 12  2014 smb_enumshares.rb
+-rw-r--r-- 1 root root  4313 May 12  2014 smb_enumusers_domain.rb
+-rw-r--r-- 1 root root  8349 May 12  2014 smb_enumusers.rb
+-rw-r--r-- 1 root root  9000 May 12  2014 smb_login.rb
+-rw-r--r-- 1 root root  7182 May 12  2014 smb_lookupsid.rb
+-rw-r--r-- 1 root root  3458 May 12  2014 smb_version.rb
+
+./auxiliary/scanner/smtp:
+total 20
+-rw-r--r-- 1 root root 6841 May 12  2014 smtp_enum.rb
+-rw-r--r-- 1 root root 5020 May 12  2014 smtp_relay.rb
+-rw-r--r-- 1 root root  894 May 12  2014 smtp_version.rb
+
+./auxiliary/scanner/snmp:
+total 84
+-rw-r--r-- 1 root root  1854 May 12  2014 aix_version.rb
+-rw-r--r-- 1 root root  5103 May 12  2014 cisco_config_tftp.rb
+-rw-r--r-- 1 root root  4245 May 12  2014 cisco_upload_file.rb
+-rw-r--r-- 1 root root  5036 May 12  2014 snmp_enum_hp_laserjet.rb
+-rw-r--r-- 1 root root 28189 May 12  2014 snmp_enum.rb
+-rw-r--r-- 1 root root  1661 May 12  2014 snmp_enumshares.rb
+-rw-r--r-- 1 root root  1416 May 12  2014 snmp_enumusers.rb
+-rw-r--r-- 1 root root  8493 May 12  2014 snmp_login.rb
+-rw-r--r-- 1 root root  2694 May 12  2014 snmp_set.rb
+-rw-r--r-- 1 root root  1788 May 12  2014 xerox_workcentre_enumusers.rb
+
+./auxiliary/scanner/ssh:
+total 44
+-rw-r--r-- 1 root root  4728 May 12  2014 ssh_enumusers.rb
+-rw-r--r-- 1 root root 10702 May 12  2014 ssh_identify_pubkeys.rb
+-rw-r--r-- 1 root root 11412 May 12  2014 ssh_login_pubkey.rb
+-rw-r--r-- 1 root root  5449 May 12  2014 ssh_login.rb
+-rw-r--r-- 1 root root  1990 May 12  2014 ssh_version.rb
+
+./auxiliary/scanner/ssl:
+total 20
+-rw-r--r-- 1 root root 18299 May 12  2014 openssl_heartbleed.rb
+
+./auxiliary/scanner/telephony:
+total 16
+-rw-r--r-- 1 root root 15817 May 12  2014 wardial.rb
+
+./auxiliary/scanner/telnet:
+total 32
+-rw-r--r-- 1 root root 2554 May 12  2014 lantronix_telnet_password.rb
+-rw-r--r-- 1 root root 1482 May 12  2014 lantronix_telnet_version.rb
+-rw-r--r-- 1 root root 4625 May 12  2014 telnet_encrypt_overflow.rb
+-rw-r--r-- 1 root root 7105 May 12  2014 telnet_login.rb
+-rw-r--r-- 1 root root 2831 May 12  2014 telnet_ruggedcom.rb
+-rw-r--r-- 1 root root 1360 May 12  2014 telnet_version.rb
+
+./auxiliary/scanner/tftp:
+total 12
+-rw-r--r-- 1 root root 2937 May 12  2014 ipswitch_whatsupgold_tftp.rb
+-rw-r--r-- 1 root root 2756 May 12  2014 netdecision_tftp.rb
+-rw-r--r-- 1 root root 1996 May 12  2014 tftpbrute.rb
+
+./auxiliary/scanner/upnp:
+total 8
+-rw-r--r-- 1 root root 4709 May 12  2014 ssdp_msearch.rb
+
+./auxiliary/scanner/vmware:
+total 44
+-rw-r--r-- 1 root root 3274 May 12  2014 esx_fingerprint.rb
+-rw-r--r-- 1 root root 3254 May 12  2014 vmauthd_login.rb
+-rw-r--r-- 1 root root 2656 May 12  2014 vmauthd_version.rb
+-rw-r--r-- 1 root root 3098 May 12  2014 vmware_enum_permissions.rb
+-rw-r--r-- 1 root root 2582 May 12  2014 vmware_enum_sessions.rb
+-rw-r--r-- 1 root root 4956 May 12  2014 vmware_enum_users.rb
+-rw-r--r-- 1 root root 3072 May 12  2014 vmware_enum_vms.rb
+-rw-r--r-- 1 root root 1852 May 12  2014 vmware_host_details.rb
+-rw-r--r-- 1 root root 3804 May 12  2014 vmware_http_login.rb
+-rw-r--r-- 1 root root 3150 May 12  2014 vmware_screenshot_stealer.rb
+
+./auxiliary/scanner/vnc:
+total 8
+-rw-r--r-- 1 root root 4068 May 12  2014 vnc_login.rb
+-rw-r--r-- 1 root root 2493 May 12  2014 vnc_none_auth.rb
+
+./auxiliary/scanner/voice:
+total 4
+-rw-r--r-- 1 root root 2282 May 12  2014 recorder.rb
+
+./auxiliary/scanner/vxworks:
+total 12
+-rw-r--r-- 1 root root 4758 May 12  2014 wdbrpc_bootline.rb
+-rw-r--r-- 1 root root 3343 May 12  2014 wdbrpc_version.rb
+
+./auxiliary/scanner/winrm:
+total 16
+-rw-r--r-- 1 root root 1633 May 12  2014 winrm_auth_methods.rb
+-rw-r--r-- 1 root root 1435 May 12  2014 winrm_cmd.rb
+-rw-r--r-- 1 root root 2165 May 12  2014 winrm_login.rb
+-rw-r--r-- 1 root root 1980 May 12  2014 winrm_wql.rb
+
+./auxiliary/scanner/x11:
+total 4
+-rw-r--r-- 1 root root 1721 May 12  2014 open_x11.rb
+
+./auxiliary/server:
+total 148
+-rw-r--r-- 1 root root 37825 May 12  2014 browser_autopwn.rb
+drwxr-xr-x 2 root root  4096 May 15  2014 capture
+-rw-r--r-- 1 root root  1921 May 12  2014 dhcp.rb
+drwxr-xr-x 2 root root  4096 May 15  2014 dns
+-rw-r--r-- 1 root root  7324 May 12  2014 fakedns.rb
+-rw-r--r-- 1 root root  4369 May 12  2014 ftp.rb
+-rw-r--r-- 1 root root 22507 May 12  2014 http_ntlmrelay.rb
+-rw-r--r-- 1 root root  9609 May 12  2014 icmp_exfil.rb
+-rw-r--r-- 1 root root 18084 May 12  2014 openssl_heartbeat_client_memory.rb
+-rw-r--r-- 1 root root  2865 May 12  2014 pxexploit.rb
+-rw-r--r-- 1 root root  1559 May 12  2014 socks4a.rb
+-rw-r--r-- 1 root root  3852 May 12  2014 socks_unc.rb
+-rw-r--r-- 1 root root  2016 May 12  2014 tftp.rb
+-rw-r--r-- 1 root root  2713 May 12  2014 webkit_xslt_dropper.rb
+-rw-r--r-- 1 root root  2496 May 12  2014 wpad.rb
+
+./auxiliary/server/capture:
+total 160
+-rw-r--r-- 1 root root  7765 May 12  2014 drda.rb
+-rw-r--r-- 1 root root  2173 May 12  2014 ftp.rb
+-rw-r--r-- 1 root root  2866 May 12  2014 http_basic.rb
+-rw-r--r-- 1 root root  8778 May 12  2014 http_javascript_keylogger.rb
+-rw-r--r-- 1 root root 15060 May 12  2014 http_ntlm.rb
+-rw-r--r-- 1 root root 12977 May 12  2014 http.rb
+-rw-r--r-- 1 root root  2930 May 12  2014 imap.rb
+-rw-r--r-- 1 root root 18756 May 12  2014 mssql.rb
+-rw-r--r-- 1 root root  6233 May 12  2014 mysql.rb
+-rw-r--r-- 1 root root  2583 May 12  2014 pop3.rb
+-rw-r--r-- 1 root root  3512 May 12  2014 postgresql.rb
+-rw-r--r-- 1 root root  8759 May 12  2014 printjob_capture.rb
+-rw-r--r-- 1 root root  7627 May 12  2014 sip.rb
+-rw-r--r-- 1 root root 24869 May 12  2014 smb.rb
+-rw-r--r-- 1 root root  3093 May 12  2014 smtp.rb
+-rw-r--r-- 1 root root  3372 May 12  2014 telnet.rb
+-rw-r--r-- 1 root root  3717 May 12  2014 vnc.rb
+
+./auxiliary/server/dns:
+total 4
+-rw-r--r-- 1 root root 2630 May 12  2014 spoofhelper.rb
+
+./auxiliary/sniffer:
+total 8
+-rw-r--r-- 1 root root 5317 May 12  2014 psnuffle.rb
+
+./auxiliary/spoof:
+total 24
+drwxr-xr-x 2 root root 4096 May 15  2014 arp
+drwxr-xr-x 2 root root 4096 May 15  2014 cisco
+drwxr-xr-x 2 root root 4096 May 15  2014 dns
+drwxr-xr-x 2 root root 4096 May 15  2014 llmnr
+drwxr-xr-x 2 root root 4096 May 15  2014 nbns
+drwxr-xr-x 2 root root 4096 May 15  2014 replay
+
+./auxiliary/spoof/arp:
+total 16
+-rw-r--r-- 1 root root 15795 May 12  2014 arp_poisoning.rb
+
+./auxiliary/spoof/cisco:
+total 4
+-rw-r--r-- 1 root root 2258 May 12  2014 dtp.rb
+
+./auxiliary/spoof/dns:
+total 40
+-rw-r--r-- 1 root root 15635 May 12  2014 bailiwicked_domain.rb
+-rw-r--r-- 1 root root 15395 May 12  2014 bailiwicked_host.rb
+-rw-r--r-- 1 root root  5473 May 12  2014 compare_results.rb
+
+./auxiliary/spoof/llmnr:
+total 8
+-rw-r--r-- 1 root root 6182 May 12  2014 llmnr_response.rb
+
+./auxiliary/spoof/nbns:
+total 8
+-rw-r--r-- 1 root root 5318 May 12  2014 nbns_response.rb
+
+./auxiliary/spoof/replay:
+total 4
+-rw-r--r-- 1 root root 1828 May 12  2014 pcap_replay.rb
+
+./auxiliary/sqli:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 oracle
+
+./auxiliary/sqli/oracle:
+total 72
+-rw-r--r-- 1 root root 2219 May 12  2014 dbms_cdc_ipublish.rb
+-rw-r--r-- 1 root root 2359 May 12  2014 dbms_cdc_publish2.rb
+-rw-r--r-- 1 root root 2765 May 12  2014 dbms_cdc_publish3.rb
+-rw-r--r-- 1 root root 2217 May 12  2014 dbms_cdc_publish.rb
+-rw-r--r-- 1 root root 2309 May 12  2014 dbms_cdc_subscribe_activate_subscription.rb
+-rw-r--r-- 1 root root 3300 May 12  2014 dbms_export_extension.rb
+-rw-r--r-- 1 root root 1769 May 12  2014 dbms_metadata_get_granted_xml.rb
+-rw-r--r-- 1 root root 1740 May 12  2014 dbms_metadata_get_xml.rb
+-rw-r--r-- 1 root root 1838 May 12  2014 dbms_metadata_open.rb
+-rw-r--r-- 1 root root 4247 May 12  2014 droptable_trigger.rb
+-rw-r--r-- 1 root root 2790 May 12  2014 jvm_os_code_10g.rb
+-rw-r--r-- 1 root root 2065 May 12  2014 jvm_os_code_11g.rb
+-rw-r--r-- 1 root root 2305 May 12  2014 lt_compressworkspace.rb
+-rw-r--r-- 1 root root 1918 May 12  2014 lt_findricset_cursor.rb
+-rw-r--r-- 1 root root 3180 May 12  2014 lt_mergeworkspace.rb
+-rw-r--r-- 1 root root 3032 May 12  2014 lt_removeworkspace.rb
+-rw-r--r-- 1 root root 2937 May 12  2014 lt_rollbackworkspace.rb
+
+./auxiliary/voip:
+total 12
+-rw-r--r-- 1 root root 3371 May 12  2014 asterisk_login.rb
+-rw-r--r-- 1 root root 3840 May 12  2014 sip_deregister.rb
+-rw-r--r-- 1 root root 2880 May 12  2014 sip_invite_spoof.rb
+
+./auxiliary/vsploit:
+total 12
+drwxr-xr-x 2 root root 4096 Aug 29  2013 exploit
+drwxr-xr-x 3 root root 4096 Nov  3  2013 malware
+drwxr-xr-x 2 root root 4096 May 15  2014 pii
+
+./auxiliary/vsploit/exploit:
+total 0
+
+./auxiliary/vsploit/malware:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 dns
+
+./auxiliary/vsploit/malware/dns:
+total 12
+-rw-r--r-- 1 root root 2446 May 12  2014 dns_mariposa.rb
+-rw-r--r-- 1 root root 1811 May 12  2014 dns_query.rb
+-rw-r--r-- 1 root root 2820 May 12  2014 dns_zeus.rb
+
+./auxiliary/vsploit/pii:
+total 8
+-rw-r--r-- 1 root root 1231 May 12  2014 email_pii.rb
+-rw-r--r-- 1 root root 2464 May 12  2014 web_pii.rb
+
+./encoders:
+total 36
+drwxr-xr-x 2 root root 4096 May 15  2014 cmd
+drwxr-xr-x 2 root root 4096 May 15  2014 generic
+drwxr-xr-x 2 root root 4096 May 15  2014 mipsbe
+drwxr-xr-x 2 root root 4096 May 15  2014 mipsle
+drwxr-xr-x 2 root root 4096 May 15  2014 php
+drwxr-xr-x 2 root root 4096 May 15  2014 ppc
+drwxr-xr-x 2 root root 4096 May 15  2014 sparc
+drwxr-xr-x 2 root root 4096 May 15  2014 x64
+drwxr-xr-x 2 root root 4096 May 15  2014 x86
+
+./encoders/cmd:
+total 16
+-rw-r--r-- 1 root root 3638 May 12  2014 generic_sh.rb
+-rw-r--r-- 1 root root  807 May 12  2014 ifs.rb
+-rw-r--r-- 1 root root 1164 May 12  2014 powershell_base64.rb
+-rw-r--r-- 1 root root 2276 May 12  2014 printf_php_mq.rb
+
+./encoders/generic:
+total 8
+-rw-r--r-- 1 root root 1538 May 12  2014 eicar.rb
+-rw-r--r-- 1 root root  654 May 12  2014 none.rb
+
+./encoders/mipsbe:
+total 16
+-rw-r--r-- 1 root root 6237 May 12  2014 byte_xori.rb
+-rw-r--r-- 1 root root 4175 May 12  2014 longxor.rb
+
+./encoders/mipsle:
+total 16
+-rw-r--r-- 1 root root 6240 May 12  2014 byte_xori.rb
+-rw-r--r-- 1 root root 4178 May 12  2014 longxor.rb
+
+./encoders/php:
+total 4
+-rw-r--r-- 1 root root 3717 May 12  2014 base64.rb
+
+./encoders/ppc:
+total 8
+-rw-r--r-- 1 root root 2373 May 12  2014 longxor.rb
+-rw-r--r-- 1 root root 2226 May 12  2014 longxor_tag.rb
+
+./encoders/sparc:
+total 4
+-rw-r--r-- 1 root root 1726 May 12  2014 longxor_tag.rb
+
+./encoders/x64:
+total 4
+-rw-r--r-- 1 root root 1411 May 12  2014 xor.rb
+
+./encoders/x86:
+total 124
+-rw-r--r-- 1 root root  3576 May 12  2014 add_sub.rb
+-rw-r--r-- 1 root root  2161 May 12  2014 alpha_mixed.rb
+-rw-r--r-- 1 root root  2188 May 12  2014 alpha_upper.rb
+-rw-r--r-- 1 root root  5423 May 12  2014 avoid_underscore_tolower.rb
+-rw-r--r-- 1 root root  8420 May 12  2014 avoid_utf8_tolower.rb
+-rw-r--r-- 1 root root  1911 May 12  2014 bloxor.rb
+-rw-r--r-- 1 root root  1197 May 12  2014 call4_dword_xor.rb
+-rw-r--r-- 1 root root  6722 May 12  2014 context_cpuid.rb
+-rw-r--r-- 1 root root  6953 May 12  2014 context_stat.rb
+-rw-r--r-- 1 root root  6262 May 12  2014 context_time.rb
+-rw-r--r-- 1 root root  1426 May 12  2014 countdown.rb
+-rw-r--r-- 1 root root  1324 May 12  2014 fnstenv_mov.rb
+-rw-r--r-- 1 root root  1453 May 12  2014 jmp_call_additive.rb
+-rw-r--r-- 1 root root  1623 May 12  2014 nonalpha.rb
+-rw-r--r-- 1 root root  2028 May 12  2014 nonupper.rb
+-rw-r--r-- 1 root root 10597 May 12  2014 opt_sub.rb
+-rw-r--r-- 1 root root 10598 May 12  2014 shikata_ga_nai.rb
+-rw-r--r-- 1 root root  7754 May 12  2014 single_static_bit.rb
+-rw-r--r-- 1 root root  1679 May 12  2014 unicode_mixed.rb
+-rw-r--r-- 1 root root  1678 May 12  2014 unicode_upper.rb
+
+./exploits:
+total 68
+drwxr-xr-x  3 root root 4096 May 15  2014 aix
+drwxr-xr-x  3 root root 4096 May 15  2014 android
+drwxr-xr-x  5 root root 4096 Nov  3  2013 apple_ios
+drwxr-xr-x  3 root root 4096 Nov  3  2013 bsdi
+drwxr-xr-x  3 root root 4096 Nov  3  2013 dialup
+drwxr-xr-x  3 root root 4096 May 15  2014 firefox
+drwxr-xr-x  7 root root 4096 Nov  3  2013 freebsd
+drwxrwxrwx  2 root root 4096 Jun 13  2015 hikvision
+drwxr-xr-x  3 root root 4096 Nov  3  2013 hpux
+drwxr-xr-x  3 root root 4096 Nov  3  2013 irix
+drwxr-xr-x 21 root root 4096 May 15  2014 linux
+drwxr-xr-x 18 root root 4096 May 15  2014 multi
+drwxr-xr-x  4 root root 4096 Nov  3  2013 netware
+drwxr-xr-x 13 root root 4096 Nov  3  2013 osx
+drwxr-xr-x  7 root root 4096 Nov  3  2013 solaris
+drwxr-xr-x 10 root root 4096 Nov  3  2013 unix
+drwxr-xr-x 49 root root 4096 May 15  2014 windows
+
+./exploits/aix:
+total 16
+drwxr-xr-x 2 root root 4096 May 15  2014 local
+-rw-r--r-- 1 root root 3348 May 12  2014 rpc_cmsd_opcode21.rb
+-rw-r--r-- 1 root root 7996 May 12  2014 rpc_ttdbserverd_realpath.rb
+
+./exploits/aix/local:
+total 8
+-rw-r--r-- 1 root root 4217 May 12  2014 ibstat_path.rb
+
+./exploits/android:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 browser
+
+./exploits/android/browser:
+total 8
+-rw-r--r-- 1 root root 4595 May 12  2014 webview_addjavascriptinterface.rb
+
+./exploits/apple_ios:
+total 12
+drwxr-xr-x 2 root root 4096 May 15  2014 browser
+drwxr-xr-x 2 root root 4096 May 15  2014 email
+drwxr-xr-x 2 root root 4096 May 15  2014 ssh
+
+./exploits/apple_ios/browser:
+total 8
+-rw-r--r-- 1 root root 4850 May 12  2014 safari_libtiff.rb
+
+./exploits/apple_ios/email:
+total 8
+-rw-r--r-- 1 root root 4937 May 12  2014 mobilemail_libtiff.rb
+
+./exploits/apple_ios/ssh:
+total 4
+-rw-r--r-- 1 root root 3454 May 12  2014 cydia_default_ssh.rb
+
+./exploits/bsdi:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 softcart
+
+./exploits/bsdi/softcart:
+total 4
+-rw-r--r-- 1 root root 2737 May 12  2014 mercantec_softcart.rb
+
+./exploits/dialup:
+total 4
+drwxr-xr-x 3 root root 4096 Nov  3  2013 multi
+
+./exploits/dialup/multi:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 login
+
+./exploits/dialup/multi/login:
+total 8
+-rw-r--r-- 1 root root 5433 May 12  2014 manyargs.rb
+
+./exploits/firefox:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 local
+
+./exploits/firefox/local:
+total 4
+-rw-r--r-- 1 root root 1833 May 12  2014 exec_shellcode.rb
+
+./exploits/freebsd:
+total 20
+drwxr-xr-x 2 root root 4096 May 15  2014 ftp
+drwxr-xr-x 2 root root 4096 May 15  2014 local
+drwxr-xr-x 2 root root 4096 May 15  2014 samba
+drwxr-xr-x 2 root root 4096 May 15  2014 tacacs
+drwxr-xr-x 2 root root 4096 May 15  2014 telnet
+
+./exploits/freebsd/ftp:
+total 8
+-rw-r--r-- 1 root root 5162 May 12  2014 proftp_telnet_iac.rb
+
+./exploits/freebsd/local:
+total 4
+-rw-r--r-- 1 root root 3501 May 12  2014 mmap.rb
+
+./exploits/freebsd/samba:
+total 8
+-rw-r--r-- 1 root root 4240 May 12  2014 trans2open.rb
+
+./exploits/freebsd/tacacs:
+total 4
+-rw-r--r-- 1 root root 2473 May 12  2014 xtacacsd_report.rb
+
+./exploits/freebsd/telnet:
+total 4
+-rw-r--r-- 1 root root 4036 May 12  2014 telnet_encrypt_keyid.rb
+
+./exploits/hikvision:
+total 8
+-rwxrw-rw- 1 root root 4126 May 24  2015 hikvision.rb
+
+./exploits/hpux:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 lpd
+
+./exploits/hpux/lpd:
+total 4
+-rw-r--r-- 1 root root 2779 May 12  2014 cleanup_exec.rb
+
+./exploits/irix:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 lpd
+
+./exploits/irix/lpd:
+total 4
+-rw-r--r-- 1 root root 1820 May 12  2014 tagprinter_exec.rb
+
+./exploits/linux:
+total 84
+drwxr-xr-x 2 root root  4096 May 15  2014 antivirus
+drwxr-xr-x 2 root root  4096 May 15  2014 browser
+drwxr-xr-x 2 root root  4096 May 15  2014 ftp
+drwxr-xr-x 2 root root  4096 May 15  2014 games
+drwxr-xr-x 2 root root 12288 May 15  2014 http
+drwxr-xr-x 2 root root  4096 May 15  2014 ids
+drwxr-xr-x 2 root root  4096 May 15  2014 imap
+drwxr-xr-x 2 root root  4096 May 15  2014 local
+drwxr-xr-x 2 root root  4096 May 15  2014 misc
+drwxr-xr-x 2 root root  4096 May 15  2014 mysql
+drwxr-xr-x 2 root root  4096 May 15  2014 pop3
+drwxr-xr-x 2 root root  4096 May 15  2014 postgres
+drwxr-xr-x 2 root root  4096 May 15  2014 pptp
+drwxr-xr-x 2 root root  4096 May 15  2014 proxy
+drwxr-xr-x 2 root root  4096 May 15  2014 samba
+drwxr-xr-x 2 root root  4096 May 15  2014 smtp
+drwxr-xr-x 2 root root  4096 May 15  2014 ssh
+drwxr-xr-x 2 root root  4096 May 15  2014 telnet
+drwxr-xr-x 2 root root  4096 May 15  2014 upnp
+
+./exploits/linux/antivirus:
+total 8
+-rw-r--r-- 1 root root 5464 May 12  2014 escan_password_exec.rb
+
+./exploits/linux/browser:
+total 4
+-rw-r--r-- 1 root root 3250 May 12  2014 adobe_flashplayer_aslaunch.rb
+
+./exploits/linux/ftp:
+total 24
+-rw-r--r-- 1 root root  6859 May 12  2014 proftp_sreplace.rb
+-rw-r--r-- 1 root root 14921 May 12  2014 proftp_telnet_iac.rb
+
+./exploits/linux/games:
+total 4
+-rw-r--r-- 1 root root 3001 May 12  2014 ut2004_secure.rb
+
+./exploits/linux/http:
+total 376
+-rw-r--r-- 1 root root  2520 May 12  2014 alcatel_omnipcx_mastercgi_exec.rb
+-rw-r--r-- 1 root root 11961 May 12  2014 alienvault_sqli_exec.rb
+-rw-r--r-- 1 root root  6633 May 12  2014 astium_sqli_upload.rb
+-rw-r--r-- 1 root root  5285 May 12  2014 cfme_manageiq_evm_upload_exec.rb
+-rw-r--r-- 1 root root  1920 May 12  2014 ddwrt_cgibin_exec.rb
+-rw-r--r-- 1 root root  4700 May 12  2014 dlink_command_php_exec_noauth.rb
+-rw-r--r-- 1 root root  7281 May 12  2014 dlink_diagnostic_exec_noauth.rb
+-rw-r--r-- 1 root root  5862 May 12  2014 dlink_dir300_exec_telnet.rb
+-rw-r--r-- 1 root root  5599 May 12  2014 dlink_dir605l_captcha_bof.rb
+-rw-r--r-- 1 root root  8444 May 12  2014 dlink_dir615_up_exec.rb
+-rw-r--r-- 1 root root  9385 May 12  2014 dlink_upnp_exec_noauth.rb
+-rw-r--r-- 1 root root  6433 May 12  2014 dlink_upnp_exec_noauth_telnetd.rb
+-rw-r--r-- 1 root root  5457 May 12  2014 dolibarr_cmd_exec.rb
+-rw-r--r-- 1 root root  2498 May 12  2014 dreambox_openpli_shell.rb
+-rw-r--r-- 1 root root  2743 May 12  2014 esva_exec.rb
+-rw-r--r-- 1 root root  4287 May 12  2014 foreman_openstack_satellite_code_exec.rb
+-rw-r--r-- 1 root root  3649 May 12  2014 fritzbox_echo_exec.rb
+-rw-r--r-- 1 root root  3841 May 12  2014 gpsd_format_string.rb
+-rw-r--r-- 1 root root  4221 May 12  2014 groundwork_monarch_cmd_exec.rb
+-rw-r--r-- 1 root root  2835 May 12  2014 hp_system_management.rb
+-rw-r--r-- 1 root root  8356 May 12  2014 kloxo_sqli.rb
+-rw-r--r-- 1 root root  4079 May 12  2014 lifesize_uvc_ping_rce.rb
+-rw-r--r-- 1 root root  3587 May 12  2014 linksys_apply_cgi.rb
+-rw-r--r-- 1 root root  8173 May 12  2014 linksys_e1500_apply_exec.rb
+-rw-r--r-- 1 root root  3600 May 12  2014 linksys_themoon_exec.rb
+-rw-r--r-- 1 root root  3386 May 12  2014 linksys_wrt110_cmd_exec.rb
+-rw-r--r-- 1 root root  7150 May 12  2014 linksys_wrt160nv2_apply_exec.rb
+-rw-r--r-- 1 root root 19408 May 12  2014 linksys_wrt54gl_apply_exec.rb
+-rw-r--r-- 1 root root  6060 May 12  2014 mutiny_frontend_upload.rb
+-rw-r--r-- 1 root root  8454 May 12  2014 netgear_dgn1000b_setup_exec.rb
+-rw-r--r-- 1 root root 14497 May 12  2014 netgear_dgn2200b_pppoe_exec.rb
+-rw-r--r-- 1 root root  2943 May 12  2014 netgear_readynas_exec.rb
+-rw-r--r-- 1 root root  8021 May 12  2014 nginx_chunked_size.rb
+-rw-r--r-- 1 root root  4073 May 12  2014 openfiler_networkcard_exec.rb
+-rw-r--r-- 1 root root  3467 May 12  2014 pandora_fms_exec.rb
+-rw-r--r-- 1 root root  1703 May 12  2014 peercast_url.rb
+-rw-r--r-- 1 root root  2577 May 12  2014 pineapp_ldapsyncnow_exec.rb
+-rw-r--r-- 1 root root  2812 May 12  2014 pineapp_livelog_exec.rb
+-rw-r--r-- 1 root root  3209 May 12  2014 pineapp_test_li_conn_exec.rb
+-rw-r--r-- 1 root root  3592 May 12  2014 piranha_passwd_exec.rb
+-rw-r--r-- 1 root root  6949 May 12  2014 raidsonic_nas_ib5220_exec_noauth.rb
+-rw-r--r-- 1 root root  4933 May 12  2014 smt_ipmi_close_window_bof.rb
+-rw-r--r-- 1 root root  6588 May 12  2014 sophos_wpa_iface_exec.rb
+-rw-r--r-- 1 root root  3624 May 12  2014 sophos_wpa_sblistpack_exec.rb
+-rw-r--r-- 1 root root  2746 May 12  2014 symantec_web_gateway_exec.rb
+-rw-r--r-- 1 root root  4230 May 12  2014 symantec_web_gateway_file_upload.rb
+-rw-r--r-- 1 root root  3070 May 12  2014 symantec_web_gateway_lfi.rb
+-rw-r--r-- 1 root root  2683 May 12  2014 symantec_web_gateway_pbcontrol.rb
+-rw-r--r-- 1 root root  5447 May 12  2014 synology_dsm_sliceupload_exec_noauth.rb
+-rw-r--r-- 1 root root  3729 May 12  2014 vcms_upload.rb
+-rw-r--r-- 1 root root  3469 May 12  2014 wanem_exec.rb
+-rw-r--r-- 1 root root  2827 May 12  2014 webcalendar_settings_exec.rb
+-rw-r--r-- 1 root root  4377 May 12  2014 webid_converter.rb
+-rw-r--r-- 1 root root  5703 May 12  2014 zabbix_sqli.rb
+-rw-r--r-- 1 root root  3684 May 12  2014 zen_load_balancer_exec.rb
+-rw-r--r-- 1 root root  3694 May 12  2014 zenoss_showdaemonxmlconfig_exec.rb
+
+./exploits/linux/ids:
+total 4
+-rw-r--r-- 1 root root 2551 May 12  2014 snortbopre.rb
+
+./exploits/linux/imap:
+total 4
+-rw-r--r-- 1 root root 2341 May 12  2014 imap_uw_lsub.rb
+
+./exploits/linux/local:
+total 40
+-rw-r--r-- 1 root root  2766 May 12  2014 hp_smhstart.rb
+-rw-r--r-- 1 root root  3916 May 12  2014 kloxo_lxsuexec.rb
+-rw-r--r-- 1 root root 11591 May 12  2014 sock_sendpage.rb
+-rw-r--r-- 1 root root  3276 May 12  2014 sophos_wpa_clear_keys.rb
+-rw-r--r-- 1 root root  7489 May 12  2014 udev_netlink.rb
+-rw-r--r-- 1 root root  2669 May 12  2014 vmware_mount.rb
+-rw-r--r-- 1 root root  2662 May 12  2014 zpanel_zsudo.rb
+
+./exploits/linux/misc:
+total 104
+-rw-r--r-- 1 root root  4706 May 12  2014 accellion_fta_mpipe2.rb
+-rw-r--r-- 1 root root  3070 May 12  2014 drb_remote_codeexec.rb
+-rw-r--r-- 1 root root  1578 May 12  2014 gld_postfix.rb
+-rw-r--r-- 1 root root  3264 May 12  2014 hp_data_protector_cmd_exec.rb
+-rw-r--r-- 1 root root  2869 May 12  2014 hplip_hpssd_exec.rb
+-rw-r--r-- 1 root root  3573 May 12  2014 hp_vsa_login_bof.rb
+-rw-r--r-- 1 root root  2407 May 12  2014 ib_inet_connect.rb
+-rw-r--r-- 1 root root  2297 May 12  2014 ib_jrd8_create_database.rb
+-rw-r--r-- 1 root root  2284 May 12  2014 ib_open_marker_file.rb
+-rw-r--r-- 1 root root  2250 May 12  2014 ib_pwd_db_aliased.rb
+-rw-r--r-- 1 root root  5212 May 12  2014 lprng_format_string.rb
+-rw-r--r-- 1 root root 12477 May 12  2014 mongod_native_helper.rb
+-rw-r--r-- 1 root root  6335 May 12  2014 nagios_nrpe_arguments.rb
+-rw-r--r-- 1 root root  6161 May 12  2014 netsupport_manager_agent.rb
+-rw-r--r-- 1 root root  4213 May 12  2014 novell_edirectory_ncp_bof.rb
+-rw-r--r-- 1 root root  5827 May 12  2014 sercomm_exec.rb
+-rw-r--r-- 1 root root  4054 May 12  2014 zabbix_server_exec.rb
+
+./exploits/linux/mysql:
+total 12
+-rw-r--r-- 1 root root 6187 May 12  2014 mysql_yassl_getname.rb
+-rw-r--r-- 1 root root 2068 May 12  2014 mysql_yassl_hello.rb
+
+./exploits/linux/pop3:
+total 4
+-rw-r--r-- 1 root root 2648 May 12  2014 cyrus_pop3d_popsubfolders.rb
+
+./exploits/linux/postgres:
+total 8
+-rw-r--r-- 1 root root 5363 May 12  2014 postgres_payload.rb
+
+./exploits/linux/pptp:
+total 8
+-rw-r--r-- 1 root root 4146 May 12  2014 poptop_negative_read.rb
+
+./exploits/linux/proxy:
+total 8
+-rw-r--r-- 1 root root 4383 May 12  2014 squid_ntlm_authenticate.rb
+
+./exploits/linux/samba:
+total 44
+-rw-r--r-- 1 root root  6850 May 12  2014 chain_reply.rb
+-rw-r--r-- 1 root root  9220 May 12  2014 lsa_transnames_heap.rb
+-rw-r--r-- 1 root root 13586 May 12  2014 setinfopolicy_heap.rb
+-rw-r--r-- 1 root root  4903 May 12  2014 trans2open.rb
+
+./exploits/linux/smtp:
+total 8
+-rw-r--r-- 1 root root 7008 May 12  2014 exim4_dovecot_exec.rb
+
+./exploits/linux/ssh:
+total 32
+-rw-r--r-- 1 root root 4488 May 12  2014 f5_bigip_known_privkey.rb
+-rw-r--r-- 1 root root 4309 May 12  2014 loadbalancerorg_enterprise_known_privkey.rb
+-rw-r--r-- 1 root root 4187 May 12  2014 quantum_dxi_known_privkey.rb
+-rw-r--r-- 1 root root 3768 May 12  2014 quantum_vmpro_backdoor.rb
+-rw-r--r-- 1 root root 3955 May 12  2014 symantec_smg_ssh.rb
+
+./exploits/linux/telnet:
+total 4
+-rw-r--r-- 1 root root 3317 May 12  2014 telnet_encrypt_keyid.rb
+
+./exploits/linux/upnp:
+total 4
+-rw-r--r-- 1 root root 4039 May 12  2014 miniupnpd_soap_bof.rb
+
+./exploits/multi:
+total 84
+drwxr-xr-x 2 root root  4096 May 15  2014 browser
+drwxr-xr-x 2 root root  4096 May 15  2014 fileformat
+drwxr-xr-x 2 root root  4096 May 15  2014 ftp
+-rw-r--r-- 1 root root  1966 May 12  2014 handler.rb
+drwxr-xr-x 2 root root 20480 May 15  2014 http
+drwxr-xr-x 2 root root  4096 May 15  2014 ids
+drwxr-xr-x 2 root root  4096 May 15  2014 misc
+drwxr-xr-x 2 root root  4096 May 15  2014 ntp
+drwxr-xr-x 2 root root  4096 May 15  2014 php
+drwxr-xr-x 2 root root  4096 May 15  2014 realserver
+drwxr-xr-x 2 root root  4096 May 15  2014 samba
+drwxr-xr-x 2 root root  4096 May 15  2014 sap
+drwxr-xr-x 2 root root  4096 May 15  2014 ssh
+drwxr-xr-x 2 root root  4096 May 15  2014 svn
+drwxr-xr-x 2 root root  4096 May 15  2014 upnp
+drwxr-xr-x 2 root root  4096 Aug 29  2013 vnc
+drwxr-xr-x 2 root root  4096 May 15  2014 wyse
+
+./exploits/multi/browser:
+total 216
+-rw-r--r-- 1 root root 5753 May 12  2014 firefox_escape_retval.rb
+-rw-r--r-- 1 root root 4270 May 12  2014 firefox_proto_crmfrequest.rb
+-rw-r--r-- 1 root root 2708 May 12  2014 firefox_queryinterface.rb
+-rw-r--r-- 1 root root 6432 May 12  2014 firefox_svg_plugin.rb
+-rw-r--r-- 1 root root 4063 May 12  2014 firefox_xpi_bootstrapped_addon.rb
+-rw-r--r-- 1 root root 4788 May 12  2014 itms_overflow.rb
+-rw-r--r-- 1 root root 5535 May 12  2014 java_atomicreferencearray.rb
+-rw-r--r-- 1 root root 5344 May 12  2014 java_calendar_deserialize.rb
+-rw-r--r-- 1 root root 5753 May 12  2014 java_getsoundbank_bof.rb
+-rw-r--r-- 1 root root 6649 May 12  2014 java_jre17_driver_manager.rb
+-rw-r--r-- 1 root root 4711 May 12  2014 java_jre17_exec.rb
+-rw-r--r-- 1 root root 4310 May 12  2014 java_jre17_glassfish_averagerangestatisticimpl.rb
+-rw-r--r-- 1 root root 3447 May 12  2014 java_jre17_jaxws.rb
+-rw-r--r-- 1 root root 4266 May 12  2014 java_jre17_jmxbean_2.rb
+-rw-r--r-- 1 root root 4347 May 12  2014 java_jre17_jmxbean.rb
+-rw-r--r-- 1 root root 4112 May 12  2014 java_jre17_method_handle.rb
+-rw-r--r-- 1 root root 4626 May 12  2014 java_jre17_provider_skeleton.rb
+-rw-r--r-- 1 root root 6246 May 12  2014 java_jre17_reflection_types.rb
+-rw-r--r-- 1 root root 3457 May 12  2014 java_rhino.rb
+-rw-r--r-- 1 root root 3197 May 12  2014 java_rmi_connection_impl.rb
+-rw-r--r-- 1 root root 5751 May 12  2014 java_setdifficm_bof.rb
+-rw-r--r-- 1 root root 9627 May 12  2014 java_signed_applet.rb
+-rw-r--r-- 1 root root 5248 May 12  2014 java_storeimagearray.rb
+-rw-r--r-- 1 root root 3354 May 12  2014 java_trusted_chain.rb
+-rw-r--r-- 1 root root 5419 May 12  2014 java_verifier_field_access.rb
+-rw-r--r-- 1 root root 4305 May 12  2014 mozilla_compareto.rb
+-rw-r--r-- 1 root root 3931 May 12  2014 mozilla_navigatorjava.rb
+-rw-r--r-- 1 root root 4377 May 12  2014 opera_configoverwrite.rb
+-rw-r--r-- 1 root root 5023 May 12  2014 opera_historysearch.rb
+-rw-r--r-- 1 root root 5666 May 12  2014 qtjava_pointer.rb
+
+./exploits/multi/fileformat:
+total 36
+-rw-r--r-- 1 root root 17112 May 12  2014 adobe_u3d_meshcont.rb
+-rw-r--r-- 1 root root  4238 May 12  2014 maple_maplet.rb
+-rw-r--r-- 1 root root  1705 May 12  2014 nodejs_js_yaml_load_code_exec.rb
+-rw-r--r-- 1 root root  2456 May 12  2014 peazip_command_injection.rb
+
+./exploits/multi/ftp:
+total 12
+-rw-r--r-- 1 root root 8930 May 12  2014 wuftpd_site_exec_format.rb
+
+./exploits/multi/http:
+total 704
+-rw-r--r-- 1 root root  4909 May 12  2014 activecollab_chat.rb
+-rw-r--r-- 1 root root  3137 May 12  2014 ajaxplorer_checkinstall_exec.rb
+-rw-r--r-- 1 root root  4717 May 12  2014 apache_roller_ognl_injection.rb
+-rw-r--r-- 1 root root  3509 May 12  2014 apprain_upload_exec.rb
+-rw-r--r-- 1 root root  3375 May 12  2014 auxilium_upload_exec.rb
+-rw-r--r-- 1 root root 11300 May 12  2014 axis2_deployer.rb
+-rw-r--r-- 1 root root  5211 May 12  2014 cisco_dcnm_upload.rb
+-rw-r--r-- 1 root root  9871 May 12  2014 coldfusion_rds.rb
+-rw-r--r-- 1 root root  3593 May 12  2014 cuteflow_upload_exec.rb
+-rw-r--r-- 1 root root  5692 May 12  2014 dexter_casinoloader_exec.rb
+-rw-r--r-- 1 root root  3192 May 12  2014 eaton_nsm_code_exec.rb
+-rw-r--r-- 1 root root  7511 May 12  2014 extplorer_upload_exec.rb
+-rw-r--r-- 1 root root  3205 May 12  2014 familycms_less_exec.rb
+-rw-r--r-- 1 root root  2245 May 12  2014 freenas_exec_raw.rb
+-rw-r--r-- 1 root root  2866 May 12  2014 gestioip_exec.rb
+-rw-r--r-- 1 root root  2114 May 12  2014 gitorious_graph.rb
+-rw-r--r-- 1 root root 27713 May 12  2014 glassfish_deployer.rb
+-rw-r--r-- 1 root root  6534 May 12  2014 glossword_upload_exec.rb
+-rw-r--r-- 1 root root  3420 May 12  2014 glpi_install_rce.rb
+-rw-r--r-- 1 root root  2729 May 12  2014 horde_href_backdoor.rb
+-rw-r--r-- 1 root root  5373 May 12  2014 hp_sitescope_issuesiebelcmd.rb
+-rw-r--r-- 1 root root 12881 May 12  2014 hp_sitescope_uploadfileshandler.rb
+-rw-r--r-- 1 root root  5647 May 12  2014 hp_sys_mgmt_exec.rb
+-rw-r--r-- 1 root root  8833 May 12  2014 hyperic_hq_script_console.rb
+-rw-r--r-- 1 root root  3851 May 12  2014 ispconfig_php_exec.rb
+-rw-r--r-- 1 root root 14600 May 12  2014 jboss_bshdeployer.rb
+-rw-r--r-- 1 root root 13462 May 12  2014 jboss_deploymentfilerepository.rb
+-rw-r--r-- 1 root root 10669 May 12  2014 jboss_invoke_deploy.rb
+-rw-r--r-- 1 root root 11428 May 12  2014 jboss_maindeployer.rb
+-rw-r--r-- 1 root root  5820 May 12  2014 jenkins_script_console.rb
+-rw-r--r-- 1 root root  4220 May 12  2014 kordil_edms_upload_exec.rb
+-rw-r--r-- 1 root root  4282 May 12  2014 lcms_php_exec.rb
+-rw-r--r-- 1 root root  2825 May 12  2014 log1cms_ajax_create_folder.rb
+-rw-r--r-- 1 root root  7679 May 12  2014 manageengine_search_sqli.rb
+-rw-r--r-- 1 root root 11853 May 12  2014 mediawiki_thumb.rb
+-rw-r--r-- 1 root root  3296 May 12  2014 mobilecartly_upload_exec.rb
+-rw-r--r-- 1 root root  5129 May 12  2014 moodle_cmd_exec.rb
+-rw-r--r-- 1 root root  3682 May 12  2014 movabletype_upgrade_exec.rb
+-rw-r--r-- 1 root root  9172 May 12  2014 mutiny_subnetmask_exec.rb
+-rw-r--r-- 1 root root  3879 May 12  2014 nas4free_php_exec.rb
+-rw-r--r-- 1 root root  3957 May 12  2014 netwin_surgeftp_exec.rb
+-rw-r--r-- 1 root root  3182 May 12  2014 op5_license.rb
+-rw-r--r-- 1 root root  3126 May 12  2014 op5_welcome.rb
+-rw-r--r-- 1 root root  6762 May 12  2014 openfire_auth_bypass.rb
+-rw-r--r-- 1 root root  3130 May 12  2014 openmediavault_cmd_exec.rb
+-rw-r--r-- 1 root root  3026 May 12  2014 openx_backdoor_php.rb
+-rw-r--r-- 1 root root  8617 May 12  2014 oracle_reports_rce.rb
+-rw-r--r-- 1 root root  7014 May 12  2014 php_cgi_arg_injection.rb
+-rw-r--r-- 1 root root  3811 May 12  2014 phpldapadmin_query_engine.rb
+-rw-r--r-- 1 root root  2214 May 12  2014 phpmyadmin_3522_backdoor.rb
+-rw-r--r-- 1 root root  5233 May 12  2014 phpmyadmin_preg_replace.rb
+-rw-r--r-- 1 root root  3292 May 12  2014 phpscheduleit_start_date.rb
+-rw-r--r-- 1 root root  2470 May 12  2014 phptax_exec.rb
+-rw-r--r-- 1 root root  8146 May 12  2014 php_volunteer_upload_exec.rb
+-rw-r--r-- 1 root root  2601 May 12  2014 plone_popen2.rb
+-rw-r--r-- 1 root root  2804 May 12  2014 pmwiki_pagelist.rb
+-rw-r--r-- 1 root root  3185 May 12  2014 polarcms_upload_exec.rb
+-rw-r--r-- 1 root root  6834 May 12  2014 processmaker_exec.rb
+-rw-r--r-- 1 root root  8728 May 12  2014 qdpm_upload_exec.rb
+-rw-r--r-- 1 root root  3794 May 12  2014 rails_json_yaml_code_exec.rb
+-rw-r--r-- 1 root root  8976 May 12  2014 rails_secret_deserialization.rb
+-rw-r--r-- 1 root root  5041 May 12  2014 rails_xml_yaml_code_exec.rb
+-rw-r--r-- 1 root root  4792 May 12  2014 sflog_upload_exec.rb
+-rw-r--r-- 1 root root  6088 May 12  2014 sit_file_upload.rb
+-rw-r--r-- 1 root root  2400 May 12  2014 snortreport_exec.rb
+-rw-r--r-- 1 root root  8451 May 12  2014 sonicwall_gms_upload.rb
+-rw-r--r-- 1 root root  5158 May 12  2014 splunk_mappy_exec.rb
+-rw-r--r-- 1 root root 10275 May 12  2014 splunk_upload_app_exec.rb
+-rw-r--r-- 1 root root  2155 May 12  2014 spree_search_exec.rb
+-rw-r--r-- 1 root root  2290 May 12  2014 spree_searchlogic_exec.rb
+-rw-r--r-- 1 root root  6758 May 12  2014 struts_code_exec_classloader.rb
+-rw-r--r-- 1 root root  7001 May 12  2014 struts_code_exec_exception_delegator.rb
+-rw-r--r-- 1 root root  7661 May 12  2014 struts_code_exec_parameters.rb
+-rw-r--r-- 1 root root  5075 May 12  2014 struts_code_exec.rb
+-rw-r--r-- 1 root root 13829 May 12  2014 struts_default_action_mapper.rb
+-rw-r--r-- 1 root root  4951 May 12  2014 struts_dev_mode.rb
+-rw-r--r-- 1 root root  8319 May 12  2014 struts_include_params.rb
+-rw-r--r-- 1 root root  2483 May 12  2014 stunshell_eval.rb
+-rw-r--r-- 1 root root  2747 May 12  2014 stunshell_exec.rb
+-rw-r--r-- 1 root root  6252 May 12  2014 sun_jsws_dav_options.rb
+-rw-r--r-- 1 root root  9123 May 12  2014 testlink_upload_exec.rb
+-rw-r--r-- 1 root root  8843 May 12  2014 tomcat_mgr_deploy.rb
+-rw-r--r-- 1 root root 11649 May 12  2014 tomcat_mgr_upload.rb
+-rw-r--r-- 1 root root  2990 May 12  2014 traq_plugin_exec.rb
+-rw-r--r-- 1 root root  2976 May 12  2014 uptime_file_upload.rb
+-rw-r--r-- 1 root root  2610 May 12  2014 v0pcr3w_exec.rb
+-rw-r--r-- 1 root root  2859 May 12  2014 vbseo_proc_deutf.rb
+-rw-r--r-- 1 root root  3704 May 12  2014 vtiger_install_rce.rb
+-rw-r--r-- 1 root root  3873 May 12  2014 vtiger_php_exec.rb
+-rw-r--r-- 1 root root  6287 May 12  2014 vtiger_soap_upload.rb
+-rw-r--r-- 1 root root  3842 May 12  2014 webpagetest_upload_exec.rb
+-rw-r--r-- 1 root root  6986 May 12  2014 wikka_spam_exec.rb
+-rw-r--r-- 1 root root  5498 May 12  2014 zabbix_script_exec.rb
+-rw-r--r-- 1 root root  4186 May 12  2014 zenworks_control_center_upload.rb
+
+./exploits/multi/ids:
+total 8
+-rw-r--r-- 1 root root 6015 May 12  2014 snort_dce_rpc.rb
+
+./exploits/multi/misc:
+total 80
+-rw-r--r-- 1 root root 3805 May 12  2014 batik_svg_java.rb
+-rw-r--r-- 1 root root 4259 May 12  2014 hp_vsa_exec.rb
+-rw-r--r-- 1 root root 6005 May 12  2014 indesign_server_soap.rb
+-rw-r--r-- 1 root root 5517 May 12  2014 java_rmi_server.rb
+-rw-r--r-- 1 root root 6485 May 12  2014 openview_omniback_exec.rb
+-rw-r--r-- 1 root root 5551 May 12  2014 pbot_exec.rb
+-rw-r--r-- 1 root root 4777 May 12  2014 ra1nx_pubcall_exec.rb
+-rw-r--r-- 1 root root 2165 May 12  2014 veritas_netbackup_cmdexec.rb
+-rw-r--r-- 1 root root 8701 May 12  2014 wireshark_lwres_getaddrbyname_loop.rb
+-rw-r--r-- 1 root root 8006 May 12  2014 wireshark_lwres_getaddrbyname.rb
+-rw-r--r-- 1 root root 3337 May 12  2014 zend_java_bridge.rb
+
+./exploits/multi/ntp:
+total 4
+-rw-r--r-- 1 root root 2847 May 12  2014 ntp_overflow.rb
+
+./exploits/multi/php:
+total 16
+-rw-r--r-- 1 root root 13796 May 12  2014 php_unserialize_zval_cookie.rb
+
+./exploits/multi/realserver:
+total 4
+-rw-r--r-- 1 root root 2284 May 12  2014 describe.rb
+
+./exploits/multi/samba:
+total 12
+-rw-r--r-- 1 root root 4425 May 12  2014 nttrans.rb
+-rw-r--r-- 1 root root 2455 May 12  2014 usermap_script.rb
+
+./exploits/multi/sap:
+total 32
+-rw-r--r-- 1 root root 12579 May 12  2014 sap_mgmt_con_osexec_payload.rb
+-rw-r--r-- 1 root root  6918 May 12  2014 sap_soap_rfc_sxpg_call_system_exec.rb
+-rw-r--r-- 1 root root  7147 May 12  2014 sap_soap_rfc_sxpg_command_exec.rb
+
+./exploits/multi/ssh:
+total 4
+-rw-r--r-- 1 root root 3532 May 12  2014 sshexec.rb
+
+./exploits/multi/svn:
+total 4
+-rw-r--r-- 1 root root 3702 May 12  2014 svnserve_date.rb
+
+./exploits/multi/upnp:
+total 16
+-rw-r--r-- 1 root root 16277 May 12  2014 libupnp_ssdp_overflow.rb
+
+./exploits/multi/vnc:
+total 0
+
+./exploits/multi/wyse:
+total 8
+-rw-r--r-- 1 root root 7585 May 12  2014 hagent_untrusted_hsdata.rb
+
+./exploits/netware:
+total 8
+drwxr-xr-x 2 root root 4096 May 15  2014 smb
+drwxr-xr-x 2 root root 4096 May 15  2014 sunrpc
+
+./exploits/netware/smb:
+total 4
+-rw-r--r-- 1 root root 3301 May 12  2014 lsass_cifs.rb
+
+./exploits/netware/sunrpc:
+total 4
+-rw-r--r-- 1 root root 3589 May 12  2014 pkernel_callit.rb
+
+./exploits/osx:
+total 44
+drwxr-xr-x 2 root root 4096 May 15  2014 afp
+drwxr-xr-x 2 root root 4096 May 15  2014 arkeia
+drwxr-xr-x 2 root root 4096 May 15  2014 browser
+drwxr-xr-x 2 root root 4096 May 15  2014 email
+drwxr-xr-x 2 root root 4096 May 15  2014 ftp
+drwxr-xr-x 2 root root 4096 May 15  2014 http
+drwxr-xr-x 2 root root 4096 May 15  2014 local
+drwxr-xr-x 2 root root 4096 May 15  2014 mdns
+drwxr-xr-x 2 root root 4096 May 15  2014 misc
+drwxr-xr-x 2 root root 4096 May 15  2014 rtsp
+drwxr-xr-x 2 root root 4096 May 15  2014 samba
+
+./exploits/osx/afp:
+total 4
+-rw-r--r-- 1 root root 2674 May 12  2014 loginext.rb
+
+./exploits/osx/arkeia:
+total 4
+-rw-r--r-- 1 root root 3065 May 12  2014 type77.rb
+
+./exploits/osx/browser:
+total 48
+-rw-r--r-- 1 root root 5051 May 12  2014 mozilla_mchannel.rb
+-rw-r--r-- 1 root root 9301 May 12  2014 safari_file_policy.rb
+-rw-r--r-- 1 root root 9759 May 12  2014 safari_metadata_archive.rb
+-rw-r--r-- 1 root root 5718 May 12  2014 safari_user_assisted_download_launch.rb
+-rw-r--r-- 1 root root 4575 May 12  2014 software_update.rb
+
+./exploits/osx/email:
+total 8
+-rw-r--r-- 1 root root 5965 May 12  2014 mailapp_image_exec.rb
+
+./exploits/osx/ftp:
+total 4
+-rw-r--r-- 1 root root 2920 May 12  2014 webstar_ftp_user.rb
+
+./exploits/osx/http:
+total 4
+-rw-r--r-- 1 root root 3328 May 12  2014 evocam_webserver.rb
+
+./exploits/osx/local:
+total 32
+-rw-r--r-- 1 root root 2793 May 12  2014 nfs_mount_root.rb
+-rw-r--r-- 1 root root 5064 May 12  2014 persistence.rb
+-rw-r--r-- 1 root root 3803 May 12  2014 setuid_tunnelblick.rb
+-rw-r--r-- 1 root root 3718 May 12  2014 setuid_viscosity.rb
+-rw-r--r-- 1 root root 8999 May 12  2014 sudo_password_bypass.rb
+
+./exploits/osx/mdns:
+total 8
+-rw-r--r-- 1 root root 6169 May 12  2014 upnp_location.rb
+
+./exploits/osx/misc:
+total 4
+-rw-r--r-- 1 root root 2875 May 12  2014 ufo_ai.rb
+
+./exploits/osx/rtsp:
+total 8
+-rw-r--r-- 1 root root 4846 May 12  2014 quicktime_rtsp_content_type.rb
+
+./exploits/osx/samba:
+total 16
+-rw-r--r-- 1 root root 9356 May 12  2014 lsa_transnames_heap.rb
+-rw-r--r-- 1 root root 2968 May 12  2014 trans2open.rb
+
+./exploits/solaris:
+total 20
+drwxr-xr-x 2 root root 4096 May 15  2014 dtspcd
+drwxr-xr-x 2 root root 4096 May 15  2014 lpd
+drwxr-xr-x 2 root root 4096 May 15  2014 samba
+drwxr-xr-x 2 root root 4096 May 15  2014 sunrpc
+drwxr-xr-x 2 root root 4096 May 15  2014 telnet
+
+./exploits/solaris/dtspcd:
+total 4
+-rw-r--r-- 1 root root 3866 May 12  2014 heap_noir.rb
+
+./exploits/solaris/lpd:
+total 8
+-rw-r--r-- 1 root root 4379 May 12  2014 sendmail_exec.rb
+
+./exploits/solaris/samba:
+total 16
+-rw-r--r-- 1 root root 5954 May 12  2014 lsa_transnames_heap.rb
+-rw-r--r-- 1 root root 4976 May 12  2014 trans2open.rb
+
+./exploits/solaris/sunrpc:
+total 16
+-rw-r--r-- 1 root root 4910 May 12  2014 sadmind_adm_build_path.rb
+-rw-r--r-- 1 root root 3990 May 12  2014 sadmind_exec.rb
+-rw-r--r-- 1 root root 2585 May 12  2014 ypupdated_exec.rb
+
+./exploits/solaris/telnet:
+total 8
+-rw-r--r-- 1 root root 2472 May 12  2014 fuser.rb
+-rw-r--r-- 1 root root 2290 May 12  2014 ttyprompt.rb
+
+./exploits/unix:
+total 44
+drwxr-xr-x 2 root root  4096 May 15  2014 ftp
+drwxr-xr-x 2 root root  4096 May 15  2014 http
+drwxr-xr-x 2 root root  4096 May 15  2014 irc
+drwxr-xr-x 2 root root  4096 May 15  2014 local
+drwxr-xr-x 2 root root  4096 May 15  2014 misc
+drwxr-xr-x 2 root root  4096 May 15  2014 smtp
+drwxr-xr-x 2 root root  4096 May 15  2014 ssh
+drwxr-xr-x 2 root root 16384 May 15  2014 webapp
+
+./exploits/unix/ftp:
+total 8
+-rw-r--r-- 1 root root 1930 May 12  2014 proftpd_133c_backdoor.rb
+-rw-r--r-- 1 root root 3183 May 12  2014 vsftpd_234_backdoor.rb
+
+./exploits/unix/http:
+total 16
+-rw-r--r-- 1 root root 3909 May 12  2014 contentkeeperweb_mimencode.rb
+-rw-r--r-- 1 root root 1905 May 12  2014 ctek_skyrouter.rb
+-rw-r--r-- 1 root root 2574 May 12  2014 freepbx_callmenum.rb
+-rw-r--r-- 1 root root 3397 May 12  2014 lifesize_room.rb
+
+./exploits/unix/irc:
+total 4
+-rw-r--r-- 1 root root 2021 May 12  2014 unreal_ircd_3281_backdoor.rb
+
+./exploits/unix/local:
+total 4
+-rw-r--r-- 1 root root 3682 May 12  2014 setuid_nmap.rb
+
+./exploits/unix/misc:
+total 16
+-rw-r--r-- 1 root root 3220 May 12  2014 distcc_exec.rb
+-rw-r--r-- 1 root root 3054 May 12  2014 qnx_qconn_exec.rb
+-rw-r--r-- 1 root root 1902 May 12  2014 spamassassin_exec.rb
+-rw-r--r-- 1 root root 2469 May 12  2014 zabbix_agent_exec.rb
+
+./exploits/unix/smtp:
+total 16
+-rw-r--r-- 1 root root  2800 May 12  2014 clamav_milter_blackhole.rb
+-rw-r--r-- 1 root root 12201 May 12  2014 exim4_string_format.rb
+
+./exploits/unix/ssh:
+total 16
+-rw-r--r-- 1 root root 7024 May 12  2014 array_vxag_vapv_privkey_privesc.rb
+-rw-r--r-- 1 root root 6813 May 12  2014 tectia_passwd_changereq.rb
+
+./exploits/unix/webapp:
+total 556
+-rw-r--r-- 1 root root  4163 May 12  2014 arkeia_upload_exec.rb
+-rw-r--r-- 1 root root  2720 May 12  2014 awstats_configdir_exec.rb
+-rw-r--r-- 1 root root  3071 May 12  2014 awstats_migrate_exec.rb
+-rw-r--r-- 1 root root  2671 May 12  2014 awstatstotals_multisort.rb
+-rw-r--r-- 1 root root  2651 May 12  2014 barracuda_img_exec.rb
+-rw-r--r-- 1 root root  1934 May 12  2014 base_qry_common.rb
+-rw-r--r-- 1 root root  2550 May 12  2014 basilic_diff_exec.rb
+-rw-r--r-- 1 root root  2679 May 12  2014 cacti_graphimage_exec.rb
+-rw-r--r-- 1 root root  3797 May 12  2014 cakephp_cache_corruption.rb
+-rw-r--r-- 1 root root  2462 May 12  2014 carberp_backdoor_exec.rb
+-rw-r--r-- 1 root root  3047 May 12  2014 citrix_access_gateway_exec.rb
+-rw-r--r-- 1 root root  3561 May 12  2014 clipbucket_upload_exec.rb
+-rw-r--r-- 1 root root  3915 May 12  2014 coppermine_piceditor.rb
+-rw-r--r-- 1 root root  2900 May 12  2014 datalife_preview_exec.rb
+-rw-r--r-- 1 root root  2593 May 12  2014 dogfood_spell_exec.rb
+-rw-r--r-- 1 root root  3869 May 12  2014 egallery_upload_exec.rb
+-rw-r--r-- 1 root root  3902 May 12  2014 flashchat_upload_exec.rb
+-rw-r--r-- 1 root root  7383 May 12  2014 foswiki_maketext.rb
+-rw-r--r-- 1 root root  2859 May 12  2014 freepbx_config_exec.rb
+-rw-r--r-- 1 root root  2284 May 12  2014 generic_exec.rb
+-rw-r--r-- 1 root root  4480 May 12  2014 google_proxystylesheet_exec.rb
+-rw-r--r-- 1 root root  2164 May 12  2014 graphite_pickle_exec.rb
+-rw-r--r-- 1 root root  2612 May 12  2014 guestbook_ssi_exec.rb
+-rw-r--r-- 1 root root  3990 May 12  2014 hastymail_exec.rb
+-rw-r--r-- 1 root root  3797 May 12  2014 havalite_upload_exec.rb
+-rw-r--r-- 1 root root  4645 May 12  2014 horde_unserialize_exec.rb
+-rw-r--r-- 1 root root  2113 May 12  2014 instantcms_exec.rb
+-rw-r--r-- 1 root root  5027 May 12  2014 invision_pboard_unserialize_exec.rb
+-rw-r--r-- 1 root root  5774 May 12  2014 joomla_comjce_imgmanager.rb
+-rw-r--r-- 1 root root  7810 May 12  2014 joomla_media_upload_exec.rb
+-rw-r--r-- 1 root root  5218 May 12  2014 joomla_tinybrowser.rb
+-rw-r--r-- 1 root root  6537 May 12  2014 kimai_sqli.rb
+-rw-r--r-- 1 root root  4317 May 12  2014 libretto_upload_exec.rb
+-rw-r--r-- 1 root root  2018 May 12  2014 mambo_cache_lite.rb
+-rw-r--r-- 1 root root  2050 May 12  2014 mitel_awc_exec.rb
+-rw-r--r-- 1 root root  8875 May 12  2014 moinmoin_twikidraw.rb
+-rw-r--r-- 1 root root  2513 May 12  2014 mybb_backdoor.rb
+-rw-r--r-- 1 root root  7772 May 12  2014 nagios3_history_cgi.rb
+-rw-r--r-- 1 root root  2969 May 12  2014 nagios3_statuswml_ping.rb
+-rw-r--r-- 1 root root  4511 May 12  2014 nagios_graph_explorer.rb
+-rw-r--r-- 1 root root  2900 May 12  2014 narcissus_backend_exec.rb
+-rw-r--r-- 1 root root  6252 May 12  2014 openemr_sqli_privesc_upload.rb
+-rw-r--r-- 1 root root  4219 May 12  2014 openemr_upload_exec.rb
+-rw-r--r-- 1 root root  4710 May 12  2014 open_flash_chart_upload_exec.rb
+-rw-r--r-- 1 root root  4967 May 12  2014 opensis_modname_exec.rb
+-rw-r--r-- 1 root root  2279 May 12  2014 openview_connectednodes_exec.rb
+-rw-r--r-- 1 root root 11326 May 12  2014 openx_banner_edit.rb
+-rw-r--r-- 1 root root  4368 May 12  2014 oracle_vm_agent_utl.rb
+-rw-r--r-- 1 root root  3620 May 12  2014 oscommerce_filemanager.rb
+-rw-r--r-- 1 root root  2289 May 12  2014 pajax_remote_exec.rb
+-rw-r--r-- 1 root root  3816 May 12  2014 phpbb_highlight.rb
+-rw-r--r-- 1 root root  3594 May 12  2014 php_charts_exec.rb
+-rw-r--r-- 1 root root  2951 May 12  2014 php_eval.rb
+-rw-r--r-- 1 root root  5820 May 12  2014 php_include.rb
+-rw-r--r-- 1 root root  4396 May 12  2014 phpmyadmin_config.rb
+-rw-r--r-- 1 root root  3250 May 12  2014 php_vbulletin_template.rb
+-rw-r--r-- 1 root root  3083 May 12  2014 php_wordpress_foxypress.rb
+-rw-r--r-- 1 root root  2744 May 12  2014 php_wordpress_lastpost.rb
+-rw-r--r-- 1 root root  4797 May 12  2014 php_wordpress_optimizepress.rb
+-rw-r--r-- 1 root root  7445 May 12  2014 php_wordpress_total_cache.rb
+-rw-r--r-- 1 root root  3564 May 12  2014 php_xmlrpc_eval.rb
+-rw-r--r-- 1 root root  4489 May 12  2014 projectpier_upload_exec.rb
+-rw-r--r-- 1 root root  2094 May 12  2014 qtss_parse_xml_exec.rb
+-rw-r--r-- 1 root root  2195 May 12  2014 redmine_scm_exec.rb
+-rw-r--r-- 1 root root  5946 May 12  2014 seportal_sqli_exec.rb
+-rw-r--r-- 1 root root  4696 May 12  2014 simple_e_document_upload_exec.rb
+-rw-r--r-- 1 root root  2820 May 12  2014 skybluecanvas_exec.rb
+-rw-r--r-- 1 root root  6601 May 12  2014 sphpblog_file_upload.rb
+-rw-r--r-- 1 root root  2998 May 12  2014 spip_connect_exec.rb
+-rw-r--r-- 1 root root  2418 May 12  2014 squash_yaml_exec.rb
+-rw-r--r-- 1 root root  3872 May 12  2014 squirrelmail_pgp_plugin.rb
+-rw-r--r-- 1 root root  4741 May 12  2014 sugarcrm_unserialize_exec.rb
+-rw-r--r-- 1 root root  7261 May 12  2014 tikiwiki_graph_formula_exec.rb
+-rw-r--r-- 1 root root  7549 May 12  2014 tikiwiki_jhot_exec.rb
+-rw-r--r-- 1 root root  5043 May 12  2014 tikiwiki_unserialize_exec.rb
+-rw-r--r-- 1 root root  6181 May 12  2014 trixbox_langchoice.rb
+-rw-r--r-- 1 root root  3875 May 12  2014 twiki_history.rb
+-rw-r--r-- 1 root root  6894 May 12  2014 twiki_maketext.rb
+-rw-r--r-- 1 root root  3805 May 12  2014 twiki_search.rb
+-rw-r--r-- 1 root root 13508 May 12  2014 vbulletin_vote_sqli_exec.rb
+-rw-r--r-- 1 root root  7287 May 12  2014 vicidial_manager_send_cmd_exec.rb
+-rw-r--r-- 1 root root  4628 May 12  2014 webmin_show_cgi_exec.rb
+-rw-r--r-- 1 root root  3157 May 12  2014 webtester_exec.rb
+-rw-r--r-- 1 root root  2899 May 12  2014 wp_advanced_custom_fields_exec.rb
+-rw-r--r-- 1 root root  2942 May 12  2014 wp_asset_manager_upload_exec.rb
+-rw-r--r-- 1 root root  9375 May 12  2014 wp_google_document_embedder_exec.rb
+-rw-r--r-- 1 root root  3434 May 12  2014 wp_property_upload_exec.rb
+-rw-r--r-- 1 root root  3864 May 12  2014 xoda_file_upload.rb
+-rw-r--r-- 1 root root  4459 May 12  2014 zeroshell_exec.rb
+-rw-r--r-- 1 root root  9303 May 12  2014 zimbra_lfi.rb
+-rw-r--r-- 1 root root  5039 May 12  2014 zoneminder_packagecontrol_exec.rb
+-rw-r--r-- 1 root root  5095 May 12  2014 zpanel_username_exec.rb
+
+./exploits/windows:
+total 272
+drwxr-xr-x 2 root root  4096 May 15  2014 antivirus
+drwxr-xr-x 2 root root  4096 May 15  2014 arkeia
+drwxr-xr-x 2 root root  4096 May 15  2014 backdoor
+drwxr-xr-x 2 root root  4096 May 15  2014 backupexec
+drwxr-xr-x 2 root root  4096 May 15  2014 brightstor
+drwxr-xr-x 2 root root 36864 May 15  2014 browser
+drwxr-xr-x 2 root root  4096 May 15  2014 dcerpc
+drwxr-xr-x 2 root root  4096 May 15  2014 email
+drwxr-xr-x 2 root root  4096 May 15  2014 emc
+drwxr-xr-x 2 root root 20480 May 15  2014 fileformat
+drwxr-xr-x 2 root root  4096 May 15  2014 firewall
+drwxr-xr-x 2 root root 12288 May 15  2014 ftp
+drwxr-xr-x 2 root root  4096 May 15  2014 games
+drwxr-xr-x 2 root root 20480 May 15  2014 http
+drwxr-xr-x 2 root root  4096 May 15  2014 iis
+drwxr-xr-x 2 root root  4096 May 15  2014 imap
+drwxr-xr-x 2 root root  4096 May 15  2014 isapi
+drwxr-xr-x 2 root root  4096 May 15  2014 ldap
+drwxr-xr-x 2 root root  4096 May 15  2014 license
+drwxr-xr-x 2 root root  4096 May 15  2014 local
+drwxr-xr-x 2 root root  4096 May 15  2014 lotus
+drwxr-xr-x 2 root root  4096 May 15  2014 lpd
+drwxr-xr-x 2 root root 16384 May 15  2014 misc
+drwxr-xr-x 2 root root  4096 May 15  2014 mmsp
+drwxr-xr-x 2 root root  4096 May 15  2014 motorola
+drwxr-xr-x 2 root root  4096 May 15  2014 mssql
+drwxr-xr-x 2 root root  4096 May 15  2014 mysql
+drwxr-xr-x 2 root root  4096 May 15  2014 nfs
+drwxr-xr-x 2 root root  4096 May 15  2014 nntp
+drwxr-xr-x 2 root root  4096 May 15  2014 novell
+drwxr-xr-x 2 root root  4096 May 15  2014 oracle
+drwxr-xr-x 2 root root  4096 May 15  2014 pop3
+drwxr-xr-x 2 root root  4096 May 15  2014 postgres
+drwxr-xr-x 2 root root  4096 May 15  2014 proxy
+drwxr-xr-x 2 root root  4096 May 15  2014 scada
+drwxr-xr-x 2 root root  4096 May 15  2014 sip
+drwxr-xr-x 2 root root  4096 May 15  2014 smb
+drwxr-xr-x 2 root root  4096 May 15  2014 smtp
+drwxr-xr-x 2 root root  4096 May 15  2014 ssh
+drwxr-xr-x 2 root root  4096 May 15  2014 ssl
+drwxr-xr-x 2 root root  4096 May 15  2014 telnet
+drwxr-xr-x 2 root root  4096 May 15  2014 tftp
+drwxr-xr-x 2 root root  4096 May 15  2014 unicenter
+drwxr-xr-x 2 root root  4096 May 15  2014 vnc
+drwxr-xr-x 2 root root  4096 May 15  2014 vpn
+drwxr-xr-x 2 root root  4096 May 15  2014 winrm
+drwxr-xr-x 2 root root  4096 May 15  2014 wins
+
+./exploits/windows/antivirus:
+total 40
+-rw-r--r-- 1 root root 5407 May 12  2014 ams_hndlrsvc.rb
+-rw-r--r-- 1 root root 2732 May 12  2014 ams_xfr.rb
+-rw-r--r-- 1 root root 4135 May 12  2014 symantec_endpoint_manager_rce.rb
+-rw-r--r-- 1 root root 3233 May 12  2014 symantec_iao.rb
+-rw-r--r-- 1 root root 2651 May 12  2014 symantec_rtvscan.rb
+-rw-r--r-- 1 root root 2249 May 12  2014 trendmicro_serverprotect_createbinding.rb
+-rw-r--r-- 1 root root 2203 May 12  2014 trendmicro_serverprotect_earthagent.rb
+-rw-r--r-- 1 root root 2157 May 12  2014 trendmicro_serverprotect.rb
+
+./exploits/windows/arkeia:
+total 8
+-rw-r--r-- 1 root root 4165 May 12  2014 type77.rb
+
+./exploits/windows/backdoor:
+total 4
+-rw-r--r-- 1 root root 2933 May 12  2014 energizer_duo_payload.rb
+
+./exploits/windows/backupexec:
+total 12
+-rw-r--r-- 1 root root 4644 May 12  2014 name_service.rb
+-rw-r--r-- 1 root root 3905 May 12  2014 remote_agent.rb
+
+./exploits/windows/brightstor:
+total 84
+-rw-r--r-- 1 root root 3378 May 12  2014 ca_arcserve_342.rb
+-rw-r--r-- 1 root root 3953 May 12  2014 discovery_tcp.rb
+-rw-r--r-- 1 root root 3092 May 12  2014 discovery_udp.rb
+-rw-r--r-- 1 root root 3374 May 12  2014 etrust_itm_alert.rb
+-rw-r--r-- 1 root root 2041 May 12  2014 hsmserver.rb
+-rw-r--r-- 1 root root 2606 May 12  2014 lgserver_multi.rb
+-rw-r--r-- 1 root root 1827 May 12  2014 lgserver.rb
+-rw-r--r-- 1 root root 2374 May 12  2014 lgserver_rxrlogin.rb
+-rw-r--r-- 1 root root 2266 May 12  2014 lgserver_rxssetdatagrowthscheduleandfilter.rb
+-rw-r--r-- 1 root root 2282 May 12  2014 lgserver_rxsuselicenseini.rb
+-rw-r--r-- 1 root root 2075 May 12  2014 license_gcr.rb
+-rw-r--r-- 1 root root 8184 May 12  2014 mediasrv_sunrpc.rb
+-rw-r--r-- 1 root root 2231 May 12  2014 message_engine_72.rb
+-rw-r--r-- 1 root root 2118 May 12  2014 message_engine_heap.rb
+-rw-r--r-- 1 root root 2306 May 12  2014 message_engine.rb
+-rw-r--r-- 1 root root 3407 May 12  2014 sql_agent.rb
+-rw-r--r-- 1 root root 2369 May 12  2014 tape_engine_0x8a.rb
+-rw-r--r-- 1 root root 2552 May 12  2014 tape_engine.rb
+-rw-r--r-- 1 root root 5485 May 12  2014 universal_agent.rb
+
+./exploits/windows/browser:
+total 1808
+-rw-r--r-- 1 root root 16218 May 12  2014 adobe_cooltype_sing.rb
+-rw-r--r-- 1 root root  4681 May 12  2014 adobe_flash_avm2.rb
+-rw-r--r-- 1 root root  4295 May 12  2014 adobe_flash_filters_type_confusion.rb
+-rw-r--r-- 1 root root  9590 May 12  2014 adobe_flash_mp4_cprt.rb
+-rw-r--r-- 1 root root  8143 May 12  2014 adobe_flash_otf_font.rb
+-rw-r--r-- 1 root root  4392 May 12  2014 adobe_flash_pixel_bender_bof.rb
+-rw-r--r-- 1 root root  5585 May 12  2014 adobe_flashplayer_arrayindexing.rb
+-rw-r--r-- 1 root root  4259 May 12  2014 adobe_flashplayer_avm.rb
+-rw-r--r-- 1 root root  9639 May 12  2014 adobe_flashplayer_flash10o.rb
+-rw-r--r-- 1 root root 13153 May 12  2014 adobe_flashplayer_newfunction.rb
+-rw-r--r-- 1 root root  4362 May 12  2014 adobe_flash_regex_value.rb
+-rw-r--r-- 1 root root 13355 May 12  2014 adobe_flash_rtmp.rb
+-rw-r--r-- 1 root root 13878 May 12  2014 adobe_flash_sps.rb
+-rw-r--r-- 1 root root  6701 May 12  2014 adobe_flatedecode_predictor02.rb
+-rw-r--r-- 1 root root  6231 May 12  2014 adobe_geticon.rb
+-rw-r--r-- 1 root root  8242 May 12  2014 adobe_jbig2decode.rb
+-rw-r--r-- 1 root root  6323 May 12  2014 adobe_media_newplayer.rb
+-rw-r--r-- 1 root root  4196 May 12  2014 adobe_shockwave_rcsl_corruption.rb
+-rw-r--r-- 1 root root 10272 May 12  2014 adobe_toolbutton.rb
+-rw-r--r-- 1 root root  5406 May 12  2014 adobe_utilprintf.rb
+-rw-r--r-- 1 root root  2615 May 12  2014 aim_goaway.rb
+-rw-r--r-- 1 root root  6637 May 12  2014 aladdin_choosefilepath_bof.rb
+-rw-r--r-- 1 root root  2284 May 12  2014 amaya_bdo.rb
+-rw-r--r-- 1 root root  4205 May 12  2014 aol_ampx_convertfile.rb
+-rw-r--r-- 1 root root  2527 May 12  2014 aol_icq_downloadagent.rb
+-rw-r--r-- 1 root root  2162 May 12  2014 apple_itunes_playlist.rb
+-rw-r--r-- 1 root root  7662 May 12  2014 apple_quicktime_marshaled_punk.rb
+-rw-r--r-- 1 root root  7741 May 12  2014 apple_quicktime_mime_type.rb
+-rw-r--r-- 1 root root  6558 May 12  2014 apple_quicktime_rdrf.rb
+-rw-r--r-- 1 root root  5088 May 12  2014 apple_quicktime_rtsp.rb
+-rw-r--r-- 1 root root  4999 May 12  2014 apple_quicktime_smil_debug.rb
+-rw-r--r-- 1 root root  8779 May 12  2014 apple_quicktime_texml_font_table.rb
+-rw-r--r-- 1 root root  2538 May 12  2014 ask_shortformat.rb
+-rw-r--r-- 1 root root  5369 May 12  2014 asus_net4switch_ipswcom.rb
+-rw-r--r-- 1 root root  4171 May 12  2014 athocgov_completeinstallation.rb
+-rw-r--r-- 1 root root  4308 May 12  2014 autodesk_idrop.rb
+-rw-r--r-- 1 root root  5485 May 12  2014 aventail_epi_activex.rb
+-rw-r--r-- 1 root root  4625 May 12  2014 awingsoft_web3d_bof.rb
+-rw-r--r-- 1 root root  2596 May 12  2014 awingsoft_winds3d_sceneurl.rb
+-rw-r--r-- 1 root root  3281 May 12  2014 baofeng_storm_onbeforevideodownload.rb
+-rw-r--r-- 1 root root  2325 May 12  2014 barcode_ax49.rb
+-rw-r--r-- 1 root root  5038 May 12  2014 blackice_downloadimagefileurl.rb
+-rw-r--r-- 1 root root  3786 May 12  2014 c6_messenger_downloaderactivex.rb
+-rw-r--r-- 1 root root  3394 May 12  2014 ca_brightstor_addcolumn.rb
+-rw-r--r-- 1 root root  3914 May 12  2014 chilkat_crypt_writefile.rb
+-rw-r--r-- 1 root root  2917 May 12  2014 cisco_anyconnect_exec.rb
+-rw-r--r-- 1 root root  7798 May 12  2014 cisco_playerpt_setsource.rb
+-rw-r--r-- 1 root root 13333 May 12  2014 cisco_playerpt_setsource_surl.rb
+-rw-r--r-- 1 root root  5619 May 12  2014 citrix_gateway_actx.rb
+-rw-r--r-- 1 root root  5385 May 12  2014 clear_quest_cqole.rb
+-rw-r--r-- 1 root root  2581 May 12  2014 communicrypt_mail_activex.rb
+-rw-r--r-- 1 root root  3388 May 12  2014 creative_software_cachefolder.rb
+-rw-r--r-- 1 root root 11091 May 12  2014 crystal_reports_printcontrol.rb
+-rw-r--r-- 1 root root  5566 May 12  2014 dell_webcam_crazytalk.rb
+-rw-r--r-- 1 root root  3821 May 12  2014 dxstudio_player_exec.rb
+-rw-r--r-- 1 root root  2918 May 12  2014 ea_checkrequirements.rb
+-rw-r--r-- 1 root root  3300 May 12  2014 ebook_flipviewer_fviewerloading.rb
+-rw-r--r-- 1 root root  2743 May 12  2014 enjoysapgui_comp_download.rb
+-rw-r--r-- 1 root root  2421 May 12  2014 enjoysapgui_preparetoposthtml.rb
+-rw-r--r-- 1 root root  3010 May 12  2014 facebook_extractiptc.rb
+-rw-r--r-- 1 root root  6406 May 12  2014 foxit_reader_plugin_url_bof.rb
+-rw-r--r-- 1 root root  2456 May 12  2014 gom_openurl.rb
+-rw-r--r-- 1 root root  4797 May 12  2014 greendam_url.rb
+-rw-r--r-- 1 root root  6754 May 12  2014 honeywell_hscremotedeploy_exec.rb
+-rw-r--r-- 1 root root  5432 May 12  2014 honeywell_tema_exec.rb
+-rw-r--r-- 1 root root  8762 May 12  2014 hp_alm_xgo_setshapenodetype_exec.rb
+-rw-r--r-- 1 root root  4959 May 12  2014 hp_easy_printer_care_xmlcachemgr.rb
+-rw-r--r-- 1 root root  5871 May 12  2014 hp_easy_printer_care_xmlsimpleaccessor.rb
+-rw-r--r-- 1 root root  2716 May 12  2014 hp_loadrunner_addfile.rb
+-rw-r--r-- 1 root root  2502 May 12  2014 hp_loadrunner_addfolder.rb
+-rw-r--r-- 1 root root  7916 May 12  2014 hp_loadrunner_writefilebinary.rb
+-rw-r--r-- 1 root root  4740 May 12  2014 hp_loadrunner_writefilestring.rb
+-rw-r--r-- 1 root root  3929 May 12  2014 hpmqc_progcolor.rb
+-rw-r--r-- 1 root root  4409 May 12  2014 hyleos_chemviewx_activex.rb
+-rw-r--r-- 1 root root  3072 May 12  2014 ibmegath_getxmlvalue.rb
+-rw-r--r-- 1 root root  4217 May 12  2014 ibmlotusdomino_dwa_uploadmodule.rb
+-rw-r--r-- 1 root root 16870 May 12  2014 ibm_spss_c1sizer.rb
+-rw-r--r-- 1 root root  8150 May 12  2014 ibm_tivoli_pme_activex_bof.rb
+-rw-r--r-- 1 root root  9565 May 12  2014 ie_cbutton_uaf.rb
+-rw-r--r-- 1 root root  7127 May 12  2014 ie_cgenericelement_uaf.rb
+-rw-r--r-- 1 root root  8312 May 12  2014 ie_createobject.rb
+-rw-r--r-- 1 root root 11909 May 12  2014 ie_execcommand_uaf.rb
+-rw-r--r-- 1 root root  2434 May 12  2014 ie_iscomponentinstalled.rb
+-rw-r--r-- 1 root root  8035 May 12  2014 ie_setmousecapture_uaf.rb
+-rw-r--r-- 1 root root  4681 May 12  2014 ie_unsafe_scripting.rb
+-rw-r--r-- 1 root root  6316 May 12  2014 imgeviewer_tifmergemultifiles.rb
+-rw-r--r-- 1 root root  9782 May 12  2014 indusoft_issymbol_internationalseparator.rb
+-rw-r--r-- 1 root root  9389 May 12  2014 inotes_dwa85w_bof.rb
+-rw-r--r-- 1 root root  8069 May 12  2014 intrust_annotatex_add.rb
+-rw-r--r-- 1 root root  4373 May 12  2014 java_basicservice_impl.rb
+-rw-r--r-- 1 root root  4639 May 12  2014 java_cmm.rb
+-rw-r--r-- 1 root root  4921 May 12  2014 java_codebase_trust.rb
+-rw-r--r-- 1 root root  7838 May 12  2014 java_docbase_bof.rb
+-rw-r--r-- 1 root root  6379 May 12  2014 java_mixer_sequencer.rb
+-rw-r--r-- 1 root root 11333 May 12  2014 java_ws_arginject_altjvm.rb
+-rw-r--r-- 1 root root 10397 May 12  2014 java_ws_double_quote.rb
+-rw-r--r-- 1 root root  9563 May 12  2014 java_ws_vmargs.rb
+-rw-r--r-- 1 root root  2490 May 12  2014 juniper_sslvpn_ive_setupdll.rb
+-rw-r--r-- 1 root root  3523 May 12  2014 kazaa_altnet_heap.rb
+-rw-r--r-- 1 root root  9769 May 12  2014 keyhelp_launchtripane_exec.rb
+-rw-r--r-- 1 root root  2404 May 12  2014 logitechvideocall_start.rb
+-rw-r--r-- 1 root root  3547 May 12  2014 lpviewer_url.rb
+-rw-r--r-- 1 root root  2911 May 12  2014 macrovision_downloadandexecute.rb
+-rw-r--r-- 1 root root  2416 May 12  2014 macrovision_unsafe.rb
+-rw-r--r-- 1 root root  4084 May 12  2014 maxthon_history_xcs.rb
+-rw-r--r-- 1 root root  3449 May 12  2014 mcafee_mcsubmgr_vsprintf.rb
+-rw-r--r-- 1 root root  3196 May 12  2014 mcafee_mvt_exec.rb
+-rw-r--r-- 1 root root  2425 May 12  2014 mcafeevisualtrace_tracetarget.rb
+-rw-r--r-- 1 root root  2096 May 12  2014 mirc_irc_url.rb
+-rw-r--r-- 1 root root 14712 May 12  2014 mozilla_attribchildremoved.rb
+-rw-r--r-- 1 root root  5528 May 12  2014 mozilla_firefox_onreadystatechange.rb
+-rw-r--r-- 1 root root  5980 May 12  2014 mozilla_firefox_xmlserializer.rb
+-rw-r--r-- 1 root root 10539 May 12  2014 mozilla_interleaved_write.rb
+-rw-r--r-- 1 root root 13026 May 12  2014 mozilla_mchannel.rb
+-rw-r--r-- 1 root root 12145 May 12  2014 mozilla_nssvgvalue.rb
+-rw-r--r-- 1 root root 12471 May 12  2014 mozilla_nstreerange.rb
+-rw-r--r-- 1 root root 10259 May 12  2014 mozilla_reduceright.rb
+-rw-r--r-- 1 root root  3076 May 12  2014 ms03_020_ie_objecttype.rb
+-rw-r--r-- 1 root root  5364 May 12  2014 ms05_054_onload.rb
+-rw-r--r-- 1 root root  5161 May 12  2014 ms06_001_wmf_setabortproc.rb
+-rw-r--r-- 1 root root  5214 May 12  2014 ms06_013_createtextrange.rb
+-rw-r--r-- 1 root root  3960 May 12  2014 ms06_055_vml_method.rb
+-rw-r--r-- 1 root root  3560 May 12  2014 ms06_057_webview_setslice.rb
+-rw-r--r-- 1 root root  3703 May 12  2014 ms06_067_keyframe.rb
+-rw-r--r-- 1 root root  4462 May 12  2014 ms06_071_xml_core.rb
+-rw-r--r-- 1 root root 14952 May 12  2014 ms07_017_ani_loadimage_chunksize.rb
+-rw-r--r-- 1 root root  2687 May 12  2014 ms08_041_snapshotviewer.rb
+-rw-r--r-- 1 root root  3491 May 12  2014 ms08_053_mediaencoder.rb
+-rw-r--r-- 1 root root  3591 May 12  2014 ms08_070_visual_studio_msmask.rb
+-rw-r--r-- 1 root root  9469 May 12  2014 ms08_078_xml_corruption.rb
+-rw-r--r-- 1 root root  4394 May 12  2014 ms09_002_memory_corruption.rb
+-rw-r--r-- 1 root root  4543 May 12  2014 ms09_043_owc_htmlurl.rb
+-rw-r--r-- 1 root root  3523 May 12  2014 ms09_043_owc_msdso.rb
+-rw-r--r-- 1 root root  4267 May 12  2014 ms09_072_style_object.rb
+-rw-r--r-- 1 root root  5569 May 12  2014 ms10_002_aurora.rb
+-rw-r--r-- 1 root root  7769 May 12  2014 ms10_002_ie_object.rb
+-rw-r--r-- 1 root root  7325 May 12  2014 ms10_018_ie_behaviors.rb
+-rw-r--r-- 1 root root  3516 May 12  2014 ms10_018_ie_tabular_activex.rb
+-rw-r--r-- 1 root root  9406 May 12  2014 ms10_022_ie_vbscript_winhlp32.rb
+-rw-r--r-- 1 root root  6474 May 12  2014 ms10_026_avi_nsamplespersec.rb
+-rw-r--r-- 1 root root 11774 May 12  2014 ms10_042_helpctr_xss_cmd_exec.rb
+-rw-r--r-- 1 root root 13843 May 12  2014 ms10_046_shortcut_icon_dllloader.rb
+-rw-r--r-- 1 root root  6837 May 12  2014 ms10_090_ie_css_clip.rb
+-rw-r--r-- 1 root root 13804 May 12  2014 ms11_003_ie_css_import.rb
+-rw-r--r-- 1 root root  9491 May 12  2014 ms11_050_mshtml_cobjectelement.rb
+-rw-r--r-- 1 root root  6813 May 12  2014 ms11_081_option.rb
+-rw-r--r-- 1 root root  5271 May 12  2014 ms11_093_ole32.rb
+-rw-r--r-- 1 root root 19105 May 12  2014 ms12_004_midi.rb
+-rw-r--r-- 1 root root  8304 May 12  2014 ms12_037_ie_colspan.rb
+-rw-r--r-- 1 root root  9222 May 12  2014 ms12_037_same_id.rb
+-rw-r--r-- 1 root root  5473 May 12  2014 ms13_009_ie_slayoutrun_uaf.rb
+-rw-r--r-- 1 root root  5406 May 12  2014 ms13_022_silverlight_script_object.rb
+-rw-r--r-- 1 root root 12311 May 12  2014 ms13_037_svg_dashstyle.rb
+-rw-r--r-- 1 root root  6162 May 12  2014 ms13_055_canchor.rb
+-rw-r--r-- 1 root root  5884 May 12  2014 ms13_059_cflatmarkuppointer.rb
+-rw-r--r-- 1 root root  7519 May 12  2014 ms13_069_caret.rb
+-rw-r--r-- 1 root root 10374 May 12  2014 ms13_080_cdisplaypointer.rb
+-rw-r--r-- 1 root root 17462 May 12  2014 ms13_090_cardspacesigninhelper.rb
+-rw-r--r-- 1 root root  5219 May 12  2014 ms14_012_cmarkup_uaf.rb
+-rw-r--r-- 1 root root  4715 May 12  2014 ms14_012_textrange.rb
+-rw-r--r-- 1 root root  9057 May 12  2014 msvidctl_mpeg2.rb
+-rw-r--r-- 1 root root  3140 May 12  2014 mswhale_checkforupdates.rb
+-rw-r--r-- 1 root root 13521 May 12  2014 msxml_get_definition_code_exec.rb
+-rw-r--r-- 1 root root  3515 May 12  2014 nctaudiofile2_setformatlikesample.rb
+-rw-r--r-- 1 root root  2948 May 12  2014 nis2004_antispam.rb
+-rw-r--r-- 1 root root  2593 May 12  2014 nis2004_get.rb
+-rw-r--r-- 1 root root  5955 May 12  2014 notes_handler_cmdinject.rb
+-rw-r--r-- 1 root root 10944 May 12  2014 novell_groupwise_gwcls1_actvx.rb
+-rw-r--r-- 1 root root  5000 May 12  2014 novelliprint_callbackurl.rb
+-rw-r--r-- 1 root root  3638 May 12  2014 novelliprint_datetime.rb
+-rw-r--r-- 1 root root  5249 May 12  2014 novelliprint_executerequest_dbg.rb
+-rw-r--r-- 1 root root  3505 May 12  2014 novelliprint_executerequest.rb
+-rw-r--r-- 1 root root  3742 May 12  2014 novelliprint_getdriversettings_2.rb
+-rw-r--r-- 1 root root  3461 May 12  2014 novelliprint_getdriversettings.rb
+-rw-r--r-- 1 root root  3688 May 12  2014 novelliprint_target_frame.rb
+-rw-r--r-- 1 root root 10376 May 12  2014 ntr_activex_check_bof.rb
+-rw-r--r-- 1 root root  7069 May 12  2014 ntr_activex_stopmodule.rb
+-rw-r--r-- 1 root root 12987 May 12  2014 oracle_autovue_setmarkupmode.rb
+-rw-r--r-- 1 root root  3240 May 12  2014 oracle_dc_submittoexpress.rb
+-rw-r--r-- 1 root root  9634 May 12  2014 oracle_webcenter_checkoutandopen.rb
+-rw-r--r-- 1 root root  2581 May 12  2014 orbit_connecting.rb
+-rw-r--r-- 1 root root  4608 May 12  2014 ovftool_format_string.rb
+-rw-r--r-- 1 root root  4971 May 12  2014 pcvue_func.rb
+-rw-r--r-- 1 root root  3827 May 12  2014 persits_xupload_traversal.rb
+-rw-r--r-- 1 root root  8503 May 12  2014 quickr_qp2_bof.rb
+-rw-r--r-- 1 root root  3739 May 12  2014 real_arcade_installerdlg.rb
+-rw-r--r-- 1 root root  3300 May 12  2014 realplayer_cdda_uri.rb
+-rw-r--r-- 1 root root  3803 May 12  2014 realplayer_console.rb
+-rw-r--r-- 1 root root  3171 May 12  2014 realplayer_import.rb
+-rw-r--r-- 1 root root  7333 May 12  2014 realplayer_qcp.rb
+-rw-r--r-- 1 root root  2627 May 12  2014 realplayer_smil.rb
+-rw-r--r-- 1 root root  3695 May 12  2014 roxio_cineplayer.rb
+-rw-r--r-- 1 root root  4761 May 12  2014 safari_xslt_output.rb
+-rw-r--r-- 1 root root  4511 May 12  2014 samsung_neti_wiewer_backuptoavi_bof.rb
+-rw-r--r-- 1 root root  3622 May 12  2014 sapgui_saveviewtosessionfile.rb
+-rw-r--r-- 1 root root 14978 May 12  2014 siemens_solid_edge_selistctrlx.rb
+-rw-r--r-- 1 root root  3587 May 12  2014 softartisans_getdrivename.rb
+-rw-r--r-- 1 root root  2514 May 12  2014 sonicwall_addrouteentry.rb
+-rw-r--r-- 1 root root  3166 May 12  2014 symantec_altirisdeployment_downloadandinstall.rb
+-rw-r--r-- 1 root root  2979 May 12  2014 symantec_altirisdeployment_runcmd.rb
+-rw-r--r-- 1 root root  2455 May 12  2014 symantec_appstream_unsafe.rb
+-rw-r--r-- 1 root root  4027 May 12  2014 symantec_backupexec_pvcalendar.rb
+-rw-r--r-- 1 root root  3202 May 12  2014 symantec_consoleutilities_browseandsavefile.rb
+-rw-r--r-- 1 root root  6386 May 12  2014 synactis_connecttosynactis_bof.rb
+-rw-r--r-- 1 root root  2358 May 12  2014 systemrequirementslab_unsafe.rb
+-rw-r--r-- 1 root root  9265 May 12  2014 teechart_pro.rb
+-rw-r--r-- 1 root root  8402 May 12  2014 tom_sawyer_tsgetx71ex552.rb
+-rw-r--r-- 1 root root  4834 May 12  2014 trendmicro_extsetowner.rb
+-rw-r--r-- 1 root root  2419 May 12  2014 trendmicro_officescan.rb
+-rw-r--r-- 1 root root  2897 May 12  2014 tumbleweed_filetransfer.rb
+-rw-r--r-- 1 root root 13171 May 12  2014 ubisoft_uplay_cmd_exec.rb
+-rw-r--r-- 1 root root  6886 May 12  2014 ultramjcam_openfiledig_bof.rb
+-rw-r--r-- 1 root root  3831 May 12  2014 ultraoffice_httpupload.rb
+-rw-r--r-- 1 root root  3606 May 12  2014 verypdf_pdfview.rb
+-rw-r--r-- 1 root root  6935 May 12  2014 viscom_movieplayer_drawtext.rb
+-rw-r--r-- 1 root root  7722 May 12  2014 vlc_amv.rb
+-rw-r--r-- 1 root root  6463 May 12  2014 vlc_mms_bof.rb
+-rw-r--r-- 1 root root 11257 May 12  2014 webdav_dll_hijacker.rb
+-rw-r--r-- 1 root root  4367 May 12  2014 webex_ucf_newobject.rb
+-rw-r--r-- 1 root root  2799 May 12  2014 wellintech_kingscada_kxclientdownload.rb
+-rw-r--r-- 1 root root  4112 May 12  2014 winamp_playlist_unc.rb
+-rw-r--r-- 1 root root  3787 May 12  2014 winamp_ultravox.rb
+-rw-r--r-- 1 root root  2375 May 12  2014 windvd7_applicationtype.rb
+-rw-r--r-- 1 root root  4145 May 12  2014 winzip_fileview.rb
+-rw-r--r-- 1 root root  9309 May 12  2014 wmi_admintools.rb
+-rw-r--r-- 1 root root  2297 May 12  2014 xmplay_asx.rb
+-rw-r--r-- 1 root root  2538 May 12  2014 yahoomessenger_fvcom.rb
+-rw-r--r-- 1 root root  2722 May 12  2014 yahoomessenger_server.rb
+-rw-r--r-- 1 root root  2535 May 12  2014 zenturiprogramchecker_unsafe.rb
+-rw-r--r-- 1 root root  5640 May 12  2014 zenworks_helplauncher_exec.rb
+
+./exploits/windows/dcerpc:
+total 36
+-rw-r--r-- 1 root root 7124 May 12  2014 ms03_026_dcom.rb
+-rw-r--r-- 1 root root 4654 May 12  2014 ms05_017_msmq.rb
+-rw-r--r-- 1 root root 9013 May 12  2014 ms07_029_msdns_zonename.rb
+-rw-r--r-- 1 root root 4439 May 12  2014 ms07_065_msmq.rb
+
+./exploits/windows/email:
+total 48
+-rw-r--r-- 1 root root 10239 May 12  2014 ms07_017_ani_loadimage_chunksize.rb
+-rw-r--r-- 1 root root 16743 May 12  2014 ms10_045_outlook_ref_only.rb
+-rw-r--r-- 1 root root 15441 May 12  2014 ms10_045_outlook_ref_resolve.rb
+
+./exploits/windows/emc:
+total 20
+-rw-r--r-- 1 root root 2218 May 12  2014 alphastor_agent.rb
+-rw-r--r-- 1 root root 4592 May 12  2014 networker_format_string.rb
+-rw-r--r-- 1 root root 6340 May 12  2014 replication_manager_exec.rb
+
+./exploits/windows/fileformat:
+total 1004
+-rw-r--r-- 1 root root  2076 May 12  2014 abbs_amp_lst.rb
+-rw-r--r-- 1 root root  4752 May 12  2014 acdsee_fotoslate_string.rb
+-rw-r--r-- 1 root root  2082 May 12  2014 acdsee_xpm.rb
+-rw-r--r-- 1 root root  3906 May 12  2014 actfax_import_users_bof.rb
+-rw-r--r-- 1 root root  3724 May 12  2014 activepdf_webgrabber.rb
+-rw-r--r-- 1 root root  5609 May 12  2014 adobe_collectemailinfo.rb
+-rw-r--r-- 1 root root 15877 May 12  2014 adobe_cooltype_sing.rb
+-rw-r--r-- 1 root root 13320 May 12  2014 adobe_flashplayer_button.rb
+-rw-r--r-- 1 root root 13138 May 12  2014 adobe_flashplayer_newfunction.rb
+-rw-r--r-- 1 root root  6642 May 12  2014 adobe_flatedecode_predictor02.rb
+-rw-r--r-- 1 root root  3938 May 12  2014 adobe_geticon.rb
+-rw-r--r-- 1 root root  3210 May 12  2014 adobe_illustrator_v14_eps.rb
+-rw-r--r-- 1 root root  8088 May 12  2014 adobe_jbig2decode.rb
+-rw-r--r-- 1 root root 12172 May 12  2014 adobe_libtiff.rb
+-rw-r--r-- 1 root root  6236 May 12  2014 adobe_media_newplayer.rb
+-rw-r--r-- 1 root root  5756 May 12  2014 adobe_pdf_embedded_exe_nojs.rb
+-rw-r--r-- 1 root root 15257 May 12  2014 adobe_pdf_embedded_exe.rb
+-rw-r--r-- 1 root root 24920 May 12  2014 adobe_reader_u3d.rb
+-rw-r--r-- 1 root root 10115 May 12  2014 adobe_toolbutton.rb
+-rw-r--r-- 1 root root 14917 May 12  2014 adobe_u3d_meshdecl.rb
+-rw-r--r-- 1 root root  5392 May 12  2014 adobe_utilprintf.rb
+-rw-r--r-- 1 root root  3237 May 12  2014 allplayer_m3u_bof.rb
+-rw-r--r-- 1 root root  2251 May 12  2014 altap_salamander_pdb.rb
+-rw-r--r-- 1 root root  8592 May 12  2014 aol_desktop_linktag.rb
+-rw-r--r-- 1 root root  4418 May 12  2014 aol_phobos_bof.rb
+-rw-r--r-- 1 root root  1929 May 12  2014 a_pdf_wav_to_mp3.rb
+-rw-r--r-- 1 root root  3740 May 12  2014 apple_quicktime_pnsize.rb
+-rw-r--r-- 1 root root  4909 May 12  2014 apple_quicktime_rdrf.rb
+-rw-r--r-- 1 root root  4277 May 12  2014 apple_quicktime_texml.rb
+-rw-r--r-- 1 root root  2080 May 12  2014 audio_coder_m3u.rb
+-rw-r--r-- 1 root root  1883 May 12  2014 audiotran_pls_1424.rb
+-rw-r--r-- 1 root root  1939 May 12  2014 audiotran_pls.rb
+-rw-r--r-- 1 root root  2054 May 12  2014 audio_wkstn_pls.rb
+-rw-r--r-- 1 root root  5002 May 12  2014 aviosoft_plf_buf.rb
+-rw-r--r-- 1 root root  2253 May 12  2014 bacnet_csv.rb
+-rw-r--r-- 1 root root  2158 May 12  2014 beetel_netconfig_ini_bof.rb
+-rw-r--r-- 1 root root  3505 May 12  2014 blazedvd_hdtv_bof.rb
+-rw-r--r-- 1 root root  4641 May 12  2014 blazedvd_plf.rb
+-rw-r--r-- 1 root root  3717 May 12  2014 bsplayer_m3u.rb
+-rw-r--r-- 1 root root  2841 May 12  2014 ca_cab.rb
+-rw-r--r-- 1 root root  2026 May 12  2014 cain_abel_4918_rdp.rb
+-rw-r--r-- 1 root root  3186 May 12  2014 ccmplayer_m3u_bof.rb
+-rw-r--r-- 1 root root  3533 May 12  2014 chasys_draw_ies_bmp_bof.rb
+-rw-r--r-- 1 root root  4770 May 12  2014 coolpdf_image_stream_bof.rb
+-rw-r--r-- 1 root root  3117 May 12  2014 corelpdf_fusion_bof.rb
+-rw-r--r-- 1 root root  2351 May 12  2014 csound_getnum_bof.rb
+-rw-r--r-- 1 root root  2691 May 12  2014 cutezip_bof.rb
+-rw-r--r-- 1 root root  3605 May 12  2014 cyberlink_p2g_bof.rb
+-rw-r--r-- 1 root root  2395 May 12  2014 cytel_studio_cy3.rb
+-rw-r--r-- 1 root root  3685 May 12  2014 deepburner_path.rb
+-rw-r--r-- 1 root root  1919 May 12  2014 destinymediaplayer16.rb
+-rw-r--r-- 1 root root  2016 May 12  2014 digital_music_pad_pls.rb
+-rw-r--r-- 1 root root  1954 May 12  2014 djstudio_pls_bof.rb
+-rw-r--r-- 1 root root  3399 May 12  2014 djvu_imageurl.rb
+-rw-r--r-- 1 root root  5680 May 12  2014 dvdx_plf_bof.rb
+-rw-r--r-- 1 root root  3843 May 12  2014 easycdda_pls_bof.rb
+-rw-r--r-- 1 root root  3451 May 12  2014 emc_appextender_keyworks.rb
+-rw-r--r-- 1 root root  2828 May 12  2014 erdas_er_viewer_bof.rb
+-rw-r--r-- 1 root root  7852 May 12  2014 erdas_er_viewer_rf_report_error.rb
+-rw-r--r-- 1 root root  2808 May 12  2014 esignal_styletemplate_bof.rb
+-rw-r--r-- 1 root root  3272 May 12  2014 etrust_pestscan.rb
+-rw-r--r-- 1 root root  3320 May 12  2014 ezip_wizard_bof.rb
+-rw-r--r-- 1 root root  2080 May 12  2014 fatplayer_wav.rb
+-rw-r--r-- 1 root root  3524 May 12  2014 fdm_torrent.rb
+-rw-r--r-- 1 root root  4128 May 12  2014 feeddemon_opml.rb
+-rw-r--r-- 1 root root  3968 May 12  2014 foxit_reader_filewrite.rb
+-rw-r--r-- 1 root root  3724 May 12  2014 foxit_reader_launch.rb
+-rw-r--r-- 1 root root  5054 May 12  2014 foxit_title_bof.rb
+-rw-r--r-- 1 root root  2467 May 12  2014 free_mp3_ripper_wav.rb
+-rw-r--r-- 1 root root  1727 May 12  2014 galan_fileformat_bof.rb
+-rw-r--r-- 1 root root  2035 May 12  2014 gsm_sim.rb
+-rw-r--r-- 1 root root  2022 May 12  2014 gta_samp.rb
+-rw-r--r-- 1 root root  2249 May 12  2014 hhw_hhp_compiledfile_bof.rb
+-rw-r--r-- 1 root root  2182 May 12  2014 hhw_hhp_contentfile_bof.rb
+-rw-r--r-- 1 root root  2233 May 12  2014 hhw_hhp_indexfile_bof.rb
+-rw-r--r-- 1 root root  2538 May 12  2014 ht_mp3player_ht3_bof.rb
+-rw-r--r-- 1 root root  5316 May 12  2014 ibm_forms_viewer_fontname.rb
+-rw-r--r-- 1 root root 10584 May 12  2014 ibm_pcm_ws.rb
+-rw-r--r-- 1 root root  3808 May 12  2014 icofx_bof.rb
+-rw-r--r-- 1 root root  2822 May 12  2014 ideal_migration_ipj.rb
+-rw-r--r-- 1 root root  8731 May 12  2014 irfanview_jpeg2000_bof.rb
+-rw-r--r-- 1 root root  2267 May 12  2014 ispvm_xcf_ispxcf.rb
+-rw-r--r-- 1 root root  2645 May 12  2014 kingview_kingmess_kvl.rb
+-rw-r--r-- 1 root root  3145 May 12  2014 lattice_pac_bof.rb
+-rw-r--r-- 1 root root  4042 May 12  2014 lotusnotes_lzh.rb
+-rw-r--r-- 1 root root 11830 May 12  2014 magix_musikmaker_16_mmm.rb
+-rw-r--r-- 1 root root  4201 May 12  2014 mcafee_hercules_deletesnapshot.rb
+-rw-r--r-- 1 root root 11914 May 12  2014 mcafee_showreport_exec.rb
+-rw-r--r-- 1 root root  4051 May 12  2014 mediacoder_m3u.rb
+-rw-r--r-- 1 root root  2017 May 12  2014 mediajukebox.rb
+-rw-r--r-- 1 root root  2019 May 12  2014 microp_mppl.rb
+-rw-r--r-- 1 root root  2405 May 12  2014 millenium_mp3_pls.rb
+-rw-r--r-- 1 root root  2413 May 12  2014 mini_stream_pls_bof.rb
+-rw-r--r-- 1 root root  5942 May 12  2014 mjm_coreplayer2011_s3m.rb
+-rw-r--r-- 1 root root  7502 May 12  2014 mjm_quickplayer_s3m.rb
+-rw-r--r-- 1 root root  3237 May 12  2014 moxa_mediadbplayback.rb
+-rw-r--r-- 1 root root  3727 May 12  2014 mplayer_m3u_bof.rb
+-rw-r--r-- 1 root root  2973 May 12  2014 mplayer_sami_bof.rb
+-rw-r--r-- 1 root root  5290 May 12  2014 ms09_067_excel_featheader.rb
+-rw-r--r-- 1 root root  8063 May 12  2014 ms10_004_textbytesatom.rb
+-rw-r--r-- 1 root root  8384 May 12  2014 ms10_038_excel_obj_bof.rb
+-rw-r--r-- 1 root root  6569 May 12  2014 ms10_087_rtf_pfragments_bof.rb
+-rw-r--r-- 1 root root  8705 May 12  2014 ms11_006_createsizeddibsection.rb
+-rw-r--r-- 1 root root  4118 May 12  2014 ms11_021_xlb_bof.rb
+-rw-r--r-- 1 root root  7041 May 12  2014 ms12_005.rb
+-rw-r--r-- 1 root root 17011 May 12  2014 ms12_027_mscomctl_bof.rb
+-rw-r--r-- 1 root root 16040 May 12  2014 ms13_071_theme.rb
+-rw-r--r-- 1 root root  3876 May 12  2014 ms14_017_rtf.rb
+-rw-r--r-- 1 root root  3045 May 12  2014 ms_visual_basic_vbp.rb
+-rw-r--r-- 1 root root 30570 May 12  2014 mswin_tiff_overflow.rb
+-rw-r--r-- 1 root root  3217 May 12  2014 msworks_wkspictureinterface.rb
+-rw-r--r-- 1 root root  3043 May 12  2014 mymp3player_m3u.rb
+-rw-r--r-- 1 root root  1886 May 12  2014 netop.rb
+-rw-r--r-- 1 root root  3829 May 12  2014 nuance_pdf_launch_overflow.rb
+-rw-r--r-- 1 root root  2631 May 12  2014 openoffice_ole.rb
+-rw-r--r-- 1 root root  2795 May 12  2014 orbital_viewer_orb.rb
+-rw-r--r-- 1 root root  4033 May 12  2014 orbit_download_failed_bof.rb
+-rw-r--r-- 1 root root  4207 May 12  2014 ovf_format_string.rb
+-rw-r--r-- 1 root root  2366 May 12  2014 proshow_cellimage_bof.rb
+-rw-r--r-- 1 root root  3131 May 12  2014 proshow_load_bof.rb
+-rw-r--r-- 1 root root  3490 May 12  2014 real_networks_netzip_bof.rb
+-rw-r--r-- 1 root root  2934 May 12  2014 real_player_url_property_bof.rb
+-rw-r--r-- 1 root root  3749 May 12  2014 realplayer_ver_attribute_bof.rb
+-rw-r--r-- 1 root root 10029 May 12  2014 safenet_softremote_groupname.rb
+-rw-r--r-- 1 root root  3305 May 12  2014 sascam_get.rb
+-rw-r--r-- 1 root root  2621 May 12  2014 scadaphone_zip.rb
+-rw-r--r-- 1 root root  2134 May 12  2014 shadow_stream_recorder_bof.rb
+-rw-r--r-- 1 root root  2028 May 12  2014 somplplayer_m3u.rb
+-rw-r--r-- 1 root root  3980 May 12  2014 subtitle_processor_m3u_bof.rb
+-rw-r--r-- 1 root root  2630 May 12  2014 tfm_mmplayer_m3u_ppl_bof.rb
+-rw-r--r-- 1 root root  2058 May 12  2014 total_video_player_ini_bof.rb
+-rw-r--r-- 1 root root  3839 May 12  2014 tugzip.rb
+-rw-r--r-- 1 root root  6923 May 12  2014 ultraiso_ccd.rb
+-rw-r--r-- 1 root root  4021 May 12  2014 ultraiso_cue.rb
+-rw-r--r-- 1 root root 14480 May 12  2014 ursoft_w32dasm.rb
+-rw-r--r-- 1 root root  2377 May 12  2014 varicad_dwb.rb
+-rw-r--r-- 1 root root  2559 May 12  2014 videolan_tivo.rb
+-rw-r--r-- 1 root root  6702 May 12  2014 videospirit_visprj.rb
+-rw-r--r-- 1 root root  4387 May 12  2014 visio_dxf_bof.rb
+-rw-r--r-- 1 root root  5097 May 12  2014 visiwave_vwr_type.rb
+-rw-r--r-- 1 root root  8790 May 12  2014 vlc_modplug_s3m.rb
+-rw-r--r-- 1 root root  4637 May 12  2014 vlc_realtext.rb
+-rw-r--r-- 1 root root  3866 May 12  2014 vlc_smb_uri.rb
+-rw-r--r-- 1 root root  4994 May 12  2014 vlc_webm.rb
+-rw-r--r-- 1 root root  1926 May 12  2014 vuplayer_cue.rb
+-rw-r--r-- 1 root root  2603 May 12  2014 vuplayer_m3u.rb
+-rw-r--r-- 1 root root  3139 May 12  2014 winamp_maki_bof.rb
+-rw-r--r-- 1 root root  2267 May 12  2014 winrar_name_spoofing.rb
+-rw-r--r-- 1 root root  5029 May 12  2014 wireshark_mpeg_overflow.rb
+-rw-r--r-- 1 root root  5621 May 12  2014 wireshark_packet_dect.rb
+-rw-r--r-- 1 root root  2128 May 12  2014 wm_downloader_m3u.rb
+-rw-r--r-- 1 root root  1870 May 12  2014 xenorate_xpl_bof.rb
+-rw-r--r-- 1 root root  4809 May 12  2014 xion_m3u_sehbof.rb
+-rw-r--r-- 1 root root  2208 May 12  2014 xradio_xrl_sehbof.rb
+-rw-r--r-- 1 root root  2081 May 12  2014 zinfaudioplayer221_pls.rb
+
+./exploits/windows/firewall:
+total 12
+-rw-r--r-- 1 root root 5040 May 12  2014 blackice_pam_icq.rb
+-rw-r--r-- 1 root root 1944 May 12  2014 kerio_auth.rb
+
+./exploits/windows/ftp:
+total 280
+-rw-r--r-- 1 root root 3402 May 12  2014 32bitftp_list_reply.rb
+-rw-r--r-- 1 root root 3564 May 12  2014 3cdaemon_ftp_user.rb
+-rw-r--r-- 1 root root 2677 May 12  2014 aasync_list_reply.rb
+-rw-r--r-- 1 root root 3132 May 12  2014 ability_server_stor.rb
+-rw-r--r-- 1 root root 4361 May 12  2014 absolute_ftp_list_bof.rb
+-rw-r--r-- 1 root root 2454 May 12  2014 cesarftp_mkd.rb
+-rw-r--r-- 1 root root 6535 May 12  2014 comsnd_ftpd_fmtstr.rb
+-rw-r--r-- 1 root root 1933 May 12  2014 dreamftp_format.rb
+-rw-r--r-- 1 root root 2010 May 12  2014 easyfilesharing_pass.rb
+-rw-r--r-- 1 root root 5319 May 12  2014 easyftp_cwd_fixret.rb
+-rw-r--r-- 1 root root 3321 May 12  2014 easyftp_list_fixret.rb
+-rw-r--r-- 1 root root 4355 May 12  2014 easyftp_mkd_fixret.rb
+-rw-r--r-- 1 root root 1759 May 12  2014 filecopa_list_overflow.rb
+-rw-r--r-- 1 root root 3044 May 12  2014 filewrangler_list_reply.rb
+-rw-r--r-- 1 root root 2054 May 12  2014 freefloatftp_user.rb
+-rw-r--r-- 1 root root 4438 May 12  2014 freefloatftp_wbem.rb
+-rw-r--r-- 1 root root 3758 May 12  2014 freeftpd_pass.rb
+-rw-r--r-- 1 root root 2450 May 12  2014 freeftpd_user.rb
+-rw-r--r-- 1 root root 2425 May 12  2014 ftpgetter_pwd_reply.rb
+-rw-r--r-- 1 root root 3214 May 12  2014 ftppad_list_reply.rb
+-rw-r--r-- 1 root root 2224 May 12  2014 ftpshell51_pwd_reply.rb
+-rw-r--r-- 1 root root 3292 May 12  2014 ftpsynch_list_reply.rb
+-rw-r--r-- 1 root root 3115 May 12  2014 gekkomgr_list_reply.rb
+-rw-r--r-- 1 root root 1882 May 12  2014 globalscapeftp_input.rb
+-rw-r--r-- 1 root root 2654 May 12  2014 goldenftp_pass_bof.rb
+-rw-r--r-- 1 root root 7151 May 12  2014 httpdx_tolog_format.rb
+-rw-r--r-- 1 root root 2896 May 12  2014 leapftp_list_reply.rb
+-rw-r--r-- 1 root root 3415 May 12  2014 leapftp_pasv_reply.rb
+-rw-r--r-- 1 root root 5555 May 12  2014 ms09_053_ftpd_nlst.rb
+-rw-r--r-- 1 root root 2728 May 12  2014 netterm_netftpd_user.rb
+-rw-r--r-- 1 root root 2886 May 12  2014 odin_list_reply.rb
+-rw-r--r-- 1 root root 4845 May 12  2014 open_ftpd_wbem.rb
+-rw-r--r-- 1 root root 2445 May 12  2014 oracle9i_xdb_ftp_pass.rb
+-rw-r--r-- 1 root root 2648 May 12  2014 oracle9i_xdb_ftp_unlock.rb
+-rw-r--r-- 1 root root 2901 May 12  2014 pcman_stor.rb
+-rw-r--r-- 1 root root 1835 May 12  2014 proftp_banner.rb
+-rw-r--r-- 1 root root 4854 May 12  2014 quickshare_traversal_write.rb
+-rw-r--r-- 1 root root 3533 May 12  2014 ricoh_dl_bof.rb
+-rw-r--r-- 1 root root 2462 May 12  2014 sami_ftpd_list.rb
+-rw-r--r-- 1 root root 2818 May 12  2014 sami_ftpd_user.rb
+-rw-r--r-- 1 root root 1803 May 12  2014 sasser_ftpd_port.rb
+-rw-r--r-- 1 root root 5461 May 12  2014 scriptftp_list.rb
+-rw-r--r-- 1 root root 3331 May 12  2014 seagull_list_reply.rb
+-rw-r--r-- 1 root root 2451 May 12  2014 servu_chmod.rb
+-rw-r--r-- 1 root root 5977 May 12  2014 servu_mdtm.rb
+-rw-r--r-- 1 root root 1874 May 12  2014 slimftpd_list_concat.rb
+-rw-r--r-- 1 root root 2388 May 12  2014 trellian_client_pasv.rb
+-rw-r--r-- 1 root root 5766 May 12  2014 turboftp_port.rb
+-rw-r--r-- 1 root root 6077 May 12  2014 vermillion_ftpd_port.rb
+-rw-r--r-- 1 root root 2134 May 12  2014 warftpd_165_pass.rb
+-rw-r--r-- 1 root root 2241 May 12  2014 warftpd_165_user.rb
+-rw-r--r-- 1 root root 1742 May 12  2014 wftpd_size.rb
+-rw-r--r-- 1 root root 2118 May 12  2014 wsftp_server_503_mkd.rb
+-rw-r--r-- 1 root root 1821 May 12  2014 wsftp_server_505_xmd5.rb
+-rw-r--r-- 1 root root 2439 May 12  2014 xftp_client_pwd.rb
+-rw-r--r-- 1 root root 2035 May 12  2014 xlink_client.rb
+-rw-r--r-- 1 root root 1989 May 12  2014 xlink_server.rb
+
+./exploits/windows/games:
+total 12
+-rw-r--r-- 1 root root 2570 May 12  2014 mohaa_getinfo.rb
+-rw-r--r-- 1 root root 1889 May 12  2014 racer_503beta5.rb
+-rw-r--r-- 1 root root 2770 May 12  2014 ut2004_secure.rb
+
+./exploits/windows/http:
+total 664
+-rw-r--r-- 1 root root  2610 May 12  2014 adobe_robohelper_authbypass.rb
+-rw-r--r-- 1 root root  3904 May 12  2014 altn_securitygateway.rb
+-rw-r--r-- 1 root root  3273 May 12  2014 altn_webadmin.rb
+-rw-r--r-- 1 root root  2871 May 12  2014 amlibweb_webquerydll_app.rb
+-rw-r--r-- 1 root root 10537 May 12  2014 apache_chunked.rb
+-rw-r--r-- 1 root root  2860 May 12  2014 apache_modjk_overflow.rb
+-rw-r--r-- 1 root root  2773 May 12  2014 apache_mod_rewrite_ldap.rb
+-rw-r--r-- 1 root root  5808 May 12  2014 avaya_ccr_imageupload_exec.rb
+-rw-r--r-- 1 root root  2026 May 12  2014 badblue_ext_overflow.rb
+-rw-r--r-- 1 root root  2928 May 12  2014 badblue_passthru.rb
+-rw-r--r-- 1 root root  2108 May 12  2014 bea_weblogic_jsessionid.rb
+-rw-r--r-- 1 root root  5537 May 12  2014 bea_weblogic_post_bof.rb
+-rw-r--r-- 1 root root  2169 May 12  2014 bea_weblogic_transfer_encoding.rb
+-rw-r--r-- 1 root root  1954 May 12  2014 belkin_bulldog.rb
+-rw-r--r-- 1 root root  4892 May 12  2014 ca_arcserve_rpc_authbypass.rb
+-rw-r--r-- 1 root root  2340 May 12  2014 ca_igateway_debug.rb
+-rw-r--r-- 1 root root  4358 May 12  2014 ca_totaldefense_regeneratereports.rb
+-rw-r--r-- 1 root root  3039 May 12  2014 cogent_datahub_request_headers_bof.rb
+-rw-r--r-- 1 root root  2468 May 12  2014 coldfusion_fckeditor.rb
+-rw-r--r-- 1 root root  4862 May 12  2014 cyclope_ess_sqli.rb
+-rw-r--r-- 1 root root  4650 May 12  2014 desktopcentral_file_upload.rb
+-rw-r--r-- 1 root root  3778 May 12  2014 easyftp_list.rb
+-rw-r--r-- 1 root root  1951 May 12  2014 edirectory_host.rb
+-rw-r--r-- 1 root root  2163 May 12  2014 edirectory_imonitor.rb
+-rw-r--r-- 1 root root  2788 May 12  2014 efs_easychatserver_username.rb
+-rw-r--r-- 1 root root  5927 May 12  2014 ektron_xslt_exec.rb
+-rw-r--r-- 1 root root  2572 May 12  2014 ezserver_http.rb
+-rw-r--r-- 1 root root  2322 May 12  2014 fdm_auth_header.rb
+-rw-r--r-- 1 root root  3531 May 12  2014 hp_imc_bims_upload.rb
+-rw-r--r-- 1 root root  3705 May 12  2014 hp_imc_mibfileupload.rb
+-rw-r--r-- 1 root root  9066 May 12  2014 hp_loadrunner_copyfiletoserver.rb
+-rw-r--r-- 1 root root  9697 May 12  2014 hp_mpa_job_acct.rb
+-rw-r--r-- 1 root root  2587 May 12  2014 hp_nnm_getnnmdata_hostname.rb
+-rw-r--r-- 1 root root  2581 May 12  2014 hp_nnm_getnnmdata_icount.rb
+-rw-r--r-- 1 root root  2579 May 12  2014 hp_nnm_getnnmdata_maxage.rb
+-rw-r--r-- 1 root root  4035 May 12  2014 hp_nnm_nnmrptconfig_nameparams.rb
+-rw-r--r-- 1 root root  2961 May 12  2014 hp_nnm_nnmrptconfig_schdparams.rb
+-rw-r--r-- 1 root root  1807 May 12  2014 hp_nnm_openview5.rb
+-rw-r--r-- 1 root root  3432 May 12  2014 hp_nnm_ovalarm_lang.rb
+-rw-r--r-- 1 root root  6621 May 12  2014 hp_nnm_ovas.rb
+-rw-r--r-- 1 root root  9015 May 12  2014 hp_nnm_ovbuildpath_textfile.rb
+-rw-r--r-- 1 root root  1769 May 12  2014 hp_nnm_ovwebhelp.rb
+-rw-r--r-- 1 root root  5424 May 12  2014 hp_nnm_ovwebsnmpsrv_main.rb
+-rw-r--r-- 1 root root  5701 May 12  2014 hp_nnm_ovwebsnmpsrv_ovutil.rb
+-rw-r--r-- 1 root root  5095 May 12  2014 hp_nnm_ovwebsnmpsrv_uro.rb
+-rw-r--r-- 1 root root  4304 May 12  2014 hp_nnm_snmp.rb
+-rw-r--r-- 1 root root  5553 May 12  2014 hp_nnm_snmpviewer_actapp.rb
+-rw-r--r-- 1 root root  1756 May 12  2014 hp_nnm_toolbar_01.rb
+-rw-r--r-- 1 root root  5335 May 12  2014 hp_nnm_toolbar_02.rb
+-rw-r--r-- 1 root root  5345 May 12  2014 hp_nnm_webappmon_execvp.rb
+-rw-r--r-- 1 root root  5440 May 12  2014 hp_nnm_webappmon_ovjavalocale.rb
+-rw-r--r-- 1 root root  3559 May 12  2014 hp_openview_insight_backdoor.rb
+-rw-r--r-- 1 root root  3954 May 12  2014 hp_pcm_snac_update_certificates.rb
+-rw-r--r-- 1 root root  3756 May 12  2014 hp_pcm_snac_update_domain.rb
+-rw-r--r-- 1 root root  3815 May 12  2014 hp_power_manager_filename.rb
+-rw-r--r-- 1 root root  2448 May 12  2014 hp_power_manager_login.rb
+-rw-r--r-- 1 root root  5775 May 12  2014 hp_sitescope_runomagentcommand.rb
+-rw-r--r-- 1 root root  3825 May 12  2014 httpdx_handlepeer.rb
+-rw-r--r-- 1 root root  7765 May 12  2014 httpdx_tolog_format.rb
+-rw-r--r-- 1 root root  1612 May 12  2014 ia_webmail.rb
+-rw-r--r-- 1 root root  2769 May 12  2014 ibm_tivoli_endpoint_bof.rb
+-rw-r--r-- 1 root root  7239 May 12  2014 ibm_tpmfosd_overflow.rb
+-rw-r--r-- 1 root root  1822 May 12  2014 ibm_tsm_cad_header.rb
+-rw-r--r-- 1 root root  2891 May 12  2014 icecast_header.rb
+-rw-r--r-- 1 root root  3928 May 12  2014 integard_password_bof.rb
+-rw-r--r-- 1 root root  2316 May 12  2014 intersystems_cache.rb
+-rw-r--r-- 1 root root  3157 May 12  2014 intrasrv_bof.rb
+-rw-r--r-- 1 root root  2689 May 12  2014 ipswitch_wug_maincfgret.rb
+-rw-r--r-- 1 root root  6881 May 12  2014 jira_collector_traversal.rb
+-rw-r--r-- 1 root root  3334 May 12  2014 kaseya_uploadimage_file_upload.rb
+-rw-r--r-- 1 root root  2242 May 12  2014 kolibri_http.rb
+-rw-r--r-- 1 root root  5531 May 12  2014 landesk_thinkmanagement_upload_asp.rb
+-rw-r--r-- 1 root root  1933 May 12  2014 mailenable_auth_header.rb
+-rw-r--r-- 1 root root 11456 May 12  2014 manageengine_apps_mngr.rb
+-rw-r--r-- 1 root root  2504 May 12  2014 maxdb_webdbm_database.rb
+-rw-r--r-- 1 root root  2698 May 12  2014 maxdb_webdbm_get_overflow.rb
+-rw-r--r-- 1 root root  3109 May 12  2014 mcafee_epolicy_source.rb
+-rw-r--r-- 1 root root  3596 May 12  2014 mdaemon_worldclient_form2raw.rb
+-rw-r--r-- 1 root root  2659 May 12  2014 minishare_get_overflow.rb
+-rw-r--r-- 1 root root  4435 May 12  2014 miniweb_upload_wbem.rb
+-rw-r--r-- 1 root root  2065 May 12  2014 navicopa_get_overflow.rb
+-rw-r--r-- 1 root root  2722 May 12  2014 netdecision_http_bof.rb
+-rw-r--r-- 1 root root  2611 May 12  2014 novell_imanager_upload.rb
+-rw-r--r-- 1 root root  5049 May 12  2014 novell_mdm_lfi.rb
+-rw-r--r-- 1 root root  2178 May 12  2014 novell_messenger_acceptlang.rb
+-rw-r--r-- 1 root root  1917 May 12  2014 nowsms.rb
+-rw-r--r-- 1 root root  2463 May 12  2014 oracle9i_xdb_pass.rb
+-rw-r--r-- 1 root root 10189 May 12  2014 oracle_btm_writetofile.rb
+-rw-r--r-- 1 root root  4705 May 12  2014 oracle_endeca_exec.rb
+-rw-r--r-- 1 root root  3352 May 12  2014 osb_uname_jlist.rb
+-rw-r--r-- 1 root root  1972 May 12  2014 peercast_url.rb
+-rw-r--r-- 1 root root  4000 May 12  2014 php_apache_request_headers_bof.rb
+-rw-r--r-- 1 root root  2571 May 12  2014 privatewire_gateway.rb
+-rw-r--r-- 1 root root  2306 May 12  2014 psoproxy91_overflow.rb
+-rw-r--r-- 1 root root  2353 May 12  2014 rabidhamster_r4_log.rb
+-rw-r--r-- 1 root root  3471 May 12  2014 sambar6_search_results.rb
+-rw-r--r-- 1 root root  4714 May 12  2014 sap_configservlet_exec_noauth.rb
+-rw-r--r-- 1 root root  2126 May 12  2014 sapdb_webtools.rb
+-rw-r--r-- 1 root root 15920 May 12  2014 sap_host_control_cmd_exec.rb
+-rw-r--r-- 1 root root  3801 May 12  2014 savant_31_overflow.rb
+-rw-r--r-- 1 root root  3863 May 12  2014 servu_session_cookie.rb
+-rw-r--r-- 1 root root  2885 May 12  2014 shoutcast_format.rb
+-rw-r--r-- 1 root root  2459 May 12  2014 shttpd_post.rb
+-rw-r--r-- 1 root root  7215 May 12  2014 solarwinds_storage_manager_sql.rb
+-rw-r--r-- 1 root root  3529 May 12  2014 sonicwall_scrutinizer_sqli.rb
+-rw-r--r-- 1 root root  2559 May 12  2014 steamcast_useragent.rb
+-rw-r--r-- 1 root root  2714 May 12  2014 sws_connection_bof.rb
+-rw-r--r-- 1 root root  2742 May 12  2014 sybase_easerver.rb
+-rw-r--r-- 1 root root  6609 May 12  2014 sysax_create_folder.rb
+-rw-r--r-- 1 root root  4124 May 12  2014 trackercam_phparg_overflow.rb
+-rw-r--r-- 1 root root  2989 May 12  2014 trendmicro_officescan.rb
+-rw-r--r-- 1 root root  6511 May 12  2014 ultraminihttp_bof.rb
+-rw-r--r-- 1 root root  7384 May 12  2014 umbraco_upload_aspx.rb
+-rw-r--r-- 1 root root  5968 May 12  2014 vmware_vcenter_chargeback_upload.rb
+-rw-r--r-- 1 root root  1862 May 12  2014 webster_http.rb
+-rw-r--r-- 1 root root  2237 May 12  2014 xampp_webdav_upload_php.rb
+-rw-r--r-- 1 root root  2558 May 12  2014 xitami_if_mod_since.rb
+-rw-r--r-- 1 root root  6142 May 12  2014 zenworks_assetmgmt_uploadservlet.rb
+-rw-r--r-- 1 root root  2834 May 12  2014 zenworks_uploadservlet.rb
+
+./exploits/windows/iis:
+total 56
+-rw-r--r-- 1 root root  3762 May 12  2014 iis_webdav_upload_asp.rb
+-rw-r--r-- 1 root root  2842 May 12  2014 ms01_023_printer.rb
+-rw-r--r-- 1 root root  6901 May 12  2014 ms01_026_dbldecode.rb
+-rw-r--r-- 1 root root  2000 May 12  2014 ms01_033_idq.rb
+-rw-r--r-- 1 root root  2472 May 12  2014 ms02_018_htr.rb
+-rw-r--r-- 1 root root  3055 May 12  2014 ms02_065_msadc.rb
+-rw-r--r-- 1 root root  5276 May 12  2014 ms03_007_ntdll_webdav.rb
+-rw-r--r-- 1 root root 17915 May 12  2014 msadc.rb
+
+./exploits/windows/imap:
+total 64
+-rw-r--r-- 1 root root 3307 May 12  2014 eudora_list.rb
+-rw-r--r-- 1 root root 2520 May 12  2014 imail_delete.rb
+-rw-r--r-- 1 root root 2055 May 12  2014 ipswitch_search.rb
+-rw-r--r-- 1 root root 2186 May 12  2014 mailenable_login.rb
+-rw-r--r-- 1 root root 2040 May 12  2014 mailenable_status.rb
+-rw-r--r-- 1 root root 1999 May 12  2014 mailenable_w3c_select.rb
+-rw-r--r-- 1 root root 2058 May 12  2014 mdaemon_cram_md5.rb
+-rw-r--r-- 1 root root 2434 May 12  2014 mdaemon_fetch.rb
+-rw-r--r-- 1 root root 2217 May 12  2014 mercur_imap_select_overflow.rb
+-rw-r--r-- 1 root root 2034 May 12  2014 mercur_login.rb
+-rw-r--r-- 1 root root 2363 May 12  2014 mercury_login.rb
+-rw-r--r-- 1 root root 1854 May 12  2014 mercury_rename.rb
+-rw-r--r-- 1 root root 1903 May 12  2014 novell_netmail_append.rb
+-rw-r--r-- 1 root root 2279 May 12  2014 novell_netmail_auth.rb
+-rw-r--r-- 1 root root 1843 May 12  2014 novell_netmail_status.rb
+-rw-r--r-- 1 root root 1939 May 12  2014 novell_netmail_subscribe.rb
+
+./exploits/windows/isapi:
+total 20
+-rw-r--r-- 1 root root 2353 May 12  2014 ms00_094_pbserver.rb
+-rw-r--r-- 1 root root 2981 May 12  2014 ms03_022_nsiislog_post.rb
+-rw-r--r-- 1 root root 3427 May 12  2014 ms03_051_fp30reg_chunked.rb
+-rw-r--r-- 1 root root 3149 May 12  2014 rsa_webagent_redirect.rb
+-rw-r--r-- 1 root root 3358 May 12  2014 w3who_query.rb
+
+./exploits/windows/ldap:
+total 8
+-rw-r--r-- 1 root root 1917 May 12  2014 imail_thc.rb
+-rw-r--r-- 1 root root 2466 May 12  2014 pgp_keyserver7.rb
+
+./exploits/windows/license:
+total 28
+-rw-r--r-- 1 root root 5982 May 12  2014 calicclnt_getconfig.rb
+-rw-r--r-- 1 root root 4464 May 12  2014 calicserv_getconfig.rb
+-rw-r--r-- 1 root root 5573 May 12  2014 flexnet_lmgrd_bof.rb
+-rw-r--r-- 1 root root 2660 May 12  2014 sentinel_lm7_udp.rb
+
+./exploits/windows/local:
+total 252
+-rw-r--r-- 1 root root 13715 May 12  2014 adobe_sandbox_adobecollabsync.rb
+-rw-r--r-- 1 root root  5319 May 12  2014 agnitum_outpost_acs.rb
+-rw-r--r-- 1 root root  4351 May 12  2014 always_install_elevated.rb
+-rw-r--r-- 1 root root  2920 May 12  2014 ask.rb
+-rw-r--r-- 1 root root  7033 May 12  2014 bypassuac_injection.rb
+-rw-r--r-- 1 root root  5438 May 12  2014 bypassuac.rb
+-rw-r--r-- 1 root root  5309 May 12  2014 current_user_psexec.rb
+-rw-r--r-- 1 root root  8962 May 12  2014 ikeext_service.rb
+-rw-r--r-- 1 root root  3608 May 12  2014 ms10_015_kitrap0d.rb
+-rw-r--r-- 1 root root 11005 May 12  2014 ms10_092_schelevator.rb
+-rw-r--r-- 1 root root 10791 May 12  2014 ms11_080_afdjoinleaf.rb
+-rw-r--r-- 1 root root  8056 May 12  2014 ms13_005_hwnd_broadcast.rb
+-rw-r--r-- 1 root root  4854 May 12  2014 ms13_053_schlamperei.rb
+-rw-r--r-- 1 root root  4705 May 12  2014 ms13_081_track_popup_menu.rb
+-rw-r--r-- 1 root root 16360 May 12  2014 ms_ndproxy.rb
+-rw-r--r-- 1 root root  9877 May 12  2014 novell_client_nicm.rb
+-rw-r--r-- 1 root root 13528 May 12  2014 novell_client_nwfs.rb
+-rw-r--r-- 1 root root  5598 May 12  2014 nvidia_nvsvc.rb
+-rw-r--r-- 1 root root  5343 May 12  2014 payload_inject.rb
+-rw-r--r-- 1 root root  6467 May 12  2014 persistence.rb
+-rw-r--r-- 1 root root  1352 May 12  2014 powershell_cmd_upgrade.rb
+-rw-r--r-- 1 root root  6252 May 12  2014 ppr_flatten_rec.rb
+-rw-r--r-- 1 root root 13405 May 12  2014 s4u_persistence.rb
+-rw-r--r-- 1 root root  7764 May 12  2014 service_permissions.rb
+-rw-r--r-- 1 root root  5019 May 12  2014 trusted_service_path.rb
+-rw-r--r-- 1 root root  6723 May 12  2014 vss_persistence.rb
+-rw-r--r-- 1 root root  4679 May 12  2014 wmi.rb
+
+./exploits/windows/lotus:
+total 32
+-rw-r--r-- 1 root root  5897 May 12  2014 domino_http_accept_language.rb
+-rw-r--r-- 1 root root 11324 May 12  2014 domino_icalendar_organizer.rb
+-rw-r--r-- 1 root root  3805 May 12  2014 domino_sametime_stmux.rb
+-rw-r--r-- 1 root root  5623 May 12  2014 lotusnotes_lzh.rb
+
+./exploits/windows/lpd:
+total 16
+-rw-r--r-- 1 root root 1776 May 12  2014 hummingbird_exceed.rb
+-rw-r--r-- 1 root root 1768 May 12  2014 niprint.rb
+-rw-r--r-- 1 root root 1783 May 12  2014 saplpd.rb
+-rw-r--r-- 1 root root 1918 May 12  2014 wincomlpd_admin.rb
+
+./exploits/windows/misc:
+total 504
+-rw-r--r-- 1 root root  2508 May 12  2014 actfax_raw_server_bof.rb
+-rw-r--r-- 1 root root  4085 May 12  2014 agentxpp_receive_agentx.rb
+-rw-r--r-- 1 root root  4022 May 12  2014 allmediaserver_bof.rb
+-rw-r--r-- 1 root root  6519 May 12  2014 altiris_ds_sqli.rb
+-rw-r--r-- 1 root root  3023 May 12  2014 apple_quicktime_rtsp_response.rb
+-rw-r--r-- 1 root root  1861 May 12  2014 asus_dpcproxy_overflow.rb
+-rw-r--r-- 1 root root  4800 May 12  2014 avaya_winpmd_unihostrouter.rb
+-rw-r--r-- 1 root root  3479 May 12  2014 avidphoneticindexer.rb
+-rw-r--r-- 1 root root  4645 May 12  2014 bakbone_netvault_heap.rb
+-rw-r--r-- 1 root root  5142 May 12  2014 bcaaa_bof.rb
+-rw-r--r-- 1 root root  2340 May 12  2014 bigant_server_250.rb
+-rw-r--r-- 1 root root  4239 May 12  2014 bigant_server_dupf_upload.rb
+-rw-r--r-- 1 root root  1886 May 12  2014 bigant_server.rb
+-rw-r--r-- 1 root root  5740 May 12  2014 bigant_server_sch_dupf_bof.rb
+-rw-r--r-- 1 root root  2235 May 12  2014 bigant_server_usv.rb
+-rw-r--r-- 1 root root  2194 May 12  2014 bomberclone_overflow.rb
+-rw-r--r-- 1 root root  2119 May 12  2014 bopup_comm.rb
+-rw-r--r-- 1 root root  2021 May 12  2014 borland_interbase.rb
+-rw-r--r-- 1 root root  1946 May 12  2014 borland_starteam.rb
+-rw-r--r-- 1 root root  3678 May 12  2014 citrix_streamprocess_data_msg.rb
+-rw-r--r-- 1 root root  3888 May 12  2014 citrix_streamprocess_get_boot_record_request.rb
+-rw-r--r-- 1 root root  3883 May 12  2014 citrix_streamprocess_get_footer.rb
+-rw-r--r-- 1 root root  4020 May 12  2014 citrix_streamprocess_get_objects.rb
+-rw-r--r-- 1 root root  2952 May 12  2014 citrix_streamprocess.rb
+-rw-r--r-- 1 root root  2277 May 12  2014 doubletake.rb
+-rw-r--r-- 1 root root  4892 May 12  2014 eiqnetworks_esa.rb
+-rw-r--r-- 1 root root  1909 May 12  2014 eiqnetworks_esa_topology.rb
+-rw-r--r-- 1 root root  4843 May 12  2014 enterasys_netsight_syslog_bof.rb
+-rw-r--r-- 1 root root  2868 May 12  2014 eureka_mail_err.rb
+-rw-r--r-- 1 root root 11098 May 12  2014 fb_cnct_group.rb
+-rw-r--r-- 1 root root  3710 May 12  2014 fb_isc_attach_database.rb
+-rw-r--r-- 1 root root  3710 May 12  2014 fb_isc_create_database.rb
+-rw-r--r-- 1 root root  2934 May 12  2014 fb_svc_attach.rb
+-rw-r--r-- 1 root root  5750 May 12  2014 gimp_script_fu.rb
+-rw-r--r-- 1 root root  7256 May 12  2014 hp_dataprotector_crs.rb
+-rw-r--r-- 1 root root  5304 May 12  2014 hp_dataprotector_dtbclslogin.rb
+-rw-r--r-- 1 root root  6227 May 12  2014 hp_dataprotector_exec_bar.rb
+-rw-r--r-- 1 root root 15999 May 12  2014 hp_dataprotector_new_folder.rb
+-rw-r--r-- 1 root root  4635 May 12  2014 hp_dataprotector_traversal.rb
+-rw-r--r-- 1 root root  4310 May 12  2014 hp_imc_uam.rb
+-rw-r--r-- 1 root root  2351 May 12  2014 hp_loadrunner_magentproc.rb
+-rw-r--r-- 1 root root  1999 May 12  2014 hp_magentservice.rb
+-rw-r--r-- 1 root root  5619 May 12  2014 hp_omniinet_1.rb
+-rw-r--r-- 1 root root  5551 May 12  2014 hp_omniinet_2.rb
+-rw-r--r-- 1 root root  3460 May 12  2014 hp_omniinet_3.rb
+-rw-r--r-- 1 root root  5996 May 12  2014 hp_omniinet_4.rb
+-rw-r--r-- 1 root root  5419 May 12  2014 hp_operations_agent_coda_34.rb
+-rw-r--r-- 1 root root  5470 May 12  2014 hp_operations_agent_coda_8c.rb
+-rw-r--r-- 1 root root  1781 May 12  2014 hp_ovtrace.rb
+-rw-r--r-- 1 root root  4321 May 12  2014 ib_isc_attach_database.rb
+-rw-r--r-- 1 root root  4321 May 12  2014 ib_isc_create_database.rb
+-rw-r--r-- 1 root root  2547 May 12  2014 ibm_cognos_tm1admsd_bof.rb
+-rw-r--r-- 1 root root  9345 May 12  2014 ibm_director_cim_dllinject.rb
+-rw-r--r-- 1 root root  2956 May 12  2014 ibm_tsm_cad_ping.rb
+-rw-r--r-- 1 root root  4120 May 12  2014 ibm_tsm_rca_dicugetidentify.rb
+-rw-r--r-- 1 root root  4426 May 12  2014 ib_svc_attach.rb
+-rw-r--r-- 1 root root  9298 May 12  2014 itunes_extm3u_bof.rb
+-rw-r--r-- 1 root root  3709 May 12  2014 landesk_aolnsrvr.rb
+-rw-r--r-- 1 root root  2262 May 12  2014 lianja_db_net.rb
+-rw-r--r-- 1 root root  1866 May 12  2014 mercury_phonebook.rb
+-rw-r--r-- 1 root root  2551 May 12  2014 mini_stream.rb
+-rw-r--r-- 1 root root  2926 May 12  2014 mirc_privmsg_server.rb
+-rw-r--r-- 1 root root  2700 May 12  2014 ms07_064_sami.rb
+-rw-r--r-- 1 root root  6481 May 12  2014 ms10_104_sharepoint.rb
+-rw-r--r-- 1 root root  1929 May 12  2014 netcat110_nt.rb
+-rw-r--r-- 1 root root  2288 May 12  2014 nettransport.rb
+-rw-r--r-- 1 root root  6826 May 12  2014 poisonivy_bof.rb
+-rw-r--r-- 1 root root  2474 May 12  2014 poppeeper_date.rb
+-rw-r--r-- 1 root root  2258 May 12  2014 poppeeper_uidl.rb
+-rw-r--r-- 1 root root  2526 May 12  2014 psh_web_delivery.rb
+-rw-r--r-- 1 root root  5400 May 12  2014 pxexploit.rb
+-rw-r--r-- 1 root root  1848 May 12  2014 realtek_playlist.rb
+-rw-r--r-- 1 root root  1993 May 12  2014 sap_2005_license.rb
+-rw-r--r-- 1 root root  6904 May 12  2014 sap_netweaver_dispatcher.rb
+-rw-r--r-- 1 root root  1904 May 12  2014 shixxnote_font.rb
+-rw-r--r-- 1 root root  4754 May 12  2014 solidworks_workgroup_pdmwservice_file_write.rb
+-rw-r--r-- 1 root root  3349 May 12  2014 splayer_content_type.rb
+-rw-r--r-- 1 root root  2234 May 12  2014 stream_down_bof.rb
+-rw-r--r-- 1 root root  2167 May 12  2014 talkative_response.rb
+-rw-r--r-- 1 root root  1771 May 12  2014 tiny_identd_overflow.rb
+-rw-r--r-- 1 root root  4398 May 12  2014 trendmicro_cmdprocessor_addtask.rb
+-rw-r--r-- 1 root root  1814 May 12  2014 ufo_ai.rb
+-rw-r--r-- 1 root root  1986 May 12  2014 windows_rsh.rb
+-rw-r--r-- 1 root root 10671 May 12  2014 wireshark_lua.rb
+-rw-r--r-- 1 root root  5205 May 12  2014 wireshark_packet_dect.rb
+
+./exploits/windows/mmsp:
+total 8
+-rw-r--r-- 1 root root 5693 May 12  2014 ms10_025_wmss_connect_funnel.rb
+
+./exploits/windows/motorola:
+total 4
+-rw-r--r-- 1 root root 3451 May 12  2014 timbuktu_fileupload.rb
+
+./exploits/windows/mssql:
+total 88
+-rw-r--r-- 1 root root  2334 May 12  2014 lyris_listmanager_weak_pass.rb
+-rw-r--r-- 1 root root  2729 May 12  2014 ms02_039_slammer.rb
+-rw-r--r-- 1 root root  2461 May 12  2014 ms02_056_hello.rb
+-rw-r--r-- 1 root root 19526 May 12  2014 ms09_004_sp_replwritetovarbin.rb
+-rw-r--r-- 1 root root 19737 May 12  2014 ms09_004_sp_replwritetovarbin_sqli.rb
+-rw-r--r-- 1 root root 24043 May 12  2014 mssql_linkcrawler.rb
+-rw-r--r-- 1 root root  3340 May 12  2014 mssql_payload.rb
+-rw-r--r-- 1 root root  4470 May 12  2014 mssql_payload_sqli.rb
+
+./exploits/windows/mysql:
+total 20
+-rw-r--r-- 1 root root 3836 May 12  2014 mysql_mof.rb
+-rw-r--r-- 1 root root 3246 May 12  2014 mysql_payload.rb
+-rw-r--r-- 1 root root 2365 May 12  2014 mysql_yassl_hello.rb
+-rw-r--r-- 1 root root 5304 May 12  2014 scrutinizer_upload_exec.rb
+
+./exploits/windows/nfs:
+total 4
+-rw-r--r-- 1 root root 2260 May 12  2014 xlink_nfsd.rb
+
+./exploits/windows/nntp:
+total 4
+-rw-r--r-- 1 root root 2210 May 12  2014 ms05_030_nntp.rb
+
+./exploits/windows/novell:
+total 68
+-rw-r--r-- 1 root root 4781 May 12  2014 file_reporter_fsfui_upload.rb
+-rw-r--r-- 1 root root 4520 May 12  2014 groupwisemessenger_client.rb
+-rw-r--r-- 1 root root 9669 May 12  2014 netiq_pum_eval.rb
+-rw-r--r-- 1 root root 1896 May 12  2014 nmap_stor.rb
+-rw-r--r-- 1 root root 2371 May 12  2014 zenworks_desktop_agent.rb
+-rw-r--r-- 1 root root 4199 May 12  2014 zenworks_preboot_op21_bof.rb
+-rw-r--r-- 1 root root 6609 May 12  2014 zenworks_preboot_op4c_bof.rb
+-rw-r--r-- 1 root root 4198 May 12  2014 zenworks_preboot_op6_bof.rb
+-rw-r--r-- 1 root root 6800 May 12  2014 zenworks_preboot_op6c_bof.rb
+
+./exploits/windows/oracle:
+total 40
+-rw-r--r-- 1 root root 6080 May 12  2014 client_system_analyzer_upload.rb
+-rw-r--r-- 1 root root 7835 May 12  2014 extjob.rb
+-rw-r--r-- 1 root root 2702 May 12  2014 osb_ndmp_auth.rb
+-rw-r--r-- 1 root root 2490 May 12  2014 tns_arguments.rb
+-rw-r--r-- 1 root root 9746 May 12  2014 tns_auth_sesskey.rb
+-rw-r--r-- 1 root root 2708 May 12  2014 tns_service_name.rb
+
+./exploits/windows/pop3:
+total 4
+-rw-r--r-- 1 root root 3664 May 12  2014 seattlelab_pass.rb
+
+./exploits/windows/postgres:
+total 8
+-rw-r--r-- 1 root root 4251 May 12  2014 postgres_payload.rb
+
+./exploits/windows/proxy:
+total 16
+-rw-r--r-- 1 root root 2036 May 12  2014 bluecoat_winproxy_host.rb
+-rw-r--r-- 1 root root 2249 May 12  2014 ccproxy_telnet_ping.rb
+-rw-r--r-- 1 root root 1858 May 12  2014 proxypro_http_get.rb
+-rw-r--r-- 1 root root 2286 May 12  2014 qbik_wingate_wwwproxy.rb
+
+./exploits/windows/scada:
+total 192
+-rw-r--r-- 1 root root  3873 May 12  2014 abb_wserver_exec.rb
+-rw-r--r-- 1 root root 17740 May 12  2014 citect_scada_odbc.rb
+-rw-r--r-- 1 root root  3428 May 12  2014 codesys_gateway_server_traversal.rb
+-rw-r--r-- 1 root root  3781 May 12  2014 codesys_web_server.rb
+-rw-r--r-- 1 root root  3672 May 12  2014 daq_factory_bof.rb
+-rw-r--r-- 1 root root  5465 May 12  2014 factorylink_csservice.rb
+-rw-r--r-- 1 root root  2692 May 12  2014 factorylink_vrn_09.rb
+-rw-r--r-- 1 root root 10129 May 12  2014 ge_proficy_cimplicity_gefebt.rb
+-rw-r--r-- 1 root root 11648 May 12  2014 iconics_genbroker.rb
+-rw-r--r-- 1 root root  8133 May 12  2014 iconics_webhmi_setactivexguid.rb
+-rw-r--r-- 1 root root  4960 May 12  2014 igss9_igssdataserver_listall.rb
+-rw-r--r-- 1 root root 10063 May 12  2014 igss9_igssdataserver_rename.rb
+-rw-r--r-- 1 root root  5176 May 12  2014 igss9_misc.rb
+-rw-r--r-- 1 root root  2125 May 12  2014 igss_exec_17.rb
+-rw-r--r-- 1 root root  5770 May 12  2014 indusoft_webstudio_exec.rb
+-rw-r--r-- 1 root root  2264 May 12  2014 moxa_mdmtool.rb
+-rw-r--r-- 1 root root  3414 May 12  2014 procyon_core_server.rb
+-rw-r--r-- 1 root root  3391 May 12  2014 realwin_on_fc_binfile_a.rb
+-rw-r--r-- 1 root root  2540 May 12  2014 realwin_on_fcs_login.rb
+-rw-r--r-- 1 root root  1962 May 12  2014 realwin.rb
+-rw-r--r-- 1 root root  2051 May 12  2014 realwin_scpc_initialize.rb
+-rw-r--r-- 1 root root  2054 May 12  2014 realwin_scpc_initialize_rf.rb
+-rw-r--r-- 1 root root  1933 May 12  2014 realwin_scpc_txtevent.rb
+-rw-r--r-- 1 root root  4367 May 12  2014 scadapro_cmdexe.rb
+-rw-r--r-- 1 root root  2274 May 12  2014 sunway_force_control_netdbsrv.rb
+-rw-r--r-- 1 root root  2920 May 12  2014 winlog_runtime_2.rb
+-rw-r--r-- 1 root root  1928 May 12  2014 winlog_runtime.rb
+-rw-r--r-- 1 root root  2813 May 12  2014 yokogawa_bkbcopyd_bof.rb
+-rw-r--r-- 1 root root  4731 May 12  2014 yokogawa_bkesimmgr_bof.rb
+-rw-r--r-- 1 root root  5178 May 12  2014 yokogawa_bkhodeq_bof.rb
+
+./exploits/windows/sip:
+total 12
+-rw-r--r-- 1 root root 2333 May 12  2014 aim_triton_cseq.rb
+-rw-r--r-- 1 root root 2341 May 12  2014 sipxezphone_cseq.rb
+-rw-r--r-- 1 root root 2359 May 12  2014 sipxphone_cseq.rb
+
+./exploits/windows/smb:
+total 204
+-rw-r--r-- 1 root root  2872 May 12  2014 ms03_049_netapi.rb
+-rw-r--r-- 1 root root  8202 May 12  2014 ms04_007_killbill.rb
+-rw-r--r-- 1 root root  4874 May 12  2014 ms04_011_lsass.rb
+-rw-r--r-- 1 root root  2657 May 12  2014 ms04_031_netdde.rb
+-rw-r--r-- 1 root root 18248 May 12  2014 ms05_039_pnp.rb
+-rw-r--r-- 1 root root  5806 May 12  2014 ms06_025_rasmans_reg.rb
+-rw-r--r-- 1 root root  3309 May 12  2014 ms06_025_rras.rb
+-rw-r--r-- 1 root root  9364 May 12  2014 ms06_040_netapi.rb
+-rw-r--r-- 1 root root  3950 May 12  2014 ms06_066_nwapi.rb
+-rw-r--r-- 1 root root  3557 May 12  2014 ms06_066_nwwks.rb
+-rw-r--r-- 1 root root  5943 May 12  2014 ms06_070_wkssvc.rb
+-rw-r--r-- 1 root root  8470 May 12  2014 ms07_029_msdns_zonename.rb
+-rw-r--r-- 1 root root 38512 May 12  2014 ms08_067_netapi.rb
+-rw-r--r-- 1 root root  5851 May 12  2014 ms09_050_smb2_negotiate_func_index.rb
+-rw-r--r-- 1 root root 12139 May 12  2014 ms10_061_spoolss.rb
+-rw-r--r-- 1 root root  4818 May 12  2014 netidentity_xtierrpcpipe.rb
+-rw-r--r-- 1 root root  3928 May 12  2014 psexec_psh.rb
+-rw-r--r-- 1 root root  7467 May 12  2014 psexec.rb
+-rw-r--r-- 1 root root 15722 May 12  2014 smb_relay.rb
+-rw-r--r-- 1 root root  4263 May 12  2014 timbuktu_plughntcommand_bof.rb
+
+./exploits/windows/smtp:
+total 32
+-rw-r--r-- 1 root root 2140 May 12  2014 mailcarrier_smtp_ehlo.rb
+-rw-r--r-- 1 root root 1909 May 12  2014 mercury_cram_md5.rb
+-rw-r--r-- 1 root root 6022 May 12  2014 ms03_046_exchange2000_xexch50.rb
+-rw-r--r-- 1 root root 6698 May 12  2014 njstar_smtp_bof.rb
+-rw-r--r-- 1 root root 1722 May 12  2014 wmailserver.rb
+-rw-r--r-- 1 root root 2990 May 12  2014 ypops_overflow1.rb
+
+./exploits/windows/ssh:
+total 32
+-rw-r--r-- 1 root root 2389 May 12  2014 freeftpd_key_exchange.rb
+-rw-r--r-- 1 root root 4928 May 12  2014 freesshd_authbypass.rb
+-rw-r--r-- 1 root root 2196 May 12  2014 freesshd_key_exchange.rb
+-rw-r--r-- 1 root root 2802 May 12  2014 putty_msg_debug.rb
+-rw-r--r-- 1 root root 1949 May 12  2014 securecrt_ssh1.rb
+-rw-r--r-- 1 root root 6926 May 12  2014 sysax_ssh_username.rb
+
+./exploits/windows/ssl:
+total 8
+-rw-r--r-- 1 root root 4582 May 12  2014 ms04_011_pct.rb
+
+./exploits/windows/telnet:
+total 8
+-rw-r--r-- 1 root root 3450 May 12  2014 gamsoft_telsrv_username.rb
+-rw-r--r-- 1 root root 1903 May 12  2014 goodtech_telnet.rb
+
+./exploits/windows/tftp:
+total 48
+-rw-r--r-- 1 root root 2655 May 12  2014 attftp_long_filename.rb
+-rw-r--r-- 1 root root 3372 May 12  2014 distinct_tftp_traversal.rb
+-rw-r--r-- 1 root root 2144 May 12  2014 dlink_long_filename.rb
+-rw-r--r-- 1 root root 2451 May 12  2014 futuresoft_transfermode.rb
+-rw-r--r-- 1 root root 3383 May 12  2014 netdecision_tftp_traversal.rb
+-rw-r--r-- 1 root root 4426 May 12  2014 opentftp_error_code.rb
+-rw-r--r-- 1 root root 1928 May 12  2014 quick_tftp_pro_mode.rb
+-rw-r--r-- 1 root root 1961 May 12  2014 tftpd32_long_filename.rb
+-rw-r--r-- 1 root root 1769 May 12  2014 tftpdwin_long_filename.rb
+-rw-r--r-- 1 root root 3592 May 12  2014 tftpserver_wrq_bof.rb
+-rw-r--r-- 1 root root 1730 May 12  2014 threectftpsvc_long_mode.rb
+
+./exploits/windows/unicenter:
+total 4
+-rw-r--r-- 1 root root 2355 May 12  2014 cam_log_security.rb
+
+./exploits/windows/vnc:
+total 16
+-rw-r--r-- 1 root root 2138 May 12  2014 realvnc_client.rb
+-rw-r--r-- 1 root root 2109 May 12  2014 ultravnc_client.rb
+-rw-r--r-- 1 root root 2924 May 12  2014 ultravnc_viewer_bof.rb
+-rw-r--r-- 1 root root 1904 May 12  2014 winvnc_http_get.rb
+
+./exploits/windows/vpn:
+total 8
+-rw-r--r-- 1 root root 4256 May 12  2014 safenet_ike_11.rb
+
+./exploits/windows/winrm:
+total 8
+-rw-r--r-- 1 root root 7361 May 12  2014 winrm_script_exec.rb
+
+./exploits/windows/wins:
+total 8
+-rw-r--r-- 1 root root 5378 May 12  2014 ms04_045_wins.rb
+
+./nops:
+total 28
+drwxr-xr-x 2 root root 4096 May 15  2014 armle
+drwxr-xr-x 2 root root 4096 May 15  2014 php
+drwxr-xr-x 2 root root 4096 May 15  2014 ppc
+drwxr-xr-x 2 root root 4096 May 15  2014 sparc
+drwxr-xr-x 2 root root 4096 May 15  2014 tty
+drwxr-xr-x 2 root root 4096 May 15  2014 x64
+drwxr-xr-x 2 root root 4096 May 15  2014 x86
+
+./nops/armle:
+total 4
+-rw-r--r-- 1 root root 1226 May 12  2014 simple.rb
+
+./nops/php:
+total 4
+-rw-r--r-- 1 root root 704 May 12  2014 generic.rb
+
+./nops/ppc:
+total 4
+-rw-r--r-- 1 root root 1402 May 12  2014 simple.rb
+
+./nops/sparc:
+total 8
+-rw-r--r-- 1 root root 6054 May 12  2014 random.rb
+
+./nops/tty:
+total 4
+-rw-r--r-- 1 root root 702 May 12  2014 generic.rb
+
+./nops/x64:
+total 12
+-rw-r--r-- 1 root root 10226 May 12  2014 simple.rb
+
+./nops/x86:
+total 12
+-rw-r--r-- 1 root root  760 May 12  2014 opty2.rb
+-rw-r--r-- 1 root root 4853 May 12  2014 single_byte.rb
+
+./payloads:
+total 12
+drwxr-xr-x 18 root root 4096 May 15  2014 singles
+drwxr-xr-x 12 root root 4096 May 15  2014 stagers
+drwxr-xr-x 12 root root 4096 May 15  2014 stages
+
+./payloads/singles:
+total 64
+drwxr-xr-x 3 root root 4096 Nov  3  2013 aix
+drwxr-xr-x 4 root root 4096 Nov  3  2013 bsd
+drwxr-xr-x 3 root root 4096 Nov  3  2013 bsdi
+drwxr-xr-x 4 root root 4096 Nov  3  2013 cmd
+drwxr-xr-x 2 root root 4096 May 15  2014 firefox
+drwxr-xr-x 2 root root 4096 May 15  2014 generic
+drwxr-xr-x 2 root root 4096 May 15  2014 java
+drwxr-xr-x 9 root root 4096 Nov  3  2013 linux
+drwxr-xr-x 2 root root 4096 May 15  2014 nodejs
+drwxr-xr-x 6 root root 4096 Nov  3  2013 osx
+drwxr-xr-x 2 root root 4096 May 15  2014 php
+drwxr-xr-x 2 root root 4096 May 15  2014 python
+drwxr-xr-x 2 root root 4096 May 15  2014 ruby
+drwxr-xr-x 4 root root 4096 Nov  3  2013 solaris
+drwxr-xr-x 3 root root 4096 Nov  3  2013 tty
+drwxr-xr-x 3 root root 4096 May 15  2014 windows
+
+./payloads/singles/aix:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 ppc
+
+./payloads/singles/aix/ppc:
+total 28
+-rw-r--r-- 1 root root 5474 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 4729 May 12  2014 shell_find_port.rb
+-rw-r--r-- 1 root root 1791 May 12  2014 shell_interact.rb
+-rw-r--r-- 1 root root 4459 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/bsd:
+total 8
+drwxr-xr-x 2 root root 4096 May 15  2014 sparc
+drwxr-xr-x 2 root root 4096 May 15  2014 x86
+
+./payloads/singles/bsd/sparc:
+total 8
+-rw-r--r-- 1 root root 1757 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 1796 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/bsd/x86:
+total 36
+-rw-r--r-- 1 root root 1690 May 12  2014 exec.rb
+-rw-r--r-- 1 root root  983 May 12  2014 metsvc_bind_tcp.rb
+-rw-r--r-- 1 root root  999 May 12  2014 metsvc_reverse_tcp.rb
+-rw-r--r-- 1 root root 1518 May 12  2014 shell_bind_tcp_ipv6.rb
+-rw-r--r-- 1 root root 3968 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 3580 May 12  2014 shell_find_port.rb
+-rw-r--r-- 1 root root 1530 May 12  2014 shell_find_tag.rb
+-rw-r--r-- 1 root root 1767 May 12  2014 shell_reverse_tcp_ipv6.rb
+-rw-r--r-- 1 root root 3483 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/bsdi:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 x86
+
+./payloads/singles/bsdi/x86:
+total 12
+-rw-r--r-- 1 root root 1477 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 1399 May 12  2014 shell_find_port.rb
+-rw-r--r-- 1 root root 1465 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/cmd:
+total 8
+drwxr-xr-x 2 root root 4096 May 15  2014 unix
+drwxr-xr-x 2 root root 4096 May 15  2014 windows
+
+./payloads/singles/cmd/unix:
+total 128
+-rw-r--r-- 1 root root 1437 May 12  2014 bind_awk.rb
+-rw-r--r-- 1 root root 2206 May 12  2014 bind_inetd.rb
+-rw-r--r-- 1 root root 1500 May 12  2014 bind_lua.rb
+-rw-r--r-- 1 root root 1260 May 12  2014 bind_netcat_gaping_ipv6.rb
+-rw-r--r-- 1 root root 1254 May 12  2014 bind_netcat_gaping.rb
+-rw-r--r-- 1 root root 1506 May 12  2014 bind_netcat.rb
+-rw-r--r-- 1 root root 1145 May 12  2014 bind_nodejs.rb
+-rw-r--r-- 1 root root 1425 May 12  2014 bind_perl_ipv6.rb
+-rw-r--r-- 1 root root 1507 May 12  2014 bind_perl.rb
+-rw-r--r-- 1 root root 1239 May 12  2014 bind_ruby_ipv6.rb
+-rw-r--r-- 1 root root 1227 May 12  2014 bind_ruby.rb
+-rw-r--r-- 1 root root 1580 May 12  2014 bind_zsh.rb
+-rw-r--r-- 1 root root 1327 May 12  2014 generic.rb
+-rw-r--r-- 1 root root 1043 May 12  2014 interact.rb
+-rw-r--r-- 1 root root 1503 May 12  2014 reverse_awk.rb
+-rw-r--r-- 1 root root 1815 May 12  2014 reverse_bash.rb
+-rw-r--r-- 1 root root 1688 May 12  2014 reverse_bash_telnet_ssl.rb
+-rw-r--r-- 1 root root 1479 May 12  2014 reverse_lua.rb
+-rw-r--r-- 1 root root 1259 May 12  2014 reverse_netcat_gaping.rb
+-rw-r--r-- 1 root root 1480 May 12  2014 reverse_netcat.rb
+-rw-r--r-- 1 root root 1157 May 12  2014 reverse_nodejs.rb
+-rw-r--r-- 1 root root 1559 May 12  2014 reverse_openssl.rb
+-rw-r--r-- 1 root root 1589 May 12  2014 reverse_perl.rb
+-rw-r--r-- 1 root root 1577 May 12  2014 reverse_perl_ssl.rb
+-rw-r--r-- 1 root root 1553 May 12  2014 reverse_php_ssl.rb
+-rw-r--r-- 1 root root 1901 May 12  2014 reverse_python.rb
+-rw-r--r-- 1 root root 2277 May 12  2014 reverse_python_ssl.rb
+-rw-r--r-- 1 root root 1494 May 12  2014 reverse.rb
+-rw-r--r-- 1 root root 1292 May 12  2014 reverse_ruby.rb
+-rw-r--r-- 1 root root 1440 May 12  2014 reverse_ruby_ssl.rb
+-rw-r--r-- 1 root root 1620 May 12  2014 reverse_ssl_double_telnet.rb
+-rw-r--r-- 1 root root 1384 May 12  2014 reverse_zsh.rb
+
+./payloads/singles/cmd/windows:
+total 48
+-rw-r--r-- 1 root root 3183 May 12  2014 adduser.rb
+-rw-r--r-- 1 root root 1502 May 12  2014 bind_lua.rb
+-rw-r--r-- 1 root root 1441 May 12  2014 bind_perl_ipv6.rb
+-rw-r--r-- 1 root root 1435 May 12  2014 bind_perl.rb
+-rw-r--r-- 1 root root 1226 May 12  2014 bind_ruby.rb
+-rw-r--r-- 1 root root 2390 May 12  2014 download_eval_vbs.rb
+-rw-r--r-- 1 root root 2636 May 12  2014 download_exec_vbs.rb
+-rw-r--r-- 1 root root 1338 May 12  2014 generic.rb
+-rw-r--r-- 1 root root 1481 May 12  2014 reverse_lua.rb
+-rw-r--r-- 1 root root 1531 May 12  2014 reverse_perl.rb
+-rw-r--r-- 1 root root 3599 May 12  2014 reverse_powershell.rb
+-rw-r--r-- 1 root root 1221 May 12  2014 reverse_ruby.rb
+
+./payloads/singles/firefox:
+total 12
+-rw-r--r-- 1 root root 2246 May 12  2014 exec.rb
+-rw-r--r-- 1 root root 2622 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 2267 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/generic:
+total 20
+-rw-r--r-- 1 root root 1460 May 12  2014 custom.rb
+-rw-r--r-- 1 root root  717 May 12  2014 debug_trap.rb
+-rw-r--r-- 1 root root  705 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root  715 May 12  2014 shell_reverse_tcp.rb
+-rw-r--r-- 1 root root  699 May 12  2014 tight_loop.rb
+
+./payloads/singles/java:
+total 12
+-rw-r--r-- 1 root root 1200 May 12  2014 jsp_shell_bind_tcp.rb
+-rw-r--r-- 1 root root 1301 May 12  2014 jsp_shell_reverse_tcp.rb
+-rw-r--r-- 1 root root 2194 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/linux:
+total 28
+drwxr-xr-x 2 root root 4096 May 15  2014 armle
+drwxr-xr-x 2 root root 4096 May 15  2014 mipsbe
+drwxr-xr-x 2 root root 4096 May 15  2014 mipsle
+drwxr-xr-x 2 root root 4096 May 15  2014 ppc
+drwxr-xr-x 2 root root 4096 May 15  2014 ppc64
+drwxr-xr-x 2 root root 4096 May 15  2014 x64
+drwxr-xr-x 2 root root 4096 May 15  2014 x86
+
+./payloads/singles/linux/armle:
+total 24
+-rw-r--r-- 1 root root 1819 May 12  2014 adduser.rb
+-rw-r--r-- 1 root root  949 May 12  2014 exec.rb
+-rw-r--r-- 1 root root 4871 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 5495 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/linux/mipsbe:
+total 20
+-rw-r--r-- 1 root root 1845 May 12  2014 exec.rb
+-rw-r--r-- 1 root root 1565 May 12  2014 reboot.rb
+-rw-r--r-- 1 root root 4897 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 4035 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/linux/mipsle:
+total 20
+-rw-r--r-- 1 root root 1908 May 12  2014 exec.rb
+-rw-r--r-- 1 root root 1493 May 12  2014 reboot.rb
+-rw-r--r-- 1 root root 4552 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 3969 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/linux/ppc:
+total 24
+-rw-r--r-- 1 root root 5244 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 4236 May 12  2014 shell_find_port.rb
+-rw-r--r-- 1 root root 4541 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/linux/ppc64:
+total 24
+-rw-r--r-- 1 root root 5248 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 4240 May 12  2014 shell_find_port.rb
+-rw-r--r-- 1 root root 4545 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/linux/x64:
+total 20
+-rw-r--r-- 1 root root 1682 May 12  2014 exec.rb
+-rw-r--r-- 1 root root 2531 May 12  2014 shell_bind_tcp_random_port.rb
+-rw-r--r-- 1 root root 3651 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 1929 May 12  2014 shell_find_port.rb
+-rw-r--r-- 1 root root 3280 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/linux/x86:
+total 56
+-rw-r--r-- 1 root root 1659 May 12  2014 adduser.rb
+-rw-r--r-- 1 root root 1201 May 12  2014 chmod.rb
+-rw-r--r-- 1 root root 1142 May 12  2014 exec.rb
+-rw-r--r-- 1 root root  989 May 12  2014 metsvc_bind_tcp.rb
+-rw-r--r-- 1 root root 1005 May 12  2014 metsvc_reverse_tcp.rb
+-rw-r--r-- 1 root root 1873 May 12  2014 read_file.rb
+-rw-r--r-- 1 root root 1485 May 12  2014 shell_bind_ipv6_tcp.rb
+-rw-r--r-- 1 root root 2621 May 12  2014 shell_bind_tcp_random_port.rb
+-rw-r--r-- 1 root root 4745 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 3509 May 12  2014 shell_find_port.rb
+-rw-r--r-- 1 root root 1532 May 12  2014 shell_find_tag.rb
+-rw-r--r-- 1 root root 3600 May 12  2014 shell_reverse_tcp2.rb
+-rw-r--r-- 1 root root 2860 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/nodejs:
+total 12
+-rw-r--r-- 1 root root 1338 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 1363 May 12  2014 shell_reverse_tcp.rb
+-rw-r--r-- 1 root root 1248 May 12  2014 shell_reverse_tcp_ssl.rb
+
+./payloads/singles/osx:
+total 16
+drwxr-xr-x 2 root root 4096 May 15  2014 armle
+drwxr-xr-x 2 root root 4096 May 15  2014 ppc
+drwxr-xr-x 2 root root 4096 May 15  2014 x64
+drwxr-xr-x 2 root root 4096 May 15  2014 x86
+
+./payloads/singles/osx/armle:
+total 12
+-rw-r--r-- 1 root root 3316 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 2867 May 12  2014 shell_reverse_tcp.rb
+-rw-r--r-- 1 root root  942 May 12  2014 vibrate.rb
+
+./payloads/singles/osx/ppc:
+total 8
+-rw-r--r-- 1 root root 2229 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 1946 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/osx/x64:
+total 20
+-rw-r--r-- 1 root root 2305 May 12  2014 exec.rb
+-rw-r--r-- 1 root root 1559 May 12  2014 say.rb
+-rw-r--r-- 1 root root 3445 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 3148 May 12  2014 shell_find_tag.rb
+-rw-r--r-- 1 root root 3868 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/osx/x86:
+total 24
+-rw-r--r-- 1 root root 3204 May 12  2014 exec.rb
+-rw-r--r-- 1 root root 4046 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 3658 May 12  2014 shell_find_port.rb
+-rw-r--r-- 1 root root 3561 May 12  2014 shell_reverse_tcp.rb
+-rw-r--r-- 1 root root 1967 May 12  2014 vforkshell_bind_tcp.rb
+-rw-r--r-- 1 root root 1906 May 12  2014 vforkshell_reverse_tcp.rb
+
+./payloads/singles/php:
+total 40
+-rw-r--r-- 1 root root 1491 May 12  2014 bind_perl_ipv6.rb
+-rw-r--r-- 1 root root 1475 May 12  2014 bind_perl.rb
+-rw-r--r-- 1 root root 2302 May 12  2014 bind_php_ipv6.rb
+-rw-r--r-- 1 root root 2289 May 12  2014 bind_php.rb
+-rw-r--r-- 1 root root 2200 May 12  2014 download_exec.rb
+-rw-r--r-- 1 root root 1300 May 12  2014 exec.rb
+-rw-r--r-- 1 root root 1338 May 12  2014 meterpreter_reverse_tcp.rb
+-rw-r--r-- 1 root root 1689 May 12  2014 reverse_perl.rb
+-rw-r--r-- 1 root root 3580 May 12  2014 reverse_php.rb
+-rw-r--r-- 1 root root 2429 May 12  2014 shell_findsock.rb
+
+./payloads/singles/python:
+total 4
+-rw-r--r-- 1 root root 2201 May 12  2014 shell_reverse_tcp_ssl.rb
+
+./payloads/singles/ruby:
+total 16
+-rw-r--r-- 1 root root 1385 May 12  2014 shell_bind_tcp_ipv6.rb
+-rw-r--r-- 1 root root 1372 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 1442 May 12  2014 shell_reverse_tcp.rb
+-rw-r--r-- 1 root root 1439 May 12  2014 shell_reverse_tcp_ssl.rb
+
+./payloads/singles/solaris:
+total 8
+drwxr-xr-x 2 root root 4096 May 15  2014 sparc
+drwxr-xr-x 2 root root 4096 May 15  2014 x86
+
+./payloads/singles/solaris/sparc:
+total 12
+-rw-r--r-- 1 root root 1827 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 1593 May 12  2014 shell_find_port.rb
+-rw-r--r-- 1 root root 1847 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/solaris/x86:
+total 24
+-rw-r--r-- 1 root root 4821 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 4593 May 12  2014 shell_find_port.rb
+-rw-r--r-- 1 root root 4500 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/singles/tty:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 unix
+
+./payloads/singles/tty/unix:
+total 4
+-rw-r--r-- 1 root root 854 May 12  2014 interact.rb
+
+./payloads/singles/windows:
+total 84
+-rw-r--r-- 1 root root  3022 May 12  2014 adduser.rb
+-rw-r--r-- 1 root root 10539 May 12  2014 dns_txt_query_exec.rb
+-rw-r--r-- 1 root root 13772 May 12  2014 download_exec.rb
+-rw-r--r-- 1 root root   315 May 12  2014 exec.rb
+-rw-r--r-- 1 root root   329 May 12  2014 loadlibrary.rb
+-rw-r--r-- 1 root root  8863 May 12  2014 messagebox.rb
+-rw-r--r-- 1 root root   987 May 12  2014 metsvc_bind_tcp.rb
+-rw-r--r-- 1 root root  1003 May 12  2014 metsvc_reverse_tcp.rb
+-rw-r--r-- 1 root root  2827 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root  4339 May 12  2014 shell_bind_tcp_xpfw.rb
+-rw-r--r-- 1 root root  2746 May 12  2014 shell_reverse_tcp.rb
+-rw-r--r-- 1 root root  3813 May 12  2014 speak_pwned.rb
+drwxr-xr-x 2 root root  4096 May 15  2014 x64
+
+./payloads/singles/windows/x64:
+total 16
+-rw-r--r-- 1 root root 2356 May 12  2014 exec.rb
+-rw-r--r-- 1 root root 2448 May 12  2014 loadlibrary.rb
+-rw-r--r-- 1 root root 3663 May 12  2014 shell_bind_tcp.rb
+-rw-r--r-- 1 root root 3493 May 12  2014 shell_reverse_tcp.rb
+
+./payloads/stagers:
+total 40
+drwxr-xr-x 2 root root 4096 May 15  2014 android
+drwxr-xr-x 3 root root 4096 Nov  3  2013 bsd
+drwxr-xr-x 3 root root 4096 Nov  3  2013 bsdi
+drwxr-xr-x 2 root root 4096 May 15  2014 java
+drwxr-xr-x 7 root root 4096 May 15  2014 linux
+drwxr-xr-x 2 root root 4096 May 15  2014 netware
+drwxr-xr-x 6 root root 4096 Nov  3  2013 osx
+drwxr-xr-x 2 root root 4096 May 15  2014 php
+drwxr-xr-x 2 root root 4096 May 15  2014 python
+drwxr-xr-x 3 root root 4096 May 15  2014 windows
+
+./payloads/stagers/android:
+total 4
+-rw-r--r-- 1 root root 2642 May 12  2014 reverse_tcp.rb
+
+./payloads/stagers/bsd:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 x86
+
+./payloads/stagers/bsd/x86:
+total 20
+-rw-r--r-- 1 root root 1236 May 12  2014 bind_ipv6_tcp.rb
+-rw-r--r-- 1 root root 1106 May 12  2014 bind_tcp.rb
+-rw-r--r-- 1 root root 1037 May 12  2014 find_tag.rb
+-rw-r--r-- 1 root root 1573 May 12  2014 reverse_ipv6_tcp.rb
+-rw-r--r-- 1 root root 1112 May 12  2014 reverse_tcp.rb
+
+./payloads/stagers/bsdi:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 x86
+
+./payloads/stagers/bsdi/x86:
+total 8
+-rw-r--r-- 1 root root 1185 May 12  2014 bind_tcp.rb
+-rw-r--r-- 1 root root 1194 May 12  2014 reverse_tcp.rb
+
+./payloads/stagers/java:
+total 16
+-rw-r--r-- 1 root root 1546 May 12  2014 bind_tcp.rb
+-rw-r--r-- 1 root root 1368 May 12  2014 reverse_http.rb
+-rw-r--r-- 1 root root 1431 May 12  2014 reverse_https.rb
+-rw-r--r-- 1 root root 1614 May 12  2014 reverse_tcp.rb
+
+./payloads/stagers/linux:
+total 20
+drwxr-xr-x 2 root root 4096 May 15  2014 armle
+drwxr-xr-x 2 root root 4096 May 15  2014 mipsbe
+drwxr-xr-x 2 root root 4096 May 15  2014 mipsle
+drwxr-xr-x 2 root root 4096 May 15  2014 x64
+drwxr-xr-x 2 root root 4096 May 15  2014 x86
+
+./payloads/stagers/linux/armle:
+total 12
+-rw-r--r-- 1 root root 4283 May 12  2014 bind_tcp.rb
+-rw-r--r-- 1 root root 3918 May 12  2014 reverse_tcp.rb
+
+./payloads/stagers/linux/mipsbe:
+total 4
+-rw-r--r-- 1 root root 2022 May 12  2014 reverse_tcp.rb
+
+./payloads/stagers/linux/mipsle:
+total 4
+-rw-r--r-- 1 root root 2022 May 12  2014 reverse_tcp.rb
+
+./payloads/stagers/linux/x64:
+total 8
+-rw-r--r-- 1 root root 3404 May 12  2014 bind_tcp.rb
+-rw-r--r-- 1 root root 3038 May 12  2014 reverse_tcp.rb
+
+./payloads/stagers/linux/x86:
+total 28
+-rw-r--r-- 1 root root 3262 May 12  2014 bind_ipv6_tcp.rb
+-rw-r--r-- 1 root root 1234 May 12  2014 bind_nonx_tcp.rb
+-rw-r--r-- 1 root root 3102 May 12  2014 bind_tcp.rb
+-rw-r--r-- 1 root root 1059 May 12  2014 find_tag.rb
+-rw-r--r-- 1 root root 1855 May 12  2014 reverse_ipv6_tcp.rb
+-rw-r--r-- 1 root root 1251 May 12  2014 reverse_nonx_tcp.rb
+-rw-r--r-- 1 root root 2831 May 12  2014 reverse_tcp.rb
+
+./payloads/stagers/netware:
+total 4
+-rw-r--r-- 1 root root 3834 May 12  2014 reverse_tcp.rb
+
+./payloads/stagers/osx:
+total 16
+drwxr-xr-x 2 root root 4096 May 15  2014 armle
+drwxr-xr-x 2 root root 4096 May 15  2014 ppc
+drwxr-xr-x 2 root root 4096 May 15  2014 x64
+drwxr-xr-x 2 root root 4096 May 15  2014 x86
+
+./payloads/stagers/osx/armle:
+total 8
+-rw-r--r-- 1 root root 3987 May 12  2014 bind_tcp.rb
+-rw-r--r-- 1 root root 3309 May 12  2014 reverse_tcp.rb
+
+./payloads/stagers/osx/ppc:
+total 12
+-rw-r--r-- 1 root root 1597 May 12  2014 bind_tcp.rb
+-rw-r--r-- 1 root root 1430 May 12  2014 find_tag.rb
+-rw-r--r-- 1 root root 1402 May 12  2014 reverse_tcp.rb
+
+./payloads/stagers/osx/x64:
+total 12
+-rw-r--r-- 1 root root 4193 May 12  2014 bind_tcp.rb
+-rw-r--r-- 1 root root 1819 May 12  2014 reverse_tcp.rb
+
+./payloads/stagers/osx/x86:
+total 8
+-rw-r--r-- 1 root root 1766 May 12  2014 bind_tcp.rb
+-rw-r--r-- 1 root root 1739 May 12  2014 reverse_tcp.rb
+
+./payloads/stagers/php:
+total 12
+-rw-r--r-- 1 root root 1293 May 12  2014 bind_tcp_ipv6.rb
+-rw-r--r-- 1 root root 1100 May 12  2014 bind_tcp.rb
+-rw-r--r-- 1 root root 1423 May 12  2014 reverse_tcp.rb
+
+./payloads/stagers/python:
+total 8
+-rw-r--r-- 1 root root 1578 May 12  2014 bind_tcp.rb
+-rw-r--r-- 1 root root 1546 May 12  2014 reverse_tcp.rb
+
+./payloads/stagers/windows:
+total 92
+-rw-r--r-- 1 root root 2780 May 12  2014 bind_ipv6_tcp.rb
+-rw-r--r-- 1 root root 1938 May 12  2014 bind_nonx_tcp.rb
+-rw-r--r-- 1 root root 2453 May 12  2014 bind_tcp.rb
+-rw-r--r-- 1 root root 4237 May 12  2014 bind_tcp_rc4.rb
+-rw-r--r-- 1 root root 1365 May 12  2014 findtag_ord.rb
+-rw-r--r-- 1 root root 3359 May 12  2014 reverse_http.rb
+-rw-r--r-- 1 root root 6477 May 12  2014 reverse_https_proxy.rb
+-rw-r--r-- 1 root root 3488 May 12  2014 reverse_https.rb
+-rw-r--r-- 1 root root 3455 May 12  2014 reverse_ipv6_http.rb
+-rw-r--r-- 1 root root 3539 May 12  2014 reverse_ipv6_https.rb
+-rw-r--r-- 1 root root 2736 May 12  2014 reverse_ipv6_tcp.rb
+-rw-r--r-- 1 root root 1888 May 12  2014 reverse_nonx_tcp.rb
+-rw-r--r-- 1 root root 1480 May 12  2014 reverse_ord_tcp.rb
+-rw-r--r-- 1 root root 2556 May 12  2014 reverse_tcp_allports.rb
+-rw-r--r-- 1 root root 3430 May 12  2014 reverse_tcp_dns.rb
+-rw-r--r-- 1 root root 2644 May 12  2014 reverse_tcp.rb
+-rw-r--r-- 1 root root 5268 May 12  2014 reverse_tcp_rc4_dns.rb
+-rw-r--r-- 1 root root 4409 May 12  2014 reverse_tcp_rc4.rb
+drwxr-xr-x 2 root root 4096 May 15  2014 x64
+
+./payloads/stagers/windows/x64:
+total 16
+-rw-r--r-- 1 root root 3277 May 12  2014 bind_tcp.rb
+-rw-r--r-- 1 root root 5020 May 12  2014 reverse_https.rb
+-rw-r--r-- 1 root root 3102 May 12  2014 reverse_tcp.rb
+
+./payloads/stages:
+total 40
+drwxr-xr-x 2 root root 4096 May 15  2014 android
+drwxr-xr-x 3 root root 4096 Nov  3  2013 bsd
+drwxr-xr-x 3 root root 4096 Nov  3  2013 bsdi
+drwxr-xr-x 2 root root 4096 May 15  2014 java
+drwxr-xr-x 7 root root 4096 May 15  2014 linux
+drwxr-xr-x 2 root root 4096 May 15  2014 netware
+drwxr-xr-x 6 root root 4096 Nov  3  2013 osx
+drwxr-xr-x 2 root root 4096 May 15  2014 php
+drwxr-xr-x 2 root root 4096 May 15  2014 python
+drwxr-xr-x 3 root root 4096 May 15  2014 windows
+
+./payloads/stages/android:
+total 8
+-rw-r--r-- 1 root root 1557 May 12  2014 meterpreter.rb
+-rw-r--r-- 1 root root 1345 May 12  2014 shell.rb
+
+./payloads/stages/bsd:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 x86
+
+./payloads/stages/bsd/x86:
+total 4
+-rw-r--r-- 1 root root 993 May 12  2014 shell.rb
+
+./payloads/stages/bsdi:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 x86
+
+./payloads/stages/bsdi/x86:
+total 4
+-rw-r--r-- 1 root root 1052 May 12  2014 shell.rb
+
+./payloads/stages/java:
+total 8
+-rw-r--r-- 1 root root 2238 May 12  2014 meterpreter.rb
+-rw-r--r-- 1 root root 1393 May 12  2014 shell.rb
+
+./payloads/stages/linux:
+total 20
+drwxr-xr-x 2 root root 4096 May 15  2014 armle
+drwxr-xr-x 2 root root 4096 May 15  2014 mipsbe
+drwxr-xr-x 2 root root 4096 May 15  2014 mipsle
+drwxr-xr-x 2 root root 4096 May 15  2014 x64
+drwxr-xr-x 2 root root 4096 May 15  2014 x86
+
+./payloads/stages/linux/armle:
+total 4
+-rw-r--r-- 1 root root 1702 May 12  2014 shell.rb
+
+./payloads/stages/linux/mipsbe:
+total 4
+-rw-r--r-- 1 root root 1239 May 12  2014 shell.rb
+
+./payloads/stages/linux/mipsle:
+total 4
+-rw-r--r-- 1 root root 1239 May 12  2014 shell.rb
+
+./payloads/stages/linux/x64:
+total 4
+-rw-r--r-- 1 root root 1871 May 12  2014 shell.rb
+
+./payloads/stages/linux/x86:
+total 8
+-rw-r--r-- 1 root root 3502 May 12  2014 meterpreter.rb
+-rw-r--r-- 1 root root  986 May 12  2014 shell.rb
+
+./payloads/stages/netware:
+total 12
+-rw-r--r-- 1 root root 8912 May 12  2014 shell.rb
+
+./payloads/stages/osx:
+total 16
+drwxr-xr-x 2 root root 4096 May 15  2014 armle
+drwxr-xr-x 2 root root 4096 May 15  2014 ppc
+drwxr-xr-x 2 root root 4096 May 15  2014 x64
+drwxr-xr-x 2 root root 4096 May 15  2014 x86
+
+./payloads/stages/osx/armle:
+total 12
+-rw-r--r-- 1 root root 5206 May 12  2014 execute.rb
+-rw-r--r-- 1 root root 2203 May 12  2014 shell.rb
+
+./payloads/stages/osx/ppc:
+total 4
+-rw-r--r-- 1 root root 1531 May 12  2014 shell.rb
+
+./payloads/stages/osx/x64:
+total 4
+-rw-r--r-- 1 root root 1064 May 12  2014 dupandexecve.rb
+
+./payloads/stages/osx/x86:
+total 12
+-rw-r--r-- 1 root root  333 May 12  2014 bundleinject.rb
+-rw-r--r-- 1 root root 2398 May 12  2014 isight.rb
+-rw-r--r-- 1 root root 1340 May 12  2014 vforkshell.rb
+
+./payloads/stages/php:
+total 4
+-rw-r--r-- 1 root root 978 May 12  2014 meterpreter.rb
+
+./payloads/stages/python:
+total 4
+-rw-r--r-- 1 root root 946 May 12  2014 meterpreter.rb
+
+./payloads/stages/windows:
+total 32
+-rw-r--r-- 1 root root  461 May 12  2014 dllinject.rb
+-rw-r--r-- 1 root root 1325 May 12  2014 meterpreter.rb
+-rw-r--r-- 1 root root  335 May 12  2014 patchupdllinject.rb
+-rw-r--r-- 1 root root 1224 May 12  2014 patchupmeterpreter.rb
+-rw-r--r-- 1 root root 2290 May 12  2014 shell.rb
+-rw-r--r-- 1 root root 3786 May 12  2014 upexec.rb
+-rw-r--r-- 1 root root  992 May 12  2014 vncinject.rb
+drwxr-xr-x 2 root root 4096 May 15  2014 x64
+
+./payloads/stages/windows/x64:
+total 12
+-rw-r--r-- 1 root root 1097 May 12  2014 meterpreter.rb
+-rw-r--r-- 1 root root 2701 May 12  2014 shell.rb
+-rw-r--r-- 1 root root  945 May 12  2014 vncinject.rb
+
+./post:
+total 32
+drwxr-xr-x 2 root root 4096 May 15  2014 aix
+drwxr-xr-x 3 root root 4096 Nov  3  2013 cisco
+drwxr-xr-x 3 root root 4096 May 15  2014 firefox
+drwxr-xr-x 4 root root 4096 Nov  3  2013 linux
+drwxr-xr-x 6 root root 4096 Nov  3  2013 multi
+drwxr-xr-x 6 root root 4096 May 15  2014 osx
+drwxr-xr-x 3 root root 4096 Nov  3  2013 solaris
+drwxr-xr-x 8 root root 4096 Nov  3  2013 windows
+
+./post/aix:
+total 4
+-rw-r--r-- 1 root root 1372 May 12  2014 hashdump.rb
+
+./post/cisco:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 gather
+
+./post/cisco/gather:
+total 8
+-rw-r--r-- 1 root root 6807 May 12  2014 enum_cisco.rb
+
+./post/firefox:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 gather
+
+./post/firefox/gather:
+total 16
+-rw-r--r-- 1 root root 2062 May 12  2014 cookies.rb
+-rw-r--r-- 1 root root 2517 May 12  2014 history.rb
+-rw-r--r-- 1 root root 2470 May 12  2014 passwords.rb
+-rw-r--r-- 1 root root 2498 May 12  2014 xss.rb
+
+./post/linux:
+total 8
+drwxr-xr-x 2 root root 4096 May 15  2014 gather
+drwxr-xr-x 2 root root 4096 May 15  2014 manage
+
+./post/linux/gather:
+total 56
+-rw-r--r-- 1 root root 3948 May 12  2014 checkvm.rb
+-rw-r--r-- 1 root root 1933 May 12  2014 ecryptfs_creds.rb
+-rw-r--r-- 1 root root 2513 May 12  2014 enum_configs.rb
+-rw-r--r-- 1 root root 3770 May 12  2014 enum_network.rb
+-rw-r--r-- 1 root root 2561 May 12  2014 enum_protections.rb
+-rw-r--r-- 1 root root 5356 May 12  2014 enum_system.rb
+-rw-r--r-- 1 root root 4396 May 12  2014 enum_users_history.rb
+-rw-r--r-- 1 root root 3947 May 12  2014 enum_xchat.rb
+-rw-r--r-- 1 root root 2074 May 12  2014 hashdump.rb
+-rw-r--r-- 1 root root 4946 May 12  2014 mount_cifs_creds.rb
+-rw-r--r-- 1 root root 3008 May 12  2014 pptpd_chap_secrets.rb
+
+./post/linux/manage:
+total 4
+-rw-r--r-- 1 root root 3098 May 12  2014 download_exec.rb
+
+./post/multi:
+total 16
+drwxr-xr-x 2 root root 4096 May 15  2014 escalate
+drwxr-xr-x 2 root root 4096 May 15  2014 gather
+drwxr-xr-x 2 root root 4096 May 15  2014 general
+drwxr-xr-x 2 root root 4096 May 15  2014 manage
+
+./post/multi/escalate:
+total 16
+-rw-r--r-- 1 root root 5279 May 12  2014 cups_root_file_read.rb
+-rw-r--r-- 1 root root 4340 May 12  2014 metasploit_pcaplog.rb
+
+./post/multi/gather:
+total 148
+-rw-r--r-- 1 root root  7715 May 12  2014 apple_ios_backup.rb
+-rw-r--r-- 1 root root  3737 May 12  2014 check_malware.rb
+-rw-r--r-- 1 root root  3388 May 12  2014 dns_bruteforce.rb
+-rw-r--r-- 1 root root  3079 May 12  2014 dns_reverse_lookup.rb
+-rw-r--r-- 1 root root  7813 May 12  2014 dns_srv_lookup.rb
+-rw-r--r-- 1 root root  1982 May 12  2014 enum_vbox.rb
+-rw-r--r-- 1 root root  2106 May 12  2014 env.rb
+-rw-r--r-- 1 root root  5612 May 12  2014 fetchmailrc_creds.rb
+-rw-r--r-- 1 root root  6893 May 12  2014 filezilla_client_cred.rb
+-rw-r--r-- 1 root root  3612 May 12  2014 find_vmx.rb
+-rw-r--r-- 1 root root 18982 May 12  2014 firefox_creds.rb
+-rw-r--r-- 1 root root  1965 May 12  2014 gpg_creds.rb
+-rw-r--r-- 1 root root  2185 May 12  2014 multi_command.rb
+-rw-r--r-- 1 root root  2778 May 12  2014 netrc_creds.rb
+-rw-r--r-- 1 root root  3146 May 12  2014 pgpass_creds.rb
+-rw-r--r-- 1 root root  8635 May 12  2014 pidgin_cred.rb
+-rw-r--r-- 1 root root  2845 May 12  2014 ping_sweep.rb
+-rw-r--r-- 1 root root  2148 May 12  2014 resolve_hosts.rb
+-rw-r--r-- 1 root root  1496 May 12  2014 run_console_rc_file.rb
+-rw-r--r-- 1 root root 11498 May 12  2014 skype_enum.rb
+-rw-r--r-- 1 root root  2828 May 12  2014 ssh_creds.rb
+-rw-r--r-- 1 root root  7487 May 12  2014 thunderbird_creds.rb
+-rw-r--r-- 1 root root  7834 May 12  2014 wlan_geolocate.rb
+
+./post/multi/general:
+total 8
+-rw-r--r-- 1 root root 746 May 12  2014 close.rb
+-rw-r--r-- 1 root root 938 May 12  2014 execute.rb
+
+./post/multi/manage:
+total 28
+-rw-r--r-- 1 root root 3058 May 12  2014 multi_post.rb
+-rw-r--r-- 1 root root 3268 May 12  2014 play_youtube.rb
+-rw-r--r-- 1 root root 1979 May 12  2014 record_mic.rb
+-rw-r--r-- 1 root root 4314 May 12  2014 sudo.rb
+-rw-r--r-- 1 root root 6592 May 12  2014 system_session.rb
+
+./post/osx:
+total 16
+drwxr-xr-x 2 root root 4096 May 15  2014 admin
+drwxr-xr-x 2 root root 4096 May 15  2014 capture
+drwxr-xr-x 2 root root 4096 May 15  2014 gather
+drwxr-xr-x 2 root root 4096 May 15  2014 manage
+
+./post/osx/admin:
+total 4
+-rw-r--r-- 1 root root 1644 May 12  2014 say.rb
+
+./post/osx/capture:
+total 12
+-rw-r--r-- 1 root root 7895 May 12  2014 keylog_recorder.rb
+-rw-r--r-- 1 root root 3552 May 12  2014 screen.rb
+
+./post/osx/gather:
+total 80
+-rw-r--r-- 1 root root  2635 May 12  2014 autologin_password.rb
+-rw-r--r-- 1 root root  7798 May 12  2014 enum_adium.rb
+-rw-r--r-- 1 root root  1880 May 12  2014 enum_airport.rb
+-rw-r--r-- 1 root root  2548 May 12  2014 enum_chicken_vnc_profile.rb
+-rw-r--r-- 1 root root  4792 May 12  2014 enum_colloquy.rb
+-rw-r--r-- 1 root root  3657 May 12  2014 enum_keychain.rb
+-rw-r--r-- 1 root root 21049 May 12  2014 enum_osx.rb
+-rw-r--r-- 1 root root  7954 May 12  2014 hashdump.rb
+-rw-r--r-- 1 root root  4866 May 12  2014 password_prompt_spoof.rb
+-rw-r--r-- 1 root root  6359 May 12  2014 safari_lastsession.rb
+
+./post/osx/manage:
+total 36
+-rw-r--r-- 1 root root 8210 May 12  2014 mount_share.rb
+-rw-r--r-- 1 root root 4381 May 12  2014 record_mic.rb
+-rw-r--r-- 1 root root 4373 May 12  2014 vpn.rb
+-rw-r--r-- 1 root root 5653 May 12  2014 webcam.rb
+
+./post/solaris:
+total 4
+drwxr-xr-x 2 root root 4096 May 15  2014 gather
+
+./post/solaris/gather:
+total 16
+-rw-r--r-- 1 root root 1583 May 12  2014 checkvm.rb
+-rw-r--r-- 1 root root 1215 May 12  2014 enum_packages.rb
+-rw-r--r-- 1 root root 1654 May 12  2014 enum_services.rb
+-rw-r--r-- 1 root root 2100 May 12  2014 hashdump.rb
+
+./post/windows:
+total 32
+drwxr-xr-x 2 root root  4096 May 15  2014 capture
+drwxr-xr-x 2 root root  4096 May 15  2014 escalate
+drwxr-xr-x 4 root root 12288 May 15  2014 gather
+drwxr-xr-x 3 root root  4096 May 15  2014 manage
+drwxr-xr-x 2 root root  4096 May 15  2014 recon
+drwxr-xr-x 2 root root  4096 May 15  2014 wlan
+
+./post/windows/capture:
+total 20
+-rw-r--r-- 1 root root 6364 May 12  2014 keylog_recorder.rb
+-rw-r--r-- 1 root root 8300 May 12  2014 lockout_keylogger.rb
+
+./post/windows/escalate:
+total 40
+-rw-r--r-- 1 root root  4060 May 12  2014 droplnk.rb
+-rw-r--r-- 1 root root  1473 May 12  2014 getsystem.rb
+-rw-r--r-- 1 root root 12293 May 12  2014 ms10_073_kbdlayout.rb
+-rw-r--r-- 1 root root  5131 May 12  2014 net_runtime_modify.rb
+-rw-r--r-- 1 root root  4136 May 12  2014 screen_unlock.rb
+
+./post/windows/gather:
+total 352
+-rw-r--r-- 1 root root  2416 May 12  2014 arp_scanner.rb
+-rw-r--r-- 1 root root  3601 May 12  2014 bitcoin_jacker.rb
+-rw-r--r-- 1 root root 11949 May 12  2014 cachedump.rb
+-rw-r--r-- 1 root root  9193 May 12  2014 checkvm.rb
+drwxr-xr-x 2 root root  4096 May 15  2014 credentials
+-rw-r--r-- 1 root root  1872 May 12  2014 dnscache_dump.rb
+-rw-r--r-- 1 root root 11536 May 12  2014 dumplinks.rb
+-rw-r--r-- 1 root root  5216 May 12  2014 enum_ad_computers.rb
+-rw-r--r-- 1 root root  3318 May 12  2014 enum_ad_service_principal_names.rb
+-rw-r--r-- 1 root root  2581 May 12  2014 enum_ad_user_comments.rb
+-rw-r--r-- 1 root root  2215 May 12  2014 enum_applications.rb
+-rw-r--r-- 1 root root  2968 May 12  2014 enum_artifacts.rb
+-rw-r--r-- 1 root root 11209 May 12  2014 enum_chrome.rb
+-rw-r--r-- 1 root root  2739 May 12  2014 enum_computers.rb
+-rw-r--r-- 1 root root 10020 May 12  2014 enum_db.rb
+-rw-r--r-- 1 root root  5164 May 12  2014 enum_devices.rb
+-rw-r--r-- 1 root root  3822 May 12  2014 enum_dirperms.rb
+-rw-r--r-- 1 root root  3717 May 12  2014 enum_domain_group_users.rb
+-rw-r--r-- 1 root root  2545 May 12  2014 enum_domain.rb
+-rw-r--r-- 1 root root  1340 May 12  2014 enum_domains.rb
+-rw-r--r-- 1 root root  7504 May 12  2014 enum_domain_tokens.rb
+-rw-r--r-- 1 root root  2731 May 12  2014 enum_domain_users.rb
+-rw-r--r-- 1 root root  3695 May 12  2014 enum_files.rb
+-rw-r--r-- 1 root root  1552 May 12  2014 enum_hostfile.rb
+-rw-r--r-- 1 root root 12991 May 12  2014 enum_ie.rb
+-rw-r--r-- 1 root root  2598 May 12  2014 enum_logged_on_users.rb
+-rw-r--r-- 1 root root  4162 May 12  2014 enum_ms_product_keys.rb
+-rw-r--r-- 1 root root  4902 May 12  2014 enum_powershell_env.rb
+-rw-r--r-- 1 root root  7952 May 12  2014 enum_prefetch.rb
+-rw-r--r-- 1 root root  3615 May 12  2014 enum_proxy.rb
+-rw-r--r-- 1 root root  3145 May 12  2014 enum_services.rb
+-rw-r--r-- 1 root root  5444 May 12  2014 enum_shares.rb
+-rw-r--r-- 1 root root  4411 May 12  2014 enum_snmp.rb
+-rw-r--r-- 1 root root  2261 May 12  2014 enum_termserv.rb
+-rw-r--r-- 1 root root  5733 May 12  2014 enum_tokens.rb
+-rw-r--r-- 1 root root  7054 May 12  2014 enum_tomcat.rb
+-rw-r--r-- 1 root root  4389 May 12  2014 enum_unattend.rb
+drwxr-xr-x 2 root root  4096 May 15  2014 forensics
+-rw-r--r-- 1 root root  7656 May 12  2014 hashdump.rb
+-rw-r--r-- 1 root root  8473 May 12  2014 local_admin_search_enum.rb
+-rw-r--r-- 1 root root  4130 May 12  2014 lsa_secrets.rb
+-rw-r--r-- 1 root root  5087 May 12  2014 memory_grep.rb
+-rw-r--r-- 1 root root  3192 May 12  2014 netlm_downgrade.rb
+-rw-r--r-- 1 root root  1489 May 12  2014 resolve_sid.rb
+-rw-r--r-- 1 root root  2049 May 12  2014 reverse_lookup.rb
+-rw-r--r-- 1 root root  5028 May 12  2014 screen_spy.rb
+-rw-r--r-- 1 root root 15418 May 12  2014 smart_hashdump.rb
+-rw-r--r-- 1 root root  2546 May 12  2014 tcpnetstat.rb
+-rw-r--r-- 1 root root  7327 May 12  2014 usb_history.rb
+-rw-r--r-- 1 root root  1768 May 12  2014 win_privs.rb
+-rw-r--r-- 1 root root  2134 May 12  2014 wmic_command.rb
+-rw-r--r-- 1 root root  8226 May 12  2014 word_unc_injector.rb
+
+./post/windows/gather/credentials:
+total 220
+-rw-r--r-- 1 root root  8566 May 12  2014 bulletproof_ftp.rb
+-rw-r--r-- 1 root root  2812 May 12  2014 coreftp.rb
+-rw-r--r-- 1 root root  2503 May 12  2014 credential_collector.rb
+-rw-r--r-- 1 root root  4612 May 12  2014 dyndns.rb
+-rw-r--r-- 1 root root  7611 May 12  2014 enum_cred_store.rb
+-rw-r--r-- 1 root root  4352 May 12  2014 enum_picasa_pwds.rb
+-rw-r--r-- 1 root root  5886 May 12  2014 epo_sql.rb
+-rw-r--r-- 1 root root 11069 May 12  2014 filezilla_server.rb
+-rw-r--r-- 1 root root  3399 May 12  2014 flashfxp.rb
+-rw-r--r-- 1 root root  2675 May 12  2014 ftpnavigator.rb
+-rw-r--r-- 1 root root  2422 May 12  2014 ftpx.rb
+-rw-r--r-- 1 root root 16490 May 12  2014 gpp.rb
+-rw-r--r-- 1 root root  2819 May 12  2014 idm.rb
+-rw-r--r-- 1 root root  5581 May 12  2014 imail.rb
+-rw-r--r-- 1 root root  2278 May 12  2014 imvu.rb
+-rw-r--r-- 1 root root  3327 May 12  2014 meebo.rb
+-rw-r--r-- 1 root root  3115 May 12  2014 mremote.rb
+-rw-r--r-- 1 root root  2156 May 12  2014 nimbuzz.rb
+-rw-r--r-- 1 root root 12818 May 12  2014 outlook.rb
+-rw-r--r-- 1 root root  3477 May 12  2014 razer_synapse.rb
+-rw-r--r-- 1 root root  4868 May 12  2014 razorsql.rb
+-rw-r--r-- 1 root root  4080 May 12  2014 smartermail.rb
+-rw-r--r-- 1 root root  4512 May 12  2014 smartftp.rb
+-rw-r--r-- 1 root root  3342 May 12  2014 spark_im.rb
+-rw-r--r-- 1 root root  3898 May 12  2014 sso.rb
+-rw-r--r-- 1 root root  2997 May 12  2014 steam.rb
+-rw-r--r-- 1 root root  6404 May 12  2014 tortoisesvn.rb
+-rw-r--r-- 1 root root  5533 May 12  2014 total_commander.rb
+-rw-r--r-- 1 root root  3056 May 12  2014 trillian.rb
+-rw-r--r-- 1 root root  8063 May 12  2014 vnc.rb
+-rw-r--r-- 1 root root  3665 May 12  2014 windows_autologin.rb
+-rw-r--r-- 1 root root  7875 May 12  2014 winscp.rb
+-rw-r--r-- 1 root root  2807 May 12  2014 wsftp_client.rb
+
+./post/windows/gather/forensics:
+total 40
+-rw-r--r-- 1 root root  3046 May 12  2014 browser_history.rb
+-rw-r--r-- 1 root root  2485 May 12  2014 duqu_check.rb
+-rw-r--r-- 1 root root  2996 May 12  2014 enum_drives.rb
+-rw-r--r-- 1 root root  4543 May 12  2014 imager.rb
+-rw-r--r-- 1 root root  3564 May 12  2014 nbd_server.rb
+-rw-r--r-- 1 root root 15911 May 12  2014 recovery_files.rb
+
+./post/windows/manage:
+total 200
+-rw-r--r-- 1 root root 12640 May 12  2014 add_user_domain.rb
+-rw-r--r-- 1 root root  5503 May 12  2014 autoroute.rb
+-rw-r--r-- 1 root root  2387 May 12  2014 change_password.rb
+-rw-r--r-- 1 root root  5863 May 12  2014 clone_proxy_settings.rb
+-rw-r--r-- 1 root root  1710 May 12  2014 delete_user.rb
+-rw-r--r-- 1 root root  3949 May 12  2014 download_exec.rb
+-rw-r--r-- 1 root root  4414 May 12  2014 driver_loader.rb
+-rw-r--r-- 1 root root  6045 May 12  2014 enable_rdp.rb
+-rw-r--r-- 1 root root  3798 May 12  2014 enable_support_account.rb
+-rw-r--r-- 1 root root  5855 May 12  2014 ie_proxypac.rb
+-rw-r--r-- 1 root root  3096 May 12  2014 inject_ca.rb
+-rw-r--r-- 1 root root  1865 May 12  2014 inject_host.rb
+-rw-r--r-- 1 root root  2695 May 12  2014 migrate.rb
+-rw-r--r-- 1 root root 16079 May 12  2014 mssql_local_auth_bypass.rb
+-rw-r--r-- 1 root root  5677 May 12  2014 multi_meterpreter_inject.rb
+-rw-r--r-- 1 root root  3598 May 12  2014 nbd_server.rb
+-rw-r--r-- 1 root root  7819 May 12  2014 payload_inject.rb
+-rw-r--r-- 1 root root  4287 May 12  2014 portproxy.rb
+drwxr-xr-x 2 root root  4096 May 15  2014 powershell
+-rw-r--r-- 1 root root  3552 May 12  2014 pptp_tunnel.rb
+-rw-r--r-- 1 root root  3657 May 12  2014 pxexploit.rb
+-rw-r--r-- 1 root root  1711 May 12  2014 reflective_dll_inject.rb
+-rw-r--r-- 1 root root  1710 May 12  2014 remove_ca.rb
+-rw-r--r-- 1 root root  1535 May 12  2014 remove_host.rb
+-rw-r--r-- 1 root root  4092 May 12  2014 rpcapd_start.rb
+-rw-r--r-- 1 root root  6084 May 12  2014 run_as.rb
+-rw-r--r-- 1 root root  5030 May 12  2014 sdel.rb
+-rw-r--r-- 1 root root  2265 May 12  2014 smart_migrate.rb
+-rw-r--r-- 1 root root  1500 May 12  2014 vss_create.rb
+-rw-r--r-- 1 root root  1840 May 12  2014 vss_list.rb
+-rw-r--r-- 1 root root  1594 May 12  2014 vss_mount.rb
+-rw-r--r-- 1 root root  1603 May 12  2014 vss_set_storage.rb
+-rw-r--r-- 1 root root  1767 May 12  2014 vss_storage.rb
+-rw-r--r-- 1 root root  2964 May 12  2014 webcam.rb
+
+./post/windows/manage/powershell:
+total 8
+-rw-r--r-- 1 root root 4471 May 12  2014 exec_powershell.rb
+
+./post/windows/recon:
+total 12
+-rw-r--r-- 1 root root 5179 May 12  2014 computer_browser_discovery.rb
+-rw-r--r-- 1 root root 1508 May 12  2014 resolve_ip.rb
+
+./post/windows/wlan:
+total 48
+-rw-r--r-- 1 root root  8205 May 12  2014 wlan_bss_list.rb
+-rw-r--r-- 1 root root 10996 May 12  2014 wlan_current_connection.rb
+-rw-r--r-- 1 root root 12363 May 12  2014 wlan_disconnect.rb
+-rw-r--r-- 1 root root  6313 May 12  2014 wlan_profile.rb
