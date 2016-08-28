@@ -184,7 +184,7 @@ class JspVerify(VerifyShell):
         '<%@ page import="java.io.*"%>\n' \
         '<%@ page import="java.util.*"%>\n' \
         '<%\n' \
-        'String path=request.getRealPath("")+request.getServletPath();\n' \
+        'String path=request.getRealPath("/")+request.getServletPath();\n' \
         'out.println(path);\n' \
         'File d=new File(path);\n' \
         'if(d.exists()){{\n' \
